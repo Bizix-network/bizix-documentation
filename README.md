@@ -45,32 +45,6 @@ Aceasta nu este doar o declarație de marketing. Este principiul după care am c
 
 ### Contextul: De ce e nevoie de BiziX
 
-### BiziX în 60 de secunde
-
-Imaginează-ți că ești antreprenor. Ai o frizerie, o cafenea, un atelier de reparații. Știi că ai nevoie de un site, de un sistem de programări, poate de un CRM — dar nu știi de unde să începi, nu ai timp să compari zeci de soluții și nu-ți permiți să angajezi un consultant IT.
-
-BiziX rezolvă exact asta.
-
-**Pentru antreprenori:** O singură platformă unde găsești toate uneltele digitale de care ai nevoie — site, programări, facturare, CRM — pregătite să funcționeze în câteva minute, nu săptămâni.
-
-**Pentru cei care îi cunosc pe antreprenori:** Contabilii, consultanții, mentorii care deja au relații de încredere cu acești oameni pot deveni Ambasadori BiziX. Le recomandă soluții, îi ghidează, și sunt recompensați pentru valoarea pe care o aduc — cu comisioane recurente, plătite automat și transparent.
-
-**Pentru dezvoltatori:** O piață deschisă unde pot crea aplicații și le pot monetiza, ajungând direct la antreprenorii care au nevoie de ele.
-
-Totul funcționează pe o fundație de încredere verificabilă — fiecare tranzacție, fiecare comision, fiecare acord poate fi verificat matematic, nu doar promis.
-
----
-
-### Credința Noastră Fundamentală
-
-> **Credem că orice antreprenor merită acces la unelte digitale simple, fără să fie nevoit să fie programator sau să aibă buget de corporație. Și credem că oamenii care îi cunosc pe acești antreprenori sunt cei mai buni să-i ghideze către soluții.**
-
-Aceasta nu este doar o declarație de marketing. Este principiul după care am construit fiecare decizie în BiziX — de la arhitectura tehnică până la modelul de business.
-
----
-
-### Contextul: De ce e nevoie de BiziX
-
 Lumea modernă a afacerilor operează la o viteză fără precedent, însă uneltele digitale au rămas în urmă. Astăzi, antreprenorii se luptă cu un peisaj fragmentat: date izolate în aplicații incompatibile, muncă manuală repetitivă și o lipsă acută de încredere în parteneriatele digitale.
 
 BiziX a fost conceput ca răspuns la această realitate, dar cu o abordare fundamental diferită. **Nu ne propunem să înlocuim factorul uman cu roboți autonomi, ci să împuternicim antreprenorul prin tehnologie.**
@@ -254,26 +228,23 @@ Următorul capitol va explora în detaliu mecanismele prin care stratul
 blockchain devine fundamentul încrederii și eficienței în ecosistemul
 BiziX.
 
-## Capitolul 3: Arhitectura Încrederii: Cum revoluționează tehnologia blockchain platforma BiziX {#capitolul-3}
+## Capitolul 3: Arhitectura Încrederii – Blockchain-ul ca Notar Invizibil {#capitolul-3}
+
+Strategia noastră este să facem tehnologia blockchain **invizibilă pentru utilizator, dar indispensabilă pentru siguranța afacerii**.
 
 Lanțul BiziX este construit pe framework-ul Substrate, într-o
 configurație solo-chain scrisă în Rust, ceea ce ne permite să controlăm
 complet runtime-ul, upgrade-urile și instrumentele de audit. Această
 arhitectură ne oferă performanțe predictibile și posibilitatea de a
-ancora înregistrările critice prin hash-uri imutabile. Aceasta nu este o
-componentă adăugată ulterior, ci chiar fundația pe care am construit
-securitatea, eficiența și transparența ecosistemului. Acest capitol
-explorează modul în care blockchain-ul acționează ca un strat de
-încredere, permițând automatizări avansate și un model economic
-echitabil, culminând cu soluția noastră de pionierat: AI-ul auditabil.
+ancora înregistrările critice prin hash-uri imutabile.
 
-### 1. Registrul Imutabil: Notarul Digital al Afacerii Dumneavoastră
+### 1. Registrul Imutabil: Notarul Digital Invizibil
 
 Strategia noastră nu este să rulăm întreaga platformă pe un blockchain,
 ceea ce ar compromite performanța, ci să folosim cea mai puternică
 proprietate a sa: imutabilitatea. BiziX utilizează blockchain-ul ca un
-registru universal de verificare, un notar digital care funcționează
-24/7.
+registru universal de verificare — un notar digital care funcționează
+24/7, fără să știi că există.
 
 **Cum funcționează:**
 
@@ -300,6 +271,20 @@ care oferă beneficii concrete:**
   cloud-ului privat, stratul blockchain oferă o a doua linie de apărare,
   descentralizată, care face orice tentativă de manipulare a datelor
   detectabilă instantaneu.
+
+### Protecție împotriva Administratorului: "Glass Box"
+
+Într-un sistem tradițional, trebuie să ai încredere că administratorul platformei nu modifică datele. Cu BiziX, această încredere devine inutilă.
+
+> **Odată scris pe blockchain, nici chiar echipa BiziX nu poate modifica retroactiv o înregistrare.**
+
+Aceasta este garanția supremă de integritate — ceea ce numim modelul **"Glass Box"** (Cutia de Sticlă). Spre deosebire de "cutia neagră" tradițională, unde nu știi ce se întâmplă în interior, BiziX oferă transparență totală:
+
+- **Verificabilitate matematică** — Nu ne cere să ne crezi pe cuvânt; verifică pe explorer.bizix.ro
+- **Imutabilitate garantată** — Codul, nu oamenii, aplică regulile
+- **Audit în timp real** — Oricine poate vedea orice tranzacție, oricând
+
+Aceasta este diferența fundamentală față de orice platformă SaaS tradițională: **nu promisiuni, ci dovezi matematice.**
 
 ### 2. Smart Contracts: Logica de Business Devenită Cod Imutabil
 
@@ -382,14 +367,11 @@ stratul AI.
 
 ![AI Trust Layer](imagini/media/image3.png)
 
-## Capitolul 4: Ecosistemul BiziX – O Platformă Deschisă pentru Inovare Colaborativă {#capitolul-4}
+## Capitolul 4: Ecosistemul BiziX – De la "One-Click" la Libertate pentru Developeri {#capitolul-4}
 
-BiziX a fost proiectat de la bun început nu ca un produs închis, ci ca
-un ecosistem deschis și vibrant. Credem cu tărie că inovația accelerată
-nu provine de la o singură entitate, ci din inteligența colectivă a unei
-comunități motivate. De aceea, am construit o platformă care nu doar
-oferă unelte, ci și încurajează activ participarea, stimulează
-contribuțiile și aliniază interesele tuturor membrilor.
+BiziX este conceput să crească odată cu afacerea ta, oferind **flexibilitate totală** — de la simplitatea "one-click" pentru antreprenori până la acces root pentru dezvoltatori.
+
+Credem cu tărie că inovația accelerată nu provine de la o singură entitate, ci din inteligența colectivă a unei comunități motivate. De aceea, am construit o platformă care nu doar oferă unelte, ci și încurajează activ participarea, stimulează contribuțiile și aliniază interesele tuturor membrilor.
 
 Filosofia noastră este simplă: succesul platformei este succesul
 comunității. Acest capitol detaliază pilonii care susțin acest ecosistem
@@ -492,7 +474,24 @@ Acest model creează un **ciclu virtuos**: dezvoltatorii sunt stimulați
 să creeze aplicații de înaltă calitate, iar utilizatorii beneficiază de
 o platformă în continuă evoluție, adaptată perfect nevoilor lor.
 
-### 3. Programul de Ambasadori: Creștere prin Relații Autentice
+### 3. Libertate Radicală: Developer Mode și Acces SSH
+
+Spre deosebire de platformele SaaS tradiționale care îți blochează accesul la propriile date, BiziX oferă **proprietate reală**. Nu suntem gardieni ai datelor tale — suntem furnizori de infrastructură.
+
+**Developer Mode:** Pentru utilizatorii avansați, agențiile web și dezvoltatori, oferim opțiunea de a debloca accesul SSH (root) la Mașina Virtuală.
+
+Ce înseamnă asta:
+- **Acces complet** la sistemul de operare, fișiere și baze de date
+- **Libertate de personalizare** — instalezi librării, modifici cod sursă, configurezi cum vrei
+- **Export oricând** — datele tale sunt ale tale; poți pleca cu ele și rula pe propria infrastructură
+
+**Siguranță prin Snapshot:** Înainte de activarea SSH, sistemul creează automat un punct de restaurare. Ai libertatea de a experimenta, cu plasă de siguranță. Dacă ceva nu merge, restaurezi în 2 clicuri.
+
+> **Notă:** Developer Mode este opțional și destinat utilizatorilor tehnici. Pentru antreprenorii care vor simplitate maximă, platforma funcționează perfect în modul standard, fără a necesita vreo intervenție tehnică.
+
+Această abordare elimină frica de **"Vendor Lock-in"** — nu ești captiv în ecosistemul nostru. Alegerea de a rămâne pe BiziX trebuie să fie bazată pe valoare, nu pe imposibilitatea de a pleca.
+
+### 4. Programul de Ambasadori: Creștere prin Relații Autentice
 
 Pentru a accelera adopția la nivel global, am creat Programul de
 Ambasadori. Acesta nu este un program de vânzări, ci un model care
@@ -512,7 +511,7 @@ antreprenori.
   au câștigat, din ce tranzacții, și când au fost plătiți. Nu promisiuni
   — dovezi matematice.
 
-### 4. Guvernanță și Stimulente: Alinierea Intereselor Comunității
+### 5. Guvernanță și Stimulente: Alinierea Intereselor Comunității
 
 Un ecosistem prosperă atunci când toți participanții au un cuvânt de
 spus și sunt recompensați pentru contribuțiile lor. BiziX integrează
@@ -530,7 +529,7 @@ pentru a asigura acest aliniament.
   aplicații valoroase, raportarea de vulnerabilități (prin programul Bug
   Bounty) sau contribuția la baza de cunoștințe.
 
-### 5. BYOS (Bring-Your-Own-Server): Construirea unei Infrastructuri Comunitare
+### 6. BYOS (Bring-Your-Own-Server): Construirea unei Infrastructuri Comunitare
 
 Mergând dincolo de software, extindem filosofia deschisă chiar la
 nivelul infrastructurii. Prin programul inovator
@@ -571,7 +570,7 @@ stimulat să contribuie la succesul colectiv. Astfel, BiziX nu este doar
 o platformă, ci un catalizator pentru inovare, proiectat să crească și
 să evolueze prin puterea comunității sale.
 
-## Capitolul 5: Principiile Guvernanței: Cum Evoluează BiziX prin Vocea Comunității {#capitolul-5}
+## Capitolul 5: Principiile Guvernanței – Evoluție prin Vocea Comunității {#capitolul-5}
 
 Pentru ca un ecosistem digital să prospere pe termen lung, trebuie să
 răspundă la o întrebare fundamentală: "Cine decide viitorul
@@ -653,16 +652,58 @@ corectitudinea și transparența, ci creăm un ecosistem mai inteligent,
 mai agil și mai rezistent. Acesta este fundamentul pe care vom construi
 succesul durabil al platformei BiziX.
 
-## Capitolul 6: BiziX în Acțiune: Transformarea Industriilor prin Tehnologie Aplicată {#capitolul-6}
+## Capitolul 6: BiziX în Acțiune – Procese de Business ca Serviciu (BPaaS) {#capitolul-6}
 
-Valoarea reală a unei platforme tehnologice nu stă în caracteristicile
-sale teoretice, ci în impactul său concret asupra afacerilor reale.
-Acest capitol trece de la arhitectură la aplicabilitate, demonstrând
-prin exemple clare cum BiziX acționează ca un catalizator pentru
-eficiență, încredere și creștere în diverse sectoare industriale.
-Fiecare caz de utilizare ilustrează modul în care sinergia dintre suita
-noastră SaaS și stratul de încredere blockchain rezolvă provocări
-specifice și deblochează noi oportunități.
+Valoarea BiziX nu stă în aplicații individuale, ci în **fluxurile de lucru integrate** care combină Aplicații, AI și Factorul Uman (Human-in-the-Loop). Aceasta este esența modelului nostru **BPaaS** (Business Process as a Service).
+
+În loc să îți oferim doar unelte și să te lăsăm să te descurci, BiziX îți oferă **procese complete** — de la input la output — cu AI care pregătește munca și tu doar validezi.
+
+### Exemple Concrete: BPaaS în Practică
+
+#### Exemplul 1: Contabilitatea Asistată
+
+| Pas | Ce se întâmplă | Cine acționează |
+|-----|----------------|-----------------|
+| **1. Input** | Antreprenorul încarcă o poză cu o factură în Nextcloud | Tu |
+| **2. AI Local** | Sistemul extrage automat datele (CUI, sume, date) și le introduce în ERP ca "Ciornă" | BiziX AI |
+| **3. Notificare** | Primești notificare: "Factură nouă de la Furnizor X - 2.500 RON. Verifică și confirmă." | Sistem |
+| **4. HITL** | Verifici datele extrase, corectezi dacă e cazul, apeși "Confirmă" | Tu |
+| **5. Rezultat** | Factura e înregistrată în contabilitate. Zero introducere manuală de date. | Done |
+
+**Timp economisit:** 5 minute per factură → 5 secunde per factură
+
+---
+
+#### Exemplul 2: Concierge HoReCa Automatizat
+
+| Pas | Ce se întâmplă | Cine acționează |
+|-----|----------------|-----------------|
+| **1. Input** | Clientul trimite mesaj pe WhatsApp: "Vreau o masă pentru 4, sâmbătă seara" | Client |
+| **2. Integrare** | Chatwoot primește mesajul, Integration Engine verifică disponibilitatea în Easy!Appointments și meniul în sistem | BiziX |
+| **3. AI Propune** | Sistemul pregătește răspuns: "Avem liber la ora 20:00 sau 21:30. Doriți meniu clasic sau vegetarian?" | BiziX AI |
+| **4. HITL** | Operatorul vede propunerea, poate modifica, apoi apasă "Trimite" | Tu |
+| **5. Confirmare** | Mesajul pleacă către client, rezervarea se creează automat | Done |
+
+**Rezultat:** Operatorul gestionează 10x mai multe conversații, fără a pierde tonul personal.
+
+---
+
+#### Exemplul 3: Legal Tech & Protecția Datelor
+
+| Pas | Ce se întâmplă | Cine acționează |
+|-----|----------------|-----------------|
+| **1. Input** | Avocatul finalizează un contract și îl salvează în Nextcloud | Tu |
+| **2. Blockchain** | Sistemul generează automat un hash criptografic și îl ancorează pe blockchain cu timestamp | BiziX |
+| **3. Certificat** | Se generează un "Certificat de Integritate" cu QR code verificabil | BiziX |
+| **4. Rezultat** | Dovadă incontestabilă de anterioritate și integritate a documentului | Done |
+
+**Utilizare:** În caz de dispută, oricine poate scana QR-ul și verifica că documentul nu a fost modificat de la data semnării.
+
+---
+
+### Exemple pe Industrii
+
+Pe lângă fluxurile BPaaS de mai sus, BiziX oferă soluții adaptate pentru industrii specifice:
 
 ### 1. Comerț Electronic și Retail: De la Haos Operațional la Încredere Verificabilă
 
@@ -803,7 +844,7 @@ deschis permite adaptarea la nenumărate alte industrii. Pe măsură ce
 platforma și comunitatea noastră se dezvoltă, la fel se va întâmpla și
 cu numărul de sectoare pe care le vom transforma.
 
-## Capitolul 7: Foaia de Parcurs Strategică: De la Platformă la Inteligență Autonomă {#capitolul-7}
+## Capitolul 7: Foaia de Parcurs Strategică {#capitolul-7}
 
 O viziune ambițioasă necesită o execuție disciplinată. Foaia noastră de
 parcurs nu este o simplă listă de funcționalități, ci o traiectorie
@@ -888,31 +929,42 @@ transparente sau lanțuri de aprovizionare globale și verificate.
 devină o componentă de bază a modului în care afacerile vor opera și
 interacționa în viitor.
 
-## Capitolul 8: BiziX AI – Partenerul Inteligent al Afacerii Tale {#capitolul-8}
+## Capitolul 8: BiziX AI – Asistentul Tău Privat (Human-in-the-Loop) {#capitolul-8}
 
-În era digitală, datele sunt cel mai valoros activ al unei companii.
-Totuși, valoarea lor rămâne blocată dacă nu pot fi transformate în
-decizii rapide și inteligente. De aceea, am integrat un strat de
-Inteligență Artificială direct în nucleul BiziX, transformând platforma
-dintr-un simplu sistem de management într-un partener proactiv și un
-creier central pentru afacerea ta.
+BiziX AI este construit pe două principii non-negociabile: **Confidențialitate** și **Control**.
 
-Abordarea noastră este simplă: AI-ul nu este un modul separat, ci un
-serviciu fundamental, disponibil oricărei aplicații din ecosistem.
-Dezvoltatorii pot adăuga funcționalități avansate, precum un asistent
-conversațional sau previziuni de business, în orice modul, cu doar
-câteva linii de cod.
+Nu credem în AI care ia decizii în locul tău. Credem în AI care îți pregătește munca, astfel încât tu să poți decide mai rapid și mai informat.
 
-### Cum Funcționează? Principii Cheie
+> **Filosofia Human-in-the-Loop: Tu decizi, el execută.**
 
-Pentru a oferi răspunsuri relevante și sigure, BiziX AI se bazează pe
-trei piloni:
+### Principiul 1: Local AI & Confidențialitate Absolută
 
-1. **Învață Exclusiv din Datele Tale:** Spre deosebire de AI-urile generice care caută pe internet, BiziX AI este antrenat într-un mediu securizat, exclusiv pe datele afacerii tale. Analizează contractele, facturile, emailurile și rapoartele pentru a înțelege contextul unic al companiei tale. Astfel, răspunsurile sunt mereu precise și la subiect.
+Spre deosebire de asistenții AI publici (ChatGPT, Claude), BiziX rulează modele AI (Local LLMs) **direct în infrastructura noastră privată**.
 
-2. **Conversează, Analizează și Prezice:** Folosind un motor de limbaj puternic, AI-ul poate purta conversații în limbaj natural. În spatele scenei, un "AI Gateway" central direcționează fiecare cerere către sistemul potrivit: fie că este vorba de a răspunde la o întrebare, de a genera o previziune a cash-flow-ului sau de a analiza sentimentul dintr-un email de la un client.
+Ce înseamnă asta pentru tine:
+- **Datele tale nu părăsesc BiziX** — contractele, facturile, emailurile nu sunt trimise către servere externe
+- **Nu antrenăm modele cu datele tale** — datele tale sunt ale tale, punct
+- **Conformitate GDPR garantată** — totul rămâne în UE, sub jurisdicție europeană
 
-3. **Garantează Confidențialitatea Absolută:** Acesta este angajamentul nostru fundamental. **Nicio informație sensibilă nu părăsește ecosistemul BiziX.** Toate modelele AI rulează în cloud-ul nostru privat sau direct pe serverele tale (prin programul BYON). Datele sunt anonimizate și complet izolate între clienți, asigurând conformitatea GDPR și o securitate de nepătruns.
+### Principiul 2: Human-in-the-Loop — Tu Decizi, El Execută
+
+Aceasta este diferența fundamentală față de viziunea "AI autonom" promovată de alții. Noi credem că tehnologia trebuie să servească omul, nu să-l înlocuiască.
+
+**Cum funcționează în practică:**
+
+| Etapă | Ce face AI-ul | Ce faci tu |
+|-------|---------------|------------|
+| **Propune** | Redactează emailuri, clasifică tranzacții, extrage date din facturi | Aștepți |
+| **Așteaptă** | Salvează totul ca "Ciornă" sau "Propunere" | Primești notificare |
+| **Confirmă** | — | Revizuiești, corectezi dacă e cazul, dai "Bun de tipar" |
+
+**Rezultatul:** Viteza automatizării (de 10x mai rapid), dar cu discernământul și responsabilitatea ta.
+
+### Principiul 3: Învață Exclusiv din Datele Tale
+
+Spre deosebire de AI-urile generice care caută pe internet, BiziX AI este antrenat într-un mediu securizat, exclusiv pe datele afacerii tale. Analizează contractele, facturile, emailurile și rapoartele pentru a înțelege contextul unic al companiei tale.
+
+Folosind un motor de limbaj puternic, AI-ul poate purta conversații în limbaj natural. În spatele scenei, un "AI Gateway" central direcționează fiecare cerere către sistemul potrivit: fie că este vorba de a răspunde la o întrebare, de a genera o previziune a cash-flow-ului sau de a analiza sentimentul dintr-un email de la un client.
 
 ### Ce Poate Face BiziX AI Pentru Tine?
 
@@ -1037,7 +1089,7 @@ a puterii de multiplicare a parteneriatelor strategice, BiziX este
 perfect poziționată pentru a-și îndeplini viziunea și pentru a asigura
 succesul pe termen lung al platformei.
 
-## Capitolul 10: Tokenomics – BIZ, Motorul unei Economii Predictibile {#capitolul-10}
+## Capitolul 10: Tokenomics – BIZ, Stabilitate și Utilitate {#capitolul-10}
 
 Într-o industrie adesea definită de volatilitate, am luat o decizie
 fundamentală și non-negociabilă: să construim economia BiziX pe o
@@ -1235,28 +1287,29 @@ Dacă ai relații cu antreprenori — ca contabil, consultant, mentor, sau pur �
 Înscrie-te pe **ambasador.bizix.ro** și primești link-ul tău personalizat în 2 minute.
 
 <a id="capitolul-12"></a>
-## Capitolul 12: Concluzia: Un Nou Sistem de Operare pentru Economia Încrederii
+## Capitolul 12: Concluzia
 
-Lumea digitală a promis eficiență, dar adesea a livrat fragmentare. A
-promis conectivitate, dar a creat silozuri de date. A promis viteză, dar
-a generat complexitate. BiziX nu este doar o altă unealtă în acest
-peisaj; este răspunsul fundamental la aceste provocări, un sistem de
-operare conceput pentru a restaura ordinea, eficiența și, mai presus de
-toate, încrederea.
+BiziX nu este doar o platformă de hosting; este un **partener de eficiență**.
 
-Am construit BiziX pe o trinitate de neclintit, unde fiecare element îl
-amplifică pe celălalt:
+Am construit un sistem unde aplicațiile open-source, inteligența artificială locală și securitatea blockchain lucrează împreună pentru a elimina haosul operațional.
 
-1. **Suita SaaS** unifică operațiunile, oferind un centru de comandă complet pentru afacerea dumneavoastră.
+> **Oferim antreprenorilor români super-puterea de a face mai mult cu mai puțin, păstrând în același timp controlul total asupra datelor și deciziilor lor.**
 
-2. **Stratul Blockchain** garantează încrederea, transformând fiecare tranzacție și acord într-o dovadă matematică imutabilă.
+### Cei Patru Piloni ai BiziX
 
-3. **Stratul de Inteligență Artificială** deblochează creșterea, transformând datele într-un partener strategic proactiv.
+Am construit BiziX pe o arhitectură în care fiecare element îl amplifică pe celălalt:
 
-Această sinergie creează mai mult decât o platformă. Creează un mediu de
-business echitabil, transparent și extrem de eficient, nivelând terenul
-de joc și oferind startup-urilor și IMM-urilor puterea operațională
-rezervată până acum doar marilor corporații.
+1. **Aplicațiile Open Source** — unifică operațiunile, oferind un centru de comandă complet pentru afacerea ta.
+
+2. **Stratul de Orchestrare (Integration Engine)** — conectează aplicațiile între ele, automatizând fluxurile de lucru.
+
+3. **AI-ul Local (Human-in-the-Loop)** — pregătește munca, tu doar validezi. Viteza automatizării, cu discernământul tău.
+
+4. **Stratul Blockchain (Notar Invizibil)** — garantează încrederea, transformând fiecare acord într-o dovadă matematică imutabilă.
+
+Această sinergie creează mai mult decât o platformă. Creează un mediu de business echitabil, transparent și extrem de eficient — nivelând terenul de joc și oferind startup-urilor și IMM-urilor puterea operațională rezervată până acum doar marilor corporații.
+
+> **BiziX transformă ore de birocrație în secunde de decizie.**
 
 ### Invitația Noastră: Alăturați-vă Arhitecților Viitorului
 
@@ -1285,15 +1338,18 @@ tehnologiei de business.
 
 Călătoria noastră este abia la început, dar viziunea noastră este clară.
 
-BiziX este mai mult decât un produs; este o declarație. Credem într-un
-viitor în care afacerile concurează prin valoare, nu prin opacitate; în
-care colaborarea este securizată de matematică, nu doar de promisiuni;
-și în care fiecare antreprenor, indiferent de mărime, are acces la
-uneltele necesare pentru a prospera.
+BiziX este mai mult decât un produs; este o declarație. Credem într-un viitor în care:
+
+- Afacerile concurează prin **valoare**, nu prin opacitate
+- Colaborarea este securizată de **matematică**, nu doar de promisiuni
+- AI-ul **asistă** deciziile, nu le înlocuiește
+- Fiecare antreprenor are acces la uneltele necesare pentru a prospera
+
+**Tu decizi, el execută.** Aceasta este promisiunea BiziX.
 
 Viitorul aparține celor care construiesc pe încredere.
 
-**Construiți-l cu BiziX!**
+**Construiește-l cu BiziX!**
 
 ## Întrebări Frecvente (FAQ) {#faq}
 
