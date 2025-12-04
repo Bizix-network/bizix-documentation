@@ -2,59 +2,104 @@
 
 ## Cuprins
 
-- [Capitolul 1: Introducere – O Nouă Paradigmă pentru Business](#capitolul-1)
-- [Capitolul 2: Prezentare Generală a Platformei BiziX](#capitolul-2)
-- [Capitolul 3: Arhitectura Încrederii](#capitolul-3)
-- [Capitolul 4: Ecosistemul BiziX](#capitolul-4)
-- [Capitolul 5: Principiile Guvernanței](#capitolul-5)
-- [Capitolul 6: BiziX în Acțiune](#capitolul-6)
+- [Capitolul 1: Introducere – O Nouă Paradigmă: Automatizarea Asistată](#capitolul-1)
+- [Capitolul 2: Prezentare Generală – Arhitectura pe 4 Piloni a BiziX](#capitolul-2)
+- [Capitolul 3: Arhitectura Încrederii – Blockchain-ul ca Notar Invizibil](#capitolul-3)
+- [Capitolul 4: Ecosistemul BiziX – De la "One-Click" la Libertate pentru Developeri](#capitolul-4)
+- [Capitolul 5: Principiile Guvernanței – Evoluție prin Vocea Comunității](#capitolul-5)
+- [Capitolul 6: BiziX în Acțiune – Procese de Business ca Serviciu (BPaaS)](#capitolul-6)
 - [Capitolul 7: Foaia de Parcurs Strategică](#capitolul-7)
-- [Capitolul 8: BiziX AI – Partenerul Inteligent](#capitolul-8)
+- [Capitolul 8: BiziX AI – Asistentul Tău Privat (Human-in-the-Loop)](#capitolul-8)
 - [Capitolul 9: Arhitecții Viziunii](#capitolul-9)
 - [Capitolul 10: Tokenomics – BIZ](#capitolul-10)
-- [Capitolul 11: Programul de Parteneriat BiziX](#capitolul-11)
+- [Capitolul 11: Programul de Ambasadori BiziX](#capitolul-11)
 - [Capitolul 12: Concluzia](#capitolul-12)
 - [Întrebări Frecvente (FAQ)](#faq)
 
-## Capitolul 1: Introducere – O Nouă Paradigmă pentru Business {#capitolul-1}
+<a id="capitolul-1"></a>
+## Capitolul 1: Introducere – O Nouă Paradigmă pentru Business
 
-Lumea modernă a afacerilor operează la o viteză fără precedent, impunând
-companiilor un nivel excepțional de agilitate, securitate și eficiență.
-Cu toate acestea, uneltele digitale pe care se bazează majoritatea
-organizațiilor nu au reușit să evolueze în același ritm. Astăzi,
-companiile se luptă cu un peisaj tehnologic fragmentat, unde datele sunt
-izolate în aplicații incompatibile, fluxurile de lucru sunt ineficiente,
-iar încrederea între parteneri este constant erodată. Aceste provocări
-nu sunt doar obstacole operaționale, ci frâne sistemice care limitează
-potențialul de creștere.
+### BiziX în 60 de secunde
 
-BiziX a fost conceput ca răspuns la această realitate. Proiectul nostru
-reprezintă mai mult decât o soluție software; este un nou sistem de
-operare pentru business. Am creat o platformă revoluționară ce converge
-puterea modelului Software-as-a-Service (SaaS) cu garanțiile matematice
-ale tehnologiei blockchain. Viziunea noastră ultimă este de a construi
-pe această fundație un strat de Inteligență Artificială (AI), capabil să
-transforme BiziX într-un ecosistem de business complet autonom și
-proactiv.
+Imaginează-ți că ești antreprenor. Ai o frizerie, o cafenea, un atelier de reparații. Știi că ai nevoie de un site, de un sistem de programări, poate de un CRM — dar nu știi de unde să începi, nu ai timp să compari zeci de soluții și nu-ți permiți să angajezi un consultant IT.
 
-Misiunea noastră este simplă, dar profundă: să oferim startup-urilor,
-afacerilor în creștere și IMM-urilor infrastructura digitală de care au
-nevoie pentru a concura și a prospera în economia modernă. Facem acest
-lucru printr-o platformă unificată, accesibilă și puternică, care
-abordează direct cele mai presante probleme ale mediului de afaceri:
+BiziX rezolvă exact asta.
 
-1. **Eficiență Operațională:** În loc de a jongla cu zeci de aplicații, BiziX integrează toate funcționalitățile esențiale – de la CRM și ERP la management de proiect – într-un singur centru de comandă. Rezultatul este o simplificare radicală a proceselor și o productivitate maximizată.
+**Pentru antreprenori:** O singură platformă unde găsești toate uneltele digitale de care ai nevoie — site, programări, facturare, CRM — pregătite să funcționeze în câteva minute, nu săptămâni.
 
-2. **Securitate și Integritate a Datelor:** Într-o eră a amenințărilor cibernetice constante, BiziX folosește arhitectura imutabilă a blockchain-ului pentru a garanta integritatea datelor. Fiecare acțiune critică este securizată criptografic, oferind o protecție robustă împotriva manipulării și a accesului neautorizat.
+**Pentru cei care îi cunosc pe antreprenori:** Contabilii, consultanții, mentorii care deja au relații de încredere cu acești oameni pot deveni Ambasadori BiziX. Le recomandă soluții, îi ghidează, și sunt recompensați pentru valoarea pe care o aduc — cu comisioane recurente, plătite automat și transparent.
 
-3. **Transparență și Încredere Verificabilă:** BiziX reconstruiește încrederea prin transparență matematică. Utilizând un registru distribuit, creăm o urmă de audit imutabilă și ștampilată temporal pentru fiecare eveniment important. De exemplu, semnarea unui contract digital generează o "amprentă" unică pe blockchain, oferind o dovadă incontestabilă a conținutului și a momentului agrementului. Astfel, responsabilitatea devine o certitudine verificabilă.
+**Pentru dezvoltatori:** O piață deschisă unde pot crea aplicații și le pot monetiza, ajungând direct la antreprenorii care au nevoie de ele.
 
-Spre deosebire de soluțiile tradiționale, BiziX este conceput nativ
-pentru agilitatea și dinamismul afacerilor moderne. Indiferent de
-domeniul de activitate -- producție, consultanță, sănătate sau
-e-commerce -- platforma noastră oferă instrumentele necesare pentru a
-optimiza operațiunile, a consolida relațiile cu clienții și a debloca
-noi oportunități de creștere.
+Totul funcționează pe o fundație de încredere verificabilă — fiecare tranzacție, fiecare comision, fiecare acord poate fi verificat matematic, nu doar promis.
+
+---
+
+### Credința Noastră Fundamentală
+
+> **Credem că orice antreprenor merită acces la unelte digitale simple, fără să fie nevoit să fie programator sau să aibă buget de corporație. Și credem că oamenii care îi cunosc pe acești antreprenori sunt cei mai buni să-i ghideze către soluții.**
+
+Aceasta nu este doar o declarație de marketing. Este principiul după care am construit fiecare decizie în BiziX — de la arhitectura tehnică până la modelul de business.
+
+---
+
+### Contextul: De ce e nevoie de BiziX
+
+### BiziX în 60 de secunde
+
+Imaginează-ți că ești antreprenor. Ai o frizerie, o cafenea, un atelier de reparații. Știi că ai nevoie de un site, de un sistem de programări, poate de un CRM — dar nu știi de unde să începi, nu ai timp să compari zeci de soluții și nu-ți permiți să angajezi un consultant IT.
+
+BiziX rezolvă exact asta.
+
+**Pentru antreprenori:** O singură platformă unde găsești toate uneltele digitale de care ai nevoie — site, programări, facturare, CRM — pregătite să funcționeze în câteva minute, nu săptămâni.
+
+**Pentru cei care îi cunosc pe antreprenori:** Contabilii, consultanții, mentorii care deja au relații de încredere cu acești oameni pot deveni Ambasadori BiziX. Le recomandă soluții, îi ghidează, și sunt recompensați pentru valoarea pe care o aduc — cu comisioane recurente, plătite automat și transparent.
+
+**Pentru dezvoltatori:** O piață deschisă unde pot crea aplicații și le pot monetiza, ajungând direct la antreprenorii care au nevoie de ele.
+
+Totul funcționează pe o fundație de încredere verificabilă — fiecare tranzacție, fiecare comision, fiecare acord poate fi verificat matematic, nu doar promis.
+
+---
+
+### Credința Noastră Fundamentală
+
+> **Credem că orice antreprenor merită acces la unelte digitale simple, fără să fie nevoit să fie programator sau să aibă buget de corporație. Și credem că oamenii care îi cunosc pe acești antreprenori sunt cei mai buni să-i ghideze către soluții.**
+
+Aceasta nu este doar o declarație de marketing. Este principiul după care am construit fiecare decizie în BiziX — de la arhitectura tehnică până la modelul de business.
+
+---
+
+### Contextul: De ce e nevoie de BiziX
+
+Lumea modernă a afacerilor operează la o viteză fără precedent, însă uneltele digitale au rămas în urmă. Astăzi, antreprenorii se luptă cu un peisaj fragmentat: date izolate în aplicații incompatibile, muncă manuală repetitivă și o lipsă acută de încredere în parteneriatele digitale.
+
+BiziX a fost conceput ca răspuns la această realitate, dar cu o abordare fundamental diferită. **Nu ne propunem să înlocuim factorul uman cu roboți autonomi, ci să împuternicim antreprenorul prin tehnologie.**
+
+> **BiziX transformă ore de birocrație în secunde de decizie.**
+
+### Misiunea Noastră
+
+Să oferim IMM-urilor infrastructura digitală care le permite să opereze cu eficiența unei corporații, dar cu agilitatea unui startup.
+
+Facem acest lucru printr-o platformă unificată de tip **BPaaS (Business Process as a Service)**, care abordează direct cele mai presante probleme:
+
+1. **Productivitate Multiplicată:** Prin integrarea aplicațiilor cu un strat de AI local, eliminăm munca de rutină (introducere date, triere emailuri). BiziX pregătește munca, tu doar o validezi.
+
+2. **Securitate și Integritate:** Într-o eră a incertitudinii, folosim blockchain-ul ca pe un strat invizibil de audit, garantând matematic integritatea contractelor și a operațiunilor.
+
+3. **Control Total:** Oferim o platformă deschisă, unde datele îți aparțin, iar accesul tehnic poate merge până la nivel de server (SSH), eliminând riscul de "Vendor Lock-in".
+
+### Viziunea: Automatizarea Asistată (Human-in-the-Loop)
+
+Viziunea noastră este pragmatică: credem în **Automatizarea Asistată**. Aceasta înseamnă că AI-ul și automatizările nu iau decizii în locul tău — ele pregătesc, propun și așteaptă confirmarea ta.
+
+- **AI-ul propune:** redactează emailuri, clasifică tranzacții, extrage date din facturi.
+- **Sistemul așteaptă:** acțiunile sunt salvate ca "Ciornă".
+- **Tu decizi:** revizuiești și dai "Bun de tipar".
+
+Această abordare îți oferă viteza automatizării (de 10x mai rapid), dar păstrează discernământul și responsabilitatea umană. **Tu decizi, el execută.**
+
+### Obiective de Lansare
 
 În prima etapă vom livra pachetele BiziX folosind exclusiv aplicații
 selectate și administrate de echipa noastră internă. Vom valida modelul
@@ -64,19 +109,12 @@ la lansare să atingem următorii indicatori: provisioning \<120 s/pachet,
 uptime \>99% pentru aplicațiile Tier‑1 și adoptare a stratului BiziX AI
 de minimum 30% dintre utilizatori.
 
-## Capitolul 2: Prezentare Generală a Platformei BiziX – Sistemul de Operare pentru Business-ul Modern {#capitolul-2}
+<a id="capitolul-2"></a>
+## Capitolul 2: Prezentare Generală a Platformei BiziX – Sistemul de Operare pentru Business-ul Modern
 
-BiziX nu este o simplă colecție de aplicații, ci sistemul de operare
-integrat, conceput pentru a servi drept coloană vertebrală digitală
-pentru afacerile moderne. Platforma noastră este un ecosistem complet,
-care unifică operațiunile, datele și încrederea într-o singură soluție
-coerentă. Prin fuziunea dintre funcționalitatea avansată a aplicațiilor
-SaaS și certitudinea matematică a tehnologiei blockchain, BiziX le
-permite companiilor să își eficientizeze operațiunile, să securizeze
-colaborarea și să ia decizii bazate pe date cu un nivel de încredere
-fără precedent.
+BiziX nu este o simplă colecție de aplicații, ci un ecosistem coerent construit pe **patru piloni tehnologici** care lucrează în sinergie perfectă. Fiecare pilon are un rol specific, iar împreună creează o platformă care depășește suma părților sale componente.
 
-### Fundația Operațională: O Suită Completă și Integrată
+### Pilonul 1: Fundația Operațională (Aplicațiile)
 
 La bază, BiziX elimină fragmentarea și ineficiența, oferind o suită
 robustă de aplicații de business esențiale. Acestea sunt proiectate să
@@ -120,19 +158,38 @@ Această abordare integrată creează o **singură sursă de adevăr (Single
 Source of Truth)** pentru întreaga afacere, asigurând coerența datelor
 și eficiența decizională.
 
-### Arhitectura Hibridă: Performanță și Încredere, Fără Compromisuri
+### Pilonul 2: Stratul de Performanță (Cloud Privat)
 
-Am proiectat BiziX pe o arhitectură hibridă sofisticată, care valorifică
-cele mai bune atribute din două lumi tehnologice distincte, pentru a
-oferi o soluție superioară.
+Aplicațiile de bază (ERP, CRM etc.) rulează pe o infrastructură de cloud privat, securizată și ultra-performantă, bazată pe **Proxmox VE**. Această alegere strategică asigură:
 
-1. **Stratul de Performanță (Cloud Privat): Viteza și Receptivitatea.**
-   Aplicațiile de bază (ERP, CRM etc.) rulează pe o infrastructură de cloud privat, securizată și ultra-performantă, bazată pe Proxmox VE. Această alegere strategică asigură viteza în timp real, disponibilitatea ridicată și experiența de utilizare fluidă pe care o necesită operațiunile zilnice. Datele operaționale sunt criptate și protejate conform celor mai înalte standarde de securitate enterprise.
+- **Viteza în timp real** — operațiunile zilnice nu au lag
+- **Disponibilitate ridicată** — uptime >99% garantat
+- **Izolarea datelor** — fiecare client are propriul mediu izolat
+- **Securitate enterprise** — datele sunt criptate și protejate conform celor mai înalte standarde
 
-2. **Stratul de Încredere (Blockchain): Integritatea și Auditabilitatea.**
-   Folosim tehnologia blockchain nu pentru a stoca datele sensibile, ci ca un **notar digital descentralizat**. Pentru fiecare eveniment critic (semnarea unui contract, aprobarea unei facturi), platforma generează o "amprentă" criptografică (hash) a datelor relevante. Această amprentă, și nu datele în sine, este înregistrată permanent pe blockchain. Rezultatul este o urmă de audit imutabilă, care garantează integritatea absolută a înregistrărilor și oferă un nivel de auditabilitate fără precedent, păstrând în același timp confidențialitatea datelor.
+### Pilonul 3: Stratul de Orchestrare (Integration Engine)
 
-Acest model hibrid asigură că BiziX este suficient de rapid și scalabil
+Acesta este **"creierul" invizibil** al platformei — elementul care diferențiază BiziX de o simplă colecție de aplicații.
+
+Folosind un motor de integrare avansat (bazat pe **n8n**), BiziX conectează aplicațiile între ele și automatizează fluxurile de lucru. Iată ce înseamnă asta în practică:
+
+- Un mesaj primit în **Chatwoot** poate genera automat o ciornă de factură în **ERP**
+- O factură încărcată în **Nextcloud** este procesată de AI și introdusă automat ca "Ciornă" în contabilitate
+- O comandă finalizată în **WooCommerce** declanșează actualizarea stocului și notificarea curierului
+
+**Acest strat asigură fluxul continuu al datelor fără intervenție manuală.** Aplicațiile nu mai sunt silozuri separate — devin un organism unitar care respiră în același ritm.
+
+### Pilonul 4: Stratul de Încredere (Blockchain)
+
+Folosim tehnologia blockchain nu pentru a stoca date, ci ca un **Notar Digital Invizibil**. Pentru evenimentele critice (semnarea unui contract, validarea unei comenzi), platforma generează o "amprentă" criptografică imutabilă.
+
+Strategia noastră este să facem blockchain-ul **invizibil pentru utilizator, dar indispensabil pentru siguranța afacerii**.
+
+- **Auditabilitate absolută** — poți demonstra oricând, matematic, că un document nu a fost modificat
+- **Zero fricțiune** — utilizatorul nu vede niciodată blockchain-ul; totul se întâmplă automat în fundal
+- **Dovadă incontestabilă** — timestamp-ul și conținutul sunt ancorate permanent
+
+Acest model pe 4 piloni asigură că BiziX este suficient de rapid și scalabil
 pentru operațiuni complexe, dar și fundamental securizat de un strat de
 încredere verificabil matematic.
 
@@ -177,6 +234,21 @@ set de unelte operaționale, ci și un fundament de încredere și
 securitate. Am demonstrat cum modelul nostru integrează performanța unui
 cloud privat cu integritatea imutabilă a blockchain-ului, creând o
 soluție superioară platformelor tradiționale.
+
+### Casele Platformei: Unde Trăiește Fiecare Participant
+
+Fiecare participant în ecosistemul BiziX are propria "casă" — un spațiu dedicat, optimizat pentru nevoile sale specifice:
+
+| Adresă | Pentru cine | Ce găsești acolo |
+|--------|-------------|------------------|
+| **www.bizix.ro** | Toată lumea | Poarta de intrare — marketplace-ul public cu toate aplicațiile disponibile |
+| **client.bizix.ro** | Antreprenori | Dashboard-ul afacerii — aplicațiile active, facturi, setări, suport |
+| **ambasador.bizix.ro** | Ambasadori | Centru de comandă — clienți recomandați, comisioane, pagină personalizabilă de prezentare |
+| **devs.bizix.ro** | Dezvoltatori | Portal tehnic — documentație API, SDK-uri, statistici aplicații, revenue |
+| **explorer.bizix.ro** | Oricine | Transparență blockchain — verifică orice tranzacție, comision sau acord |
+| **wallet.bizix.ro** | Utilizatori BIZ | Portofel — sold, istoric tranzacții, conversie RON ↔ BIZ |
+
+Această separare nu este doar organizatorică — fiecare interfață este construită specific pentru contextul utilizatorului. Un ambasador nu trebuie să navigheze prin setări tehnice; un dezvoltator nu trebuie să vadă informații despre comisioane de recomandare.
 
 Următorul capitol va explora în detaliu mecanismele prin care stratul
 blockchain devine fundamentul încrederii și eficienței în ecosistemul
@@ -240,11 +312,11 @@ proceselor.
 
 **Implementări cheie în BiziX:**
 
-- **Plăți Garantate și Instantanee:** Programele noastre de Franciză
-  Virtuală și Marketplace pentru Dezvoltatori sunt guvernate de
-  contracte inteligente. Când un client plătește un abonament,
-  contractul calculează și distribuie automat și instantaneu comisionul
-  corect, în jetoane BIZ, către francizat sau dezvoltator. Procesul este
+- **Plăți Garantate și Instantanee:** Programele noastre de Ambasadori
+  și Marketplace pentru Dezvoltatori sunt guvernate de contracte
+  inteligente. Când un client plătește un abonament, contractul
+  calculează și distribuie automat și instantaneu comisionul corect, în
+  jetoane BIZ, către ambasador sau dezvoltator. Procesul este
   transparent și elimină complet disputele.
 
 - **Servicii Escrow Automatizate:** Pentru proiecte sau tranzacții
@@ -317,12 +389,31 @@ un ecosistem deschis și vibrant. Credem cu tărie că inovația accelerată
 nu provine de la o singură entitate, ci din inteligența colectivă a unei
 comunități motivate. De aceea, am construit o platformă care nu doar
 oferă unelte, ci și încurajează activ participarea, stimulează
-contribuțiile și aliniază interesele tuturor membrilor -- de la
-utilizatorii finali la dezvoltatori și antreprenori.
+contribuțiile și aliniază interesele tuturor membrilor.
 
 Filosofia noastră este simplă: succesul platformei este succesul
 comunității. Acest capitol detaliază pilonii care susțin acest ecosistem
 dinamic și modul în care fiecare componentă generează valoare reciprocă.
+
+### Cele Patru Triburi: Un Ecosistem cu Interese Aliniate
+
+BiziX funcționează pentru că reunește patru tipuri de participanți, fiecare cu un rol distinct, dar cu interese perfect aliniate. Când antreprenorul prosperă, toți câștigă.
+
+| Trib | Ce oferă ecosistemului | Ce primește în schimb |
+|------|------------------------|----------------------|
+| **Antreprenorul** | Banii și încrederea sa | Unelte digitale simple, fără complexitate tehnică |
+| **Ambasadorul** | Relații existente și ghidaj | Comision recurent pentru fiecare client activ |
+| **Dezvoltatorul** | Aplicații și integrări | Revenue share recurent din abonamente |
+| **BiziX** | Platforma, infrastructura, orchestrarea | Procent din tranzacții |
+
+**De ce funcționează acest model:**
+
+- **Antreprenorul** nu mai trebuie să caute singur soluții sau să se bazeze pe reclame — primește recomandări de la oameni în care are deja încredere.
+- **Ambasadorul** (contabilul, consultantul, mentorul) poate în sfârșit să ajute concret clienții cu care lucrează de ani de zile, fiind recompensat pentru valoarea pe care o aduce.
+- **Dezvoltatorul** are acces direct la o piață de antreprenori cu nevoi reale, fără să cheltuie pe marketing.
+- **BiziX** crește organic, prin relații autentice, nu prin publicitate agresivă.
+
+Aceasta nu este doar o structură de business — este un cerc virtuos în care fiecare participant are motive reale să contribuie la succesul celorlalți.
 
 ![Ecosistemul BiziX](imagini/media/image4.png)
 
@@ -387,7 +478,7 @@ utilizatorilor de business.
 >
 > **Notă:** *Deși inițial site-urile și magazinele lansate astfel nu sunt integrate direct cu modulele interne, ele beneficiază de același mediu unificat. Pe foaia noastră de parcurs, ne propunem să conectăm tot mai strâns aceste front-end-uri web cu nucleul BiziX (CRM, ERP etc.), pentru ca în viitor datele despre clienți, produse, comenzi sau stocuri să se sincronizeze automat între site-ul public și platforma internă. Acest nivel de integrare va oferi o experiență cu adevărat fluidă, unificând complet gestionarea afacerii cu prezența sa digitală.*
 >
-> **Notă:** *În faza de validare (T0–T2), toate pachetele din marketplace sunt administrate și întreținute intern. Programul de franciză va fi deschis după atingerea pragului de 100 de clienți plătitori și după standardizarea ghidurilor tehnice (provisioning, SSO, securitate).*
+> **Notă:** *În faza de validare (T0–T2), toate pachetele din marketplace sunt administrate și întreținute intern. Programul de Ambasadori va fi deschis după atingerea pragului de 100 de clienți plătitori și după standardizarea ghidurilor tehnice (provisioning, SSO, securitate).*
 >
 > Prin deployment-urile rapide oferite în Marketplace, BiziX devine și
 > un catalizator de transformare digitală imediată: orice antreprenor
@@ -401,25 +492,25 @@ Acest model creează un **ciclu virtuos**: dezvoltatorii sunt stimulați
 să creeze aplicații de înaltă calitate, iar utilizatorii beneficiază de
 o platformă în continuă evoluție, adaptată perfect nevoilor lor.
 
-### 3. Programul de Franciză Virtuală: Scalarea prin Antreprenoriat
+### 3. Programul de Ambasadori: Creștere prin Relații Autentice
 
 Pentru a accelera adopția la nivel global, am creat Programul de
-Franciză Virtuală. Acesta este un model de business inovator care
-împuternicește antreprenorii să devină parteneri în creșterea BiziX,
-fără a necesita o investiție inițială.
+Ambasadori. Acesta nu este un program de vânzări, ci un model care
+valorifică relațiile de încredere existente între profesioniști și
+antreprenori.
 
-- **Oportunitate de Business la Cheie:** Francizații primesc acces la
-  toate resursele necesare pentru a-și construi propria afacere de
-  revânzare SaaS. Ei pot crea vitrine personalizate, pot promova
-  aplicațiile BiziX în rețelele lor și pot câștiga comisioane recurente
-  pentru fiecare client recomandat.
+- **Cine poate fi Ambasador:** Contabili, consultanți, mentori, avocați
+  — oricine are deja relații de încredere cu antreprenori și vede zilnic
+  problemele pe care BiziX le poate rezolva.
 
-- **Eficiență și Transparență prin Blockchain:** Întregul proces de
-  comisionare este gestionat de un contract inteligent. Plățile sunt
-  calculate și executate automat și instantaneu în momentul în care un
-  client plătește abonamentul. Acest lucru elimină birocrația,
-  întârzierile și disputele, asigurând o experiență corectă și motivantă
-  pentru partenerii noștri.
+- **Cum funcționează:** Ambasadorii recomandă soluții BiziX clienților
+  sau contactelor lor. Pentru fiecare client care se abonează, primesc
+  comisioane recurente, atât timp cât clientul rămâne activ.
+
+- **Transparență prin Blockchain:** Întregul proces de comisionare este
+  înregistrat on-chain. Ambasadorii pot verifica oricând exact câți bani
+  au câștigat, din ce tranzacții, și când au fost plătiți. Nu promisiuni
+  — dovezi matematice.
 
 ### 4. Guvernanță și Stimulente: Alinierea Intereselor Comunității
 
@@ -511,7 +602,7 @@ un proces decizional corect și eficient:
 - **Participare Deschisă și Inclusivă:** Orice membru al comunității
   care deține jetoane BIZ are dreptul de a participa. Fie că este vorba
   de un dezvoltator care propune o nouă funcționalitate, o afacere care
-  solicită o integrare sau un francizat care sugerează o îmbunătățire a
+  solicită o integrare sau un ambasador care sugerează o îmbunătățire a
   programului, toate vocile pot fi auzite și luate în considerare.
 
 - **Meritocrație și Aliniere:** Puterea de vot este direct proporțională
@@ -698,12 +789,11 @@ specifice și deblochează noi oportunități.
 ### Un Caz de Utilizare Special: Construirea unei Afaceri pe Fundația BiziX
 
 Pe lângă transformarea industriilor existente, BiziX oferă un cadru
-pentru crearea de noi afaceri. Programul de Franciză Virtuală este cel
-mai bun exemplu, permițând antreprenorilor aspiranți să-și lanseze
-propria afacere de revânzare SaaS cu o investiție minimă. Aceștia
-folosesc platforma BiziX nu doar ca produs, ci și ca motor pentru
-propria lor creștere, beneficiind de comisioane recurente, plătite
-instantaneu și garantat prin contracte inteligente.
+pentru crearea de noi oportunități. Programul de Ambasadori este cel
+mai bun exemplu — contabili, consultanți și mentori pot recomanda BiziX
+clienților lor existenți și pot primi comisioane recurente pentru
+valoarea pe care o aduc în ecosistem. Nu vinzi, recomanzi. Nu construiești
+o afacere de la zero, valorifici relațiile pe care le ai deja.
 
 Aceste exemple reprezintă doar o fracțiune din potențialul platformei
 BiziX. Ele demonstrează un principiu fundamental: BiziX nu este o
@@ -738,7 +828,7 @@ platformei și a comunității:
 
 2. **Dezvoltarea Uneltelor pentru Creatori:** Am pus la dispoziția dezvoltatorilor primele versiuni de API-uri și SDK-uri, împreună cu o documentație solidă, permițându-le să înceapă să construiască pe platforma noastră.
 
-3. **Inițierea Ecosistemului:** Am lansat BiziX Marketplace și Programul de Franciză Virtuală, plantând semințele pentru viitoarea creștere condusă de comunitate.
+3. **Inițierea Ecosistemului:** Am lansat BiziX Marketplace și Programul de Ambasadori, plantând semințele pentru viitoarea creștere condusă de comunitate.
 
 ### Faza 2: Conectivitate și Interoperabilitate (Extinderea Granițelor)
 
@@ -764,7 +854,7 @@ nou nivel de valoare și colaborare:
 Cu o platformă matură și conectată, ne vom concentra pe scalarea
 inteligentă:
 
-1. **Creștere Globală prin Comunitate:** Vom accelera expansiunea internațională prin Programul de Franciză Virtuală, împuternicind antreprenori locali să construiască ecosisteme BiziX puternice pe piețele lor.
+1. **Creștere Globală prin Comunitate:** Vom accelera expansiunea internațională prin Programul de Ambasadori, împuternicind profesioniști locali să recomande BiziX în comunitățile lor de business.
 
 2. **Soluții Verticale de Nișă:** Vom colabora cu dezvoltatori și experți din industrie pentru a crea soluții pre-configurate pentru sectoare specifice (ex: sănătate, producție, juridic), abordând nevoile lor operaționale și de reglementare unice.
 
@@ -973,7 +1063,7 @@ patru roluri esențiale:
   pentru furnizori.
 
 - **Motorul de Stimulente Automatizate:** Plățile de comisioane către
-  dezvoltatori și francizați sunt executate instantaneu și automat prin
+  dezvoltatori și ambasadori sunt executate instantaneu și automat prin
   contracte inteligente. Deoarece 1 BIZ = 1 RON, colaboratorii primesc
   exact valoarea reală pe care au câștigat-o, în momentul tranzacției,
   fără întârzieri sau riscuri.
@@ -1043,110 +1133,109 @@ un mediu predictibil, transparent și eficient. BIZ nu este un activ
 speculativ; este lubrifiantul care asigură funcționarea fluidă, rapidă
 și corectă a întregului ecosistem BiziX.
 
-## Capitolul 11: Programul de Parteneriat BiziX: Motorul Nostru de Creștere Globală {#capitolul-11}
+<a id="capitolul-11"></a>
+## Capitolul 11: Programul de Ambasadori BiziX
 
-Pentru a scala la nivel global, o companie poate angaja o armată de
-agenți de vânzări sau poate alege o cale mai inteligentă, aliniată cu
-etosul descentralizării: să împartă succesul cu propria comunitate.
-BiziX a ales a doua cale. Programul nostru de Parteneriat este motorul
-nostru strategic de expansiune, o oportunitate unică pentru antreprenori
-de a construi o afacere profitabilă pe fundația solidă a platformei
-noastre.
+### Cine Sunt Ambasadorii?
 
-**Acest program nu este un simplu sistem de afiliere. Este un model de
-business la cheie, conceput pentru a oferi partenerilor noștri toate
-uneltele, stimulentele și transparența necesare pentru a prospera.**
+Ambasadorii BiziX nu sunt vânzători. Nu sunt agenți comerciali. Nu sunt "reselleri".
 
-### 1. Ce Înseamnă să fii un Partener de Creștere BiziX?
+Sunt **contabili** care își cunosc clienții de ani de zile și le văd problemele de zi cu zi. Sunt **consultanți** care știu exact unde se blochează antreprenorii. Sunt **mentori** din acceleratoare și comunități de business. Sunt **avocați**, **notari**, **brokeri** — oameni care deja au relații de încredere cu antreprenori și care văd constant nevoi pe care nu le pot rezolva singuri.
 
-Un Partener de Creștere este mai mult decât un revânzător; este un
-consultant de încredere pentru afacerile din rețeaua sa, un ambasador al
-brandului BiziX și un antreprenor în adevăratul sens al cuvântului.
-Oferim un cadru de parteneriat cu beneficii clare și puternice:
+Până acum, când un contabil vedea că un client pierde clienți pentru că nu are site, nu putea face mare lucru. Poate îi dădea un sfat vag. Poate îi recomanda pe cineva. Dar nu avea o soluție concretă, verificată, pe care să o ofere cu încredere.
 
-- **Zero Bariere de Intrare:** Nu există taxe de franciză sau costuri
-  ascunse. Ne dorim să eliminăm orice obstacol din calea talentului
-  antreprenorial.
+**Cu BiziX, asta se schimbă.**
 
-- **Venit Recurent pe Viață:** Construiți un flux de venit predictibil
-  și pe termen lung. Câștigați comisioane lunare pentru fiecare client
-  recomandat, atâta timp cât acesta rămâne abonat.
+Ambasadorul poate spune: *"Uite, există chestia asta. Am verificat-o, funcționează, te ajută cu exact problema ta. Dacă vrei, îți fac legătura."* Clientul are încredere pentru că recomandarea vine de la omul care îi știe afacerea. Ambasadorul primește comision recurent. Clientul primește soluție. Toată lumea câștigă.
 
-- **Un Arsenal Complet de Resurse:** Oferim suport total, de la
-  traininguri complete și materiale de marketing personalizabile, până
-  la o vitrină digitală proprie și acces direct la echipa BiziX.
+---
 
-- **Autonomie și Flexibilitate:** Lucrați în propriul ritm, de oriunde.
-  Sunteți propriul șef, dar nu sunteți niciodată singur.
+### Povestea lui Andrei: Un Exemplu Concret
 
-### 2. Mecanismul de Comisionare: Transparent și Garantat de Blockchain
+Andrei e contabil. Are 40 de clienți mici — frizerii, cafenele, ateliere de reparații, instalatori. Îi cunoaște de ani de zile, le face contabilitatea, le știe problemele.
 
-Am eliminat complet incertitudinea și întârzierile specifice programelor
-tradiționale. Structura noastră de comisioane este transparentă, corectă
-și executată instantaneu de un contract inteligent.
+Știe că jumătate dintre ei n-au site. Pierd clienți pentru că nu-s vizibili online. Știe că alții pierd programări pentru că totul e pe telefon și WhatsApp. Știe că unii au nevoie de un CRM simplu, dar n-au idee de unde să înceapă.
 
-Structura pe Niveluri: Recompensăm performanța și angajamentul. Cu cât
-portofoliul dumneavoastră de clienți activi crește, cu atât crește și
-procentul de comision.
+Până acum, Andrei nu putea face nimic cu aceste observații. Nu e în domeniul lui. Nu are timp să compare soluții pentru fiecare.
 
-![Structura Comisioane](imagini/media/image7.png)
+**Cu BiziX**, Andrei devine Ambasador. Când clientul lui de la frizerie se plânge că pierde clienți, Andrei îi spune: *"Am ceva pentru tine. BiziX are un pachet de programări online — se instalează în 5 minute, costă 50 de lei pe lună, și clienții tăi pot rezerva direct de pe telefon."*
 
-| Nivel de Parteneriat | Abonamente Active Recomandate | Comision Recurent pe Viață |
-|----------------------|-------------------------------|---------------------------|
-| Partener | 1 - 10 | 20% |
-| Partener Pro | 11 - 50 | 25% |
-| Partener Elite | 51+ | 30% |
+Clientul are încredere — e contabilul lui de 8 ani. Face contul, activează pachetul.
 
-**Exemplu Practic:**
-Imaginați-vă că aveți 12 clienți activi, cu o valoare medie a
-abonamentului de 200 BIZ/lună. În momentul în care plățile clienților
-sunt procesate, contractul inteligent calculează și transferă automat
-comisionul în portofelul dumneavoastră:
+Andrei primește 20% din acel abonament, în fiecare lună, automat, atât timp cât clientul rămâne activ. După 6 luni, Andrei are 15 clienți pe BiziX. Câștigă 150-200 de lei lunar în plus, fără să fi "vândut" nimic — doar a recomandat soluții la probleme pe care le vedea oricum.
 
-- Pentru primii 10 clienți (Nivel Partener): 10 clienți × 200 BIZ × 20%
-  = 400 BIZ
+---
 
-- Pentru următorii 2 clienți (Nivel Partener Pro): 2 clienți × 200 BIZ ×
-  25% = 100 BIZ
+### 1. Ce Primești ca Ambasador?
 
-- Venit Lunar Total Recurent: 500 BIZ (echivalentul a 500 RON)
+- **Înregistrare Instant, Fără Aprobare:** Te înscrii în 2 minute pe ambasador.bizix.ro. Nu există interviuri, nu există "aprobare". Dacă vrei să recomanzi BiziX, poți începe imediat.
 
-Acest venit este generat automat în fiecare lună. Când adăugați al
-51-lea client, comisionul pentru acel abonament (și pentru toate cele
-ulterioare) va fi calculat la rata de 30%, accelerându-vă exponențial
-câștigurile.
+- **Comision Recurent pe Viață:** Câștigi un procent din abonamentul fiecărui client pe care îl recomanzi, în fiecare lună, atât timp cât rămâne activ.
 
-### 3. Avantajul BiziX: De ce Modelul Nostru Este Superior
+- **Pagină Personalizabilă:** Primești propria ta pagină de prezentare (de ex: ambasador.bizix.ro/andrei-contabil) pe care o poți trimite clienților.
 
-Diferența fundamentală stă în tehnologia care îl susține. Spre deosebire
-de programele de afiliere tradiționale, care se bazează pe sisteme opace
-și plăți întârziate, modelul BiziX oferă:
+- **Dashboard Transparent:** Vezi în timp real câți clienți ai recomandat, ce abonamente au, cât ai câștigat, când vine următoarea plată.
 
-- **Plăți Instantanee, Nu Lunare:** Primiți comisionul în jetoane BIZ în
-  secunda în care plata clientului este confirmată. Nu mai trebuie să
-  așteptați 30 sau 60 de zile pentru a vă primi banii.
+- **Materiale de Suport:** Acces la prezentări, ghiduri, răspunsuri la întrebări frecvente — tot ce ai nevoie ca să explici BiziX în 2 minute.
 
-- **Transparență Absolută, Nu "Cutii Negre":** Toate calculele și
-  tranzacțiile sunt înregistrate pe blockchain și pot fi verificate
-  public. Aveți certitudinea matematică a faptului că sunteți plătit
-  corect, de fiecare dată.
+### 2. Cum Funcționează Comisioanele?
 
-- **Reguli Garantate de Cod, Nu de Politici Schimbătoare:** Logica de
-  comisionare este înscrisă într-un contract inteligent imutabil.
-  Regulile nu pot fi schimbate retroactiv sau interpretate în mod
-  arbitrar.
+Structura e simplă și transparentă. Cu cât ai mai mulți clienți activi, cu atât crește procentul tău:
 
-### Alăturați-vă Revoluției Antreprenoriale
 
-Programul de Parteneriat BiziX este mai mult decât o oportunitate de
-venit; este o invitație de a deveni un arhitect al expansiunii noastre
-și de a construi o afacere de viitor pe o fundație de încredere și
-inovație. Vă oferim tehnologia, suportul și un model economic superior.
-Dumneavoastră aduceți ambiția.
+| Nivel | Clienți Activi | Comision |
+|-------|----------------|----------|
+| Ambasador | 1 - 10 | 20% |
+| Ambasador Pro | 11 - 50 | 25% |
+| Ambasador Elite | 51+ | 30% |
 
-**Deblocați-vă potențialul antreprenorial și alăturați-vă nouă astăzi.**
+**Exemplu concret:**
 
-## Capitolul 12: Concluzia: Un Nou Sistem de Operare pentru Economia Încrederii {#capitolul-12}
+Ai 12 clienți activi, abonament mediu 200 BIZ/lună (echivalent 200 RON):
+- Primii 10 clienți × 200 BIZ × 20% = 400 BIZ
+- Următorii 2 clienți × 200 BIZ × 25% = 100 BIZ
+- **Total lunar: 500 BIZ = 500 RON**
+
+Acest venit vine automat, în fiecare lună. Nu trebuie să faci nimic — doar să fi făcut recomandarea inițială.
+
+### 3. De Ce Blockchain? Ce Înseamnă Pentru Tine
+
+Aici e diferența fundamentală față de orice alt program de afiliere:
+
+**Comisioanele tale sunt înregistrate on-chain.**
+
+Nu depinzi de rapoarte generate de noi. Nu trebuie să ne crezi pe cuvânt. Poți verifica oricând, direct pe explorer.bizix.ro, exact câți bani ai câștigat, din ce tranzacții, și când au fost plătiți.
+
+**Ce înseamnă asta practic:**
+
+- **Plăți instantanee:** Primești comisionul în secunda în care clientul plătește. Nu aștepți 30-60 de zile.
+- **Transparență totală:** Toate calculele sunt publice și verificabile. Dacă ceva nu se potrivește, poți demonstra matematic.
+- **Reguli imutabile:** Procentele de comision sunt înscrise într-un contract inteligent. Nu pot fi schimbate retroactiv, nu pot fi "interpretate" diferit.
+
+Asta e diferența: **nu promisiuni, ci dovezi matematice.**
+
+---
+
+### 4. Regulile Jocului
+
+Pentru a menține integritatea programului, avem câteva reguli simple:
+
+- **Fără auto-referral:** Nu poți recomanda propriile tale conturi sau ale familiei directe.
+- **Prag minim retragere:** 50 BIZ (pentru a evita costurile de tranzacție mici).
+- **Conturi dormante:** Dacă nu ai activitate 12 luni, contul de ambasador devine inactiv (dar se reactivează instant la prima recomandare nouă).
+
+---
+
+### Începe Acum
+
+Dacă ai relații cu antreprenori — ca contabil, consultant, mentor, sau pur și simplu ca prieten de încredere — poți deveni Ambasador BiziX astăzi.
+
+**Nu vinzi nimic. Recomanzi soluții la probleme pe care le vezi deja.**
+
+Înscrie-te pe **ambasador.bizix.ro** și primești link-ul tău personalizat în 2 minute.
+
+<a id="capitolul-12"></a>
+## Capitolul 12: Concluzia: Un Nou Sistem de Operare pentru Economia Încrederii
 
 Lumea digitală a promis eficiență, dar adesea a livrat fragmentare. A
 promis conectivitate, dar a creat silozuri de date. A promis viteză, dar
@@ -1276,12 +1365,20 @@ jetonului nu provine din fluctuațiile pieței, ci din **utilitatea** sa:
 capacitatea de a fi folosit ca un mijloc de plată instantaneu, sigur și
 eficient în cadrul unui ecosistem de business predictibil.
 
-**6. Cum pot deveni un Partener de Creștere BiziX?**
+**6. Cum pot deveni Ambasador BiziX?**
 
-Vă invităm să explorați pagina dedicată Programului de Parteneriat de pe
-site-ul nostru. Procesul de înscriere este simplificat, iar după
-aprobare veți avea acces la un proces de onboarding ghidat și la toate
-resursele de care aveți nevoie pentru a începe să construiți.
+Oricine poate deveni ambasador — nu există interviuri sau proces de
+aprobare. Te înscrii pe **ambasador.bizix.ro**, creezi contul în 2
+minute, și primești imediat link-ul tău personalizat de recomandare.
+
+Programul este deschis tuturor, cu câteva reguli simple: fără
+auto-referral (nu poți recomanda propriile conturi), prag minim de
+retragere de 50 BIZ, și conturile inactive mai mult de 12 luni devin
+dormante (dar se reactivează instant la prima recomandare nouă).
+
+Dacă ai relații cu antreprenori — ca contabil, consultant, mentor sau
+prieten — poți începe să recomanzi BiziX astăzi și să câștigi comisioane
+recurente.
 
 **7. Ce este programul „Bring-Your-Own-Server" (BYOS) și cum este
 securizat?**
