@@ -16,8 +16,7 @@
 - [Capitolul 12: Concluzia](#capitolul-12)
 - [Întrebări Frecvente (FAQ)](#faq)
 
-<a id="capitolul-1"></a>
-## Capitolul 1: Introducere – O Nouă Paradigmă pentru Business
+## Capitolul 1: Introducere – O Nouă Paradigmă pentru Business {#capitolul-1}
 
 Lumea modernă a afacerilor operează la o viteză fără precedent, impunând
 companiilor un nivel excepțional de agilitate, securitate și eficiență.
@@ -65,8 +64,7 @@ la lansare să atingem următorii indicatori: provisioning \<120 s/pachet,
 uptime \>99% pentru aplicațiile Tier‑1 și adoptare a stratului BiziX AI
 de minimum 30% dintre utilizatori.
 
-<a id="capitolul-2"></a>
-## Capitolul 2: Prezentare Generală a Platformei BiziX – Sistemul de Operare pentru Business-ul Modern
+## Capitolul 2: Prezentare Generală a Platformei BiziX – Sistemul de Operare pentru Business-ul Modern {#capitolul-2}
 
 BiziX nu este o simplă colecție de aplicații, ci sistemul de operare
 integrat, conceput pentru a servi drept coloană vertebrală digitală
@@ -184,8 +182,7 @@ Următorul capitol va explora în detaliu mecanismele prin care stratul
 blockchain devine fundamentul încrederii și eficienței în ecosistemul
 BiziX.
 
-<a id="capitolul-3"></a>
-## Capitolul 3: Arhitectura Încrederii: Cum revoluționează tehnologia blockchain platforma BiziX
+## Capitolul 3: Arhitectura Încrederii: Cum revoluționează tehnologia blockchain platforma BiziX {#capitolul-3}
 
 Lanțul BiziX este construit pe framework-ul Substrate, într-o
 configurație solo-chain scrisă în Rust, ceea ce ne permite să controlăm
@@ -313,8 +310,7 @@ stratul AI.
 
 ![AI Trust Layer](imagini/media/image3.png)
 
-<a id="capitolul-4"></a>
-## Capitolul 4: Ecosistemul BiziX – O Platformă Deschisă pentru Inovare Colaborativă
+## Capitolul 4: Ecosistemul BiziX – O Platformă Deschisă pentru Inovare Colaborativă {#capitolul-4}
 
 BiziX a fost proiectat de la bun început nu ca un produs închis, ci ca
 un ecosistem deschis și vibrant. Credem cu tărie că inovația accelerată
@@ -484,8 +480,7 @@ stimulat să contribuie la succesul colectiv. Astfel, BiziX nu este doar
 o platformă, ci un catalizator pentru inovare, proiectat să crească și
 să evolueze prin puterea comunității sale.
 
-<a id="capitolul-5"></a>
-## Capitolul 5: Principiile Guvernanței: Cum Evoluează BiziX prin Vocea Comunității
+## Capitolul 5: Principiile Guvernanței: Cum Evoluează BiziX prin Vocea Comunității {#capitolul-5}
 
 Pentru ca un ecosistem digital să prospere pe termen lung, trebuie să
 răspundă la o întrebare fundamentală: "Cine decide viitorul
@@ -567,8 +562,7 @@ corectitudinea și transparența, ci creăm un ecosistem mai inteligent,
 mai agil și mai rezistent. Acesta este fundamentul pe care vom construi
 succesul durabil al platformei BiziX.
 
-<a id="capitolul-6"></a>
-## Capitolul 6: BiziX în Acțiune: Transformarea Industriilor prin Tehnologie Aplicată
+## Capitolul 6: BiziX în Acțiune: Transformarea Industriilor prin Tehnologie Aplicată {#capitolul-6}
 
 Valoarea reală a unei platforme tehnologice nu stă în caracteristicile
 sale teoretice, ci în impactul său concret asupra afacerilor reale.
@@ -719,8 +713,7 @@ deschis permite adaptarea la nenumărate alte industrii. Pe măsură ce
 platforma și comunitatea noastră se dezvoltă, la fel se va întâmpla și
 cu numărul de sectoare pe care le vom transforma.
 
-<a id="capitolul-7"></a>
-## Capitolul 7: Foaia de Parcurs Strategică: De la Platformă la Inteligență Autonomă
+## Capitolul 7: Foaia de Parcurs Strategică: De la Platformă la Inteligență Autonomă {#capitolul-7}
 
 O viziune ambițioasă necesită o execuție disciplinată. Foaia noastră de
 parcurs nu este o simplă listă de funcționalități, ci o traiectorie
@@ -805,8 +798,7 @@ transparente sau lanțuri de aprovizionare globale și verificate.
 devină o componentă de bază a modului în care afacerile vor opera și
 interacționa în viitor.
 
-<a id="capitolul-8"></a>
-## Capitolul 8: BiziX AI – Partenerul Inteligent al Afacerii Tale
+## Capitolul 8: BiziX AI – Partenerul Inteligent al Afacerii Tale {#capitolul-8}
 
 În era digitală, datele sunt cel mai valoros activ al unei companii.
 Totuși, valoarea lor rămâne blocată dacă nu pot fi transformate în
@@ -877,8 +869,7 @@ Integrat în "Sistemul de Operare al Afacerii", AI-ul devine un
 partener de încredere care îți oferă claritate, eficiență și un avantaj
 strategic decisiv.
 
-<a id="capitolul-9"></a>
-## Capitolul 9: Arhitecții Viziunii: Echipa, Consilierii și Partenerii BiziX
+## Capitolul 9: Arhitecții Viziunii: Echipa, Consilierii și Partenerii BiziX {#capitolul-9}
 
 O viziune tehnologică ambițioasă, precum cea a BiziX, este direct
 dependentă de calitatea, experiența și sinergia celor care o transformă
@@ -956,8 +947,7 @@ a puterii de multiplicare a parteneriatelor strategice, BiziX este
 perfect poziționată pentru a-și îndeplini viziunea și pentru a asigura
 succesul pe termen lung al platformei.
 
-<a id="capitolul-10"></a>
-## Capitolul 10: Tokenomics – BIZ, Motorul unei Economii Predictibile
+## Capitolul 10: Tokenomics – BIZ, Motorul unei Economii Predictibile {#capitolul-10}
 
 Într-o industrie adesea definită de volatilitate, am luat o decizie
 fundamentală și non-negociabilă: să construim economia BiziX pe o
@@ -1053,8 +1043,7 @@ un mediu predictibil, transparent și eficient. BIZ nu este un activ
 speculativ; este lubrifiantul care asigură funcționarea fluidă, rapidă
 și corectă a întregului ecosistem BiziX.
 
-<a id="capitolul-11"></a>
-## Capitolul 11: Programul de Parteneriat BiziX: Motorul Nostru de Creștere Globală
+## Capitolul 11: Programul de Parteneriat BiziX: Motorul Nostru de Creștere Globală {#capitolul-11}
 
 Pentru a scala la nivel global, o companie poate angaja o armată de
 agenți de vânzări sau poate alege o cale mai inteligentă, aliniată cu
@@ -1157,8 +1146,7 @@ Dumneavoastră aduceți ambiția.
 
 **Deblocați-vă potențialul antreprenorial și alăturați-vă nouă astăzi.**
 
-<a id="capitolul-12"></a>
-## Capitolul 12: Concluzia: Un Nou Sistem de Operare pentru Economia Încrederii
+## Capitolul 12: Concluzia: Un Nou Sistem de Operare pentru Economia Încrederii {#capitolul-12}
 
 Lumea digitală a promis eficiență, dar adesea a livrat fragmentare. A
 promis conectivitate, dar a creat silozuri de date. A promis viteză, dar
@@ -1218,8 +1206,7 @@ Viitorul aparține celor care construiesc pe încredere.
 
 **Construiți-l cu BiziX!**
 
-<a id="faq"></a>
-## Întrebări Frecvente (FAQ)
+## Întrebări Frecvente (FAQ) {#faq}
 
 **1. Cum pot publica o aplicație în BiziX Marketplace?**
 
