@@ -222,8 +222,8 @@ tehnologiei blockchain. BiziX se distinge fundamental prin:
 |----------------|-------|------|----------------------------------|
 | Integrare Blockchain | Da (securitate, transparență, automatizare) | Nu | Nu |
 | Ecosistem deschis | Da (piață, API-uri, SDK-uri) | Limitat | Limitat |
-| Guvernanță democratică | Da (vot pe bază de jetoane) | Nu | Nu |
-| Utilitatea jetoanelor | Da (acces la servicii, guvernanță etc.) | Nu | Nu |
+| Guvernanță democratică | Da (vot pe bază de token-uri) | Nu | Nu |
+| Utilitatea token-urilor | Da (acces la servicii, guvernanță etc.) | Nu | Nu |
 | Scalabilitate | Ridicată, prin cloud privat scalabil cu verificare blockchain | Scalabilitate tradițională | Scalabilitate tradițională |
 | Personalizare | Ridicată, prin API-uri și SDK-uri | Personalizare standard | Personalizare standard |
 
@@ -466,7 +466,7 @@ proceselor.
   și Marketplace pentru Dezvoltatori sunt guvernate de contracte
   inteligente. Când un client plătește un abonament, contractul
   calculează și distribuie automat și instantaneu comisionul corect, în
-  jetoane BIZ, către ambasador sau dezvoltator. Procesul este
+  token-uri BIZ, către ambasador sau dezvoltator. Procesul este
   transparent și elimină complet disputele.
 
 - **Servicii Escrow Automatizate:** Pentru proiecte sau tranzacții
@@ -482,11 +482,11 @@ proceselor.
 
 ### 3. Tokenizarea: Motorul Economic al Ecosistemului
 
-Jetonul BIZ este elementul vital care alimentează economia platformei.
+Tokenul BIZ este elementul vital care alimentează economia platformei.
 Utilitatea sa este impusă și garantată de logica blockchain, asigurând
 roluri specifice și verificabile:
 
-- **Guvernanță Descentralizată și Transparentă:** Fiecare jeton BIZ
+- **Guvernanță Descentralizată și Transparentă:** Fiecare token BIZ
   conferă putere de vot. Propunerile de dezvoltare a platformei sunt
   supuse la vot printr-un contract inteligent, care numără voturile în
   mod transparent și incoruptibil.
@@ -499,8 +499,8 @@ roluri specifice și verificabile:
 
 - **Controlul Accesului Bazat pe Utilitate:** Accesul la funcționalități
   premium sau API-uri avansate poate fi condiționat de deținerea unei
-  anumite cantități de jetoane BIZ. Platforma verifică on-chain și în
-  timp real deținerea jetoanelor pentru a acorda acces, creând un sistem
+  anumite cantități de token-uri BIZ. Platforma verifică on-chain și în
+  timp real deținerea token-urilor pentru a acorda acces, creând un sistem
   de privilegii automatizat și transparent.
 
 ### 4. AI Trust Layer: Vârful de Lance al Inovației BiziX
@@ -796,17 +796,17 @@ antreprenori.
 
 Un ecosistem prosperă atunci când toți participanții au un cuvânt de
 spus și sunt recompensați pentru contribuțiile lor. BiziX integrează
-mecanisme de guvernanță descentralizată și stimulente bazate pe jetoane
+mecanisme de guvernanță descentralizată și stimulente bazate pe token-uri
 pentru a asigura acest aliniament.
 
 - **Dezvoltare Orientată de Comunitate:** Prin intermediul modelului de
-  guvernanță (detaliat în capitolul următor), deținătorii de jetoane pot
+  guvernanță (detaliat în capitolul următor), deținătorii de token-uri pot
   propune și vota îmbunătățiri ale platformei, asigurându-se că evoluția
   acesteia reflectă nevoile reale ale utilizatorilor.
 
-- **Recompensarea Contribuțiilor de Valoare:** Utilizăm jetonul BIZ
+- **Recompensarea Contribuțiilor de Valoare:** Utilizăm tokenul BIZ
   pentru a recompensa membrii activi ai comunității. Dezvoltatorii,
-  partenerii și chiar utilizatorii pot câștiga jetoane pentru crearea de
+  partenerii și chiar utilizatorii pot câștiga token-uri pentru crearea de
   aplicații valoroase, raportarea de vulnerabilități (prin programul Bug
   Bounty) sau contribuția la baza de cunoștințe.
 
@@ -832,7 +832,7 @@ principal, în timp ce folosește puterea distribuită a comunității pentru
 scalabilitate și reziliență.
 
 - **Pentru Operatori:** Reprezintă o cale directă de a monetiza
-  resursele hardware nefolosite, primind recompense lunare în jetoane
+  resursele hardware nefolosite, primind recompense lunare în token-uri
   BIZ, calculate algoritmic pe baza resurselor oferite și a uptime-ului.
 
 - **Pentru BiziX:** Asigură o scalabilitate elastică și eficientă din
@@ -842,6 +842,9 @@ scalabilitate și reziliență.
 Acest program este expresia supremă a parteneriatului: comunitatea nu
 doar folosește și dezvoltă platforma, ci devine însăși fundația sa
 hardware.
+
+**Securitate Zero-Trust:**
+Arhitectura BYOS este construită pe principiul "Zero-Trust". Sistemul nu are niciodată încredere implicită în hardware-ul comunității. Datele sunt criptate end-to-end, iar cheile de decriptare sunt păstrate exclusiv în memoria volatilă (RAM) pe durata execuției, nefiind niciodată scrise pe disk-ul operatorului. Astfel, confidențialitatea datelor este garantată matematic, chiar și în cazul compromiterii fizice a serverului.
 
 ### 10. Programul de Validatori
 
@@ -930,13 +933,13 @@ un proces decizional corect și eficient:
   sau decizii luate în spatele ușilor închise.
 
 - **Participare Deschisă și Inclusivă:** Orice membru al comunității
-  care deține jetoane BIZ are dreptul de a participa. Fie că este vorba
+  care deține token-uri BIZ are dreptul de a participa. Fie că este vorba
   de un dezvoltator care propune o nouă funcționalitate, o afacere care
   solicită o integrare sau un ambasador care sugerează o îmbunătățire a
   programului, toate vocile pot fi auzite și luate în considerare.
 
 - **Meritocrație și Aliniere:** Puterea de vot este direct proporțională
-  cu deținerea de jetoane BIZ. Acest principiu asigură că deciziile sunt
+  cu deținerea de token-uri BIZ. Acest principiu asigură că deciziile sunt
   influențate de cei care au cel mai mare interes în succesul pe termen
   lung al ecosistemului. Astfel, interesele platformei și ale celor mai
   implicați membri ai săi sunt perfect aliniate.
@@ -1304,6 +1307,8 @@ Ce înseamnă asta pentru tine:
 
 Aceasta este diferența fundamentală față de viziunea "AI autonom" promovată de alții. Noi credem că tehnologia trebuie să servească omul, nu să-l înlocuiască.
 
+Modelul Human-in-the-Loop nu este doar o preferință operațională, ci o necesitate de conformitate și siguranță juridică. Deoarece inteligența artificială nu poate fi subiect de drept sau răspundere legală, validarea umană transformă sugestia probabilistică a AI-ului într-o decizie de business asumată contractual.
+
 **Cum funcționează în practică:**
 
 | Etapă | Ce face AI-ul | Ce faci tu |
@@ -1647,6 +1652,8 @@ Din fiecare plată efectuată în BIZ pe platformă:
 
 Exemplu: Plată abonament 100 BIZ → 80 BIZ către BiziX, 20 BIZ arși
 
+> **Notă privind plățile Fiat:** Pentru abonamentele plătite în monedă fiat (RON/EUR), protocolul direcționează procentul echivalent către mecanismul de Buyback-and-Burn sau către Trezoreria DAO (pentru buyback periodic), asigurând că fiecare client plătitor contribuie la reducerea ofertei de BIZ, indiferent de metoda de plată aleasă.
+
 > **Clarificare tehnică:** BIZ-ul ars este trimis la o adresă de burn verificabilă on-chain (`0x000...000dead`), din care nu poate fi recuperat niciodată. Oricine poate verifica totalul ars pe explorer.bizix.ro/burn.
 
 **B. Staking Lock-up**
@@ -1751,33 +1758,32 @@ Token-ul BIZ este emis în conformitate cu legislația din România și Uniunea 
 <a id="capitolul-11"></a>
 ## Capitolul 11: Programul de Ambasadori BiziX
 
-### Cine Sunt Ambasadorii?
+### Profilul Ambasadorului
 
-Ambasadorii BiziX nu sunt vânzători. Nu sunt agenți comerciali. Nu sunt "reselleri".
+Ambasadorii BiziX sunt parteneri strategici care facilitează transformarea digitală a clienților lor. Aceștia nu acționează ca agenți de vânzări tradiționali, ci ca consultanți de încredere care identifică nevoi reale și oferă soluții verificate.
 
-Sunt **contabili** care își cunosc clienții de ani de zile și le văd problemele de zi cu zi. Sunt **consultanți** care știu exact unde se blochează antreprenorii. Sunt **mentori** din acceleratoare și comunități de business. Sunt **avocați**, **notari**, **brokeri** — oameni care deja au relații de încredere cu antreprenori și care văd constant nevoi pe care nu le pot rezolva singuri.
+Categoriile principale de Ambasadori includ:
+- **Experți Contabili și Financiari:** Care observă direct ineficiențele operaționale ale clienților.
+- **Consultanți de Business:** Care ghidează strategia de digitalizare.
+- **Mentori și Comunități:** Care sprijină startup-urile la început de drum.
+- **Profesioniști Juridici:** Care înțeleg nevoia de conformitate și organizare.
 
-Până acum, când un contabil vedea că un client pierde clienți pentru că nu are site, nu putea face mare lucru. Poate îi dădea un sfat vag. Poate îi recomanda pe cineva. Dar nu avea o soluție concretă, verificată, pe care să o ofere cu încredere.
-
-**Cu BiziX, asta se schimbă.**
-
-Ambasadorul poate spune: *"Uite, există chestia asta. Am verificat-o, funcționează, te ajută cu exact problema ta. Dacă vrei, îți fac legătura."* Clientul are încredere pentru că recomandarea vine de la omul care îi știe afacerea. Ambasadorul primește comision recurent. Clientul primește soluție. Toată lumea câștigă.
+Prin BiziX, acești profesioniști pot trece de la o simplă recomandare informală la o soluție concretă ("turnkey"), fiind recompensați transparent pentru valoarea adăugată ecosistemului.
 
 ---
 
-### Povestea lui Andrei: Un Exemplu Concret
+### Studiu de Caz: Profilul Contabilului Digital
 
-Andrei e contabil. Are 40 de clienți mici — frizerii, cafenele, ateliere de reparații, instalatori. Îi cunoaște de ani de zile, le face contabilitatea, le știe problemele.
+**Context:**
+Un expert contabil gestionează un portofoliu de 40 de IMM-uri (servicii, comerț, producție mică). Deși are o vizibilitate excelentă asupra problemelor clienților (lipsă digitalizare, haos în documente, pierderi de oportunități), capacitatea sa de intervenție a fost istoric limitată la consultanță fiscală.
 
-Știe că jumătate dintre ei n-au site. Pierd clienți pentru că nu-s vizibili online. Știe că alții pierd programări pentru că totul e pe telefon și WhatsApp. Știe că unii au nevoie de un CRM simplu, dar n-au idee de unde să înceapă.
+**Soluția BiziX:**
+Înrolându-se ca Ambasador, contabilul poate oferi clienților săi acces la un pachet digital complet (Facturare + CRM + Arhivare Digitală).
 
-Până acum, Andrei nu putea face nimic cu aceste observații. Nu e în domeniul lui. Nu are timp să compare soluții pentru fiecare.
-
-**Cu BiziX**, Andrei devine Ambasador. Când clientul lui de la frizerie se plânge că pierde clienți, Andrei îi spune: *"Am ceva pentru tine. BiziX are un pachet de programări online — se instalează în 5 minute, costă 50 de lei pe lună, și clienții tăi pot rezerva direct de pe telefon."*
-
-Clientul are încredere — e contabilul lui de 8 ani. Face contul, activează pachetul.
-
-Andrei primește 20% din acel abonament, în fiecare lună, automat, atât timp cât clientul rămâne activ. După 6 luni, Andrei are 15 clienți pe BiziX. Câștigă 150-200 de lei lunar în plus, fără să fi "vândut" nimic — doar a recomandat soluții la probleme pe care le vedea oricum.
+**Rezultatul:**
+- **Pentru Client:** Rezolvă problema digitalizării rapid, pe baza unei recomandări de încredere.
+- **Pentru Contabil:** Generează un flux de venit pasiv recurent (Revenue Share), transparentizat prin blockchain, fără a presta muncă suplimentară de implementare tehnică.
+- **Impact:** Creșterea retenției clienților prin oferirea de valoare adăugată dincolo de contabilitatea tradițională.
 
 ---
 
@@ -2045,11 +2051,11 @@ care vă ajută să ajungeți la piață eficient. Pașii sunt următorii:
 
 3. **Publicare și Monetizare:** După un proces de revizuire, vă puteți crea o prezentare de impact în marketplace. Dumneavoastră stabiliți modelul de preț (abonament, achiziție unică etc.), iar noi gestionăm procesarea sigură a plăților, astfel încât să vă puteți concentra pe inovație.
 
-**2. Concret, cum pot câștiga jetoane BIZ ca dezvoltator sau membru al
+**2. Concret, cum pot câștiga token-uri BIZ ca dezvoltator sau membru al
 comunității?**
 
 Credem în recompensarea contribuțiilor de valoare. Puteți câștiga
-jetoane BIZ în principal prin două căi:
+token-uri BIZ în principal prin două căi:
 
 - **Prin Creație și Inovație:** Dezvoltând aplicații și servicii
   valoroase pentru marketplace, sau creând conținut educațional de
@@ -2068,7 +2074,7 @@ de structurare, acesta se va baza pe principii clare:
 - **Obiectiv:** Identificarea și remedierea proactivă a oricăror
   vulnerabilități, cu ajutorul inteligenței colective a comunității.
 
-- **Recompense:** Jetoanele BIZ vor fi acordate pe un sistem de
+- **Recompense:** Token-urile BIZ vor fi acordate pe un sistem de
   niveluri, în funcție de gravitatea și impactul vulnerabilității
   raportate.
 
@@ -2092,7 +2098,7 @@ viteză și încredere:
   imutabil, fără a expune datele sensibile pe lanț. Astfel, beneficiați
   de ce este mai bun din ambele lumi.
 
-**5. Este jetonul BIZ o investiție? Ce îi determină valoarea?**
+**5. Este tokenul BIZ o investiție? Ce îi determină valoarea?**
 
 Nu. BIZ este un **token utilitar**, nu un activ de investiție sau un stablecoin.
 
@@ -2156,7 +2162,7 @@ multiple straturi:
   chiar dacă un nod dispare complet.
 
 - **Staking Obligatoriu:** Operatorii trebuie să blocheze (stake) o sumă
-  de jetoane BIZ ca o garanție. Comportamentul neadecvat sau uptime-ul
+  de token-uri BIZ ca o garanție. Comportamentul neadecvat sau uptime-ul
   redus pot duce la penalizări (slashing) din acest depozit, aliniind
   interesele financiare cu performanța.
 
