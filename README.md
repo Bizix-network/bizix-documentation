@@ -61,6 +61,13 @@ BiziX implementează 5 mecanisme pentru a descuraja speculația și a încuraja 
 
 ---
 
+### Cum Funcționează BiziX — Vedere de Ansamblu
+
+![Overview BiziX](imagini/media/diagram-overview.png)
+*Diagrama 1: Fluxul principal — de la problemă la soluție*
+
+---
+
 ### Credința Noastră Fundamentală
 
 > **Credem că orice antreprenor merită acces la unelte digitale simple, fără să fie nevoit să fie programator sau să aibă buget de corporație. Și credem că oamenii care îi cunosc pe acești antreprenori sunt cei mai buni să-i ghideze către soluții.**
@@ -184,7 +191,8 @@ Folosim tehnologia blockchain nu pentru a stoca date, ci ca un **Notar Digital I
 
 Acest model pe 4 piloni asigură că BiziX este suficient de rapid și scalabil pentru operațiuni complexe, dar și fundamental securizat de un strat de încredere verificabil matematic.
 
-![Arhitectura BiziX](imagini/media/image2.png)
+![Arhitectura BiziX - Cei 4 Piloni](imagini/media/diagram-arhitectura-4-piloni.png)
+*Diagrama 2: Arhitectura pe 4 piloni — de la aplicații la blockchain*
 
 ### Diferențiatorul BiziX: De ce Depășim SaaS-ul Tradițional
 
@@ -240,6 +248,9 @@ Fiecare participant în ecosistemul BiziX are propria "casă" — un spațiu ded
 | **wallet.bizix.ro** | Utilizatori BIZ | Portofel — sold, istoric tranzacții, conversie RON ↔ BIZ |
 
 Această separare nu este doar organizatorică — fiecare interfață este construită specific pentru contextul utilizatorului. Un ambasador nu trebuie să navigheze prin setări tehnice; un dezvoltator nu trebuie să vadă informații despre comisioane de recomandare.
+
+![Casele Platformei BiziX](imagini/media/diagram-case-platforma.png)
+*Diagrama 3: Fiecare participant are propria "casă" în ecosistem*
 
 Următorul capitol va explora în detaliu mecanismele prin care stratul
 blockchain devine fundamentul încrederii și eficienței în ecosistemul
@@ -303,6 +314,9 @@ Aceasta este garanția supremă de integritate — ceea ce numim modelul **"Glas
 - **Audit în timp real** — Oricine poate vedea orice tranzacție, oricând
 
 Aceasta este diferența fundamentală față de orice platformă SaaS tradițională: **nu promisiuni, ci dovezi matematice.**
+
+![Procesul de Notarizare Blockchain](imagini/media/diagram-notarizare.png)
+*Diagrama 4: Cum funcționează notarizarea — de la document la dovadă imutabilă*
 
 ### 5. BiziX Chain — Arhitectura Descentralizată
 
@@ -377,6 +391,9 @@ Indiferent de faza de descentralizare, oferim:
 | Control upgrade-uri | Dependent de L1 | Guvernat de comunitate |
 
 BiziX Chain este optimizat specific pentru date de business confidențiale, cu ancorare pe chain-uri publice pentru verificabilitate externă.
+
+![Descentralizare Progresivă](imagini/media/diagram-descentralizare-faze.png)
+*Diagrama 5: Cele 3 faze ale descentralizării — de la Genesis la autonomie completă*
 
 ### 6. Specificații Tehnice BiziX Chain
 
@@ -513,7 +530,8 @@ timestamp). Prin rotația periodică a cheilor JWT (automatizată și
 documentată în runbook-uri), eliminăm riscul de acces neautorizat la
 stratul AI.
 
-![AI Trust Layer](imagini/media/image3.png)
+![AI Trust Layer](imagini/media/diagram-ai-trust-layer.png)
+*Diagrama 6: AI Trust Layer — cum devine AI-ul auditabil prin blockchain*
 
 ## Capitolul 4: Ecosistemul BiziX – De la "One-Click" la Libertate pentru Developeri {#capitolul-4}
 
@@ -545,7 +563,8 @@ BiziX funcționează pentru că reunește patru tipuri de participanți, fiecare
 
 Aceasta nu este doar o structură de business — este un cerc virtuos în care fiecare participant are motive reale să contribuie la succesul celorlalți.
 
-![Ecosistemul BiziX](imagini/media/image4.png)
+![Ecosistemul BiziX - Cele 4 Triburi](imagini/media/diagram-4-triburi.png)
+*Diagrama 7: Cele 4 triburi și cum generează valoare reciprocă*
 
 ### 1. Un Mediu Deschis pentru Dezvoltatori: Motorul Inovației
 
@@ -683,6 +702,9 @@ Această abordare elimină frica de **"Vendor Lock-in"** — nu ești captiv în
 | Total Cost Ownership (estimat) | €50-200/lună | €100-500/lună* |
 
 *Variază în funcție de infrastructura aleasă și salariile echipei IT
+
+![Opțiuni de Deployment](imagini/media/diagram-deployment-options.png)
+*Diagrama 8: Fully Managed vs. Self-Hosted — alege ce ți se potrivește*
 
 ### 5. Interoperabilitate și Evitarea Vendor Lock-in
 
@@ -863,7 +885,8 @@ utilizatorilor săi, rămânând relevant, rezilient și demn de încredere.
 Acest sistem este construit pe principii clare și procese transparente,
 garantate de tehnologia blockchain.
 
-![Guvernanța BiziX](imagini/media/image5.png)
+![Procesul de Guvernanță BiziX](imagini/media/diagram-guvernanta-proces.png)
+*Diagrama 9: De la idee la implementare — cele 4 faze ale unei propuneri*
 
 ### 1. Principiile Fundamentale ale Guvernanței BiziX
 
@@ -982,6 +1005,9 @@ Valoarea BiziX nu stă în aplicații individuale, ci în **fluxurile de lucru i
 | **5. Rezultat** | Factura e înregistrată în contabilitate. Zero introducere manuală de date. | Done |
 
 **Timp economisit:** 5 minute per factură → 5 secunde per factură
+
+![Flux Contabilitate Asistată](imagini/media/diagram-flux-contabilitate.png)
+*Diagrama 10: Fluxul complet — de la poză cu factura la înregistrare contabilă*
 
 ---
 
@@ -1164,7 +1190,8 @@ platforma operațională de astăzi în sistemul de operare inteligent și
 autonom pentru afacerile de mâine. Fiecare fază reprezintă un stadiu de
 maturitate, având obiective clare care ne propulsează spre scopul final.
 
-![Foaia de Parcurs](imagini/media/image6.png)
+![Foaia de Parcurs BiziX](imagini/media/diagram-roadmap-timeline.png)
+*Diagrama 11: Timeline 2025-2027 — de la fundație la maturitate*
 
 ### 2025 — Fundația
 
@@ -1255,6 +1282,9 @@ Aceasta este diferența fundamentală față de viziunea "AI autonom" promovată
 | **Confirmă** | — | Revizuiești, corectezi dacă e cazul, dai "Bun de tipar" |
 
 **Rezultatul:** Viteza automatizării (de 10x mai rapid), dar cu discernământul și responsabilitatea ta.
+
+![Human-in-the-Loop](imagini/media/diagram-human-in-the-loop.png)
+*Diagrama 12: Fluxul Human-in-the-Loop — AI propune, tu decizi*
 
 ### Principiul 3: Învață Exclusiv din Datele Tale
 
@@ -1529,8 +1559,8 @@ BIZ este token-ul utilitar nativ al ecosistemului BiziX.
 
 ### 6. Distribuție și Vesting
 
-![Distribuție Token BIZ](imagini/media/image7.png)
-*Grafic: Distribuția celor 100M token-uri BIZ*
+![Distribuție Token BIZ](imagini/media/diagram-tokenomics-distributie.png)
+*Diagrama 13: Distribuția celor 100M token-uri BIZ (pie chart)*
 
 | Alocare | Procent | Cantitate | Vesting |
 |---------|---------|-----------|---------|
@@ -1636,6 +1666,9 @@ Fiecare acțiune pe platformă generează un micro-flux economic:
 | Cerere AI | 0.005 BIZ | 50% infrastructură, 30% burn, 20% trezorerie |
 | Listing app marketplace | 10 BIZ | 50% burn, 50% trezorerie |
 | Vot governance | 0 BIZ | Gratuit (încurajăm participarea) |
+
+![Fluxul Economic BIZ](imagini/media/diagram-tokenomics-flux.png)
+*Diagrama 14: Fluxul economic — de unde vine și unde se duce fiecare BIZ*
 
 ### 10. Modalități de Obținere BIZ
 
@@ -1764,6 +1797,9 @@ Nu depinzi de rapoarte generate de noi. Nu trebuie să ne crezi pe cuvânt. Poț
 - **Reguli imutabile:** Procentele de comision sunt înscrise într-un contract inteligent. Nu pot fi schimbate retroactiv, nu pot fi "interpretate" diferit.
 
 Asta e diferența: **nu promisiuni, ci dovezi matematice.**
+
+![Fluxul Comisioane Ambasadori](imagini/media/diagram-ambasadori-flux.png)
+*Diagrama 15: Cum funcționează comisioanele — de la recomandare la plată*
 
 ---
 
