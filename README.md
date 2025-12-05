@@ -641,7 +641,37 @@ Acest model creează un **ciclu virtuos**: dezvoltatorii sunt stimulați
 să creeze aplicații de înaltă calitate, iar utilizatorii beneficiază de
 o platformă în continuă evoluție, adaptată perfect nevoilor lor.
 
-### 3. Libertate Radicală: Developer Mode și Acces SSH
+### 3. Concierge Personalizări: Soluții la Măsură, Fără Complexitate
+
+Recunoaștem că uneori soluțiile standard nu acoperă toate nevoile. Un salon de înfrumusețare poate avea nevoie de integrare cu un anumit sistem de pontaj. O clinică poate necesita un raport personalizat pentru asigurători. Un restaurant poate vrea conectare cu o aplicație de livrare locală.
+
+Pentru aceste situații, oferim serviciul **Concierge Personalizări** — o punte între clienții care au nevoi specifice și dezvoltatorii din ecosistemul nostru care le pot rezolva.
+
+**Cum funcționează:**
+
+| Pas | Ce se întâmplă | Cine acționează |
+|-----|----------------|-----------------|
+| **1. Cerere** | Clientul descrie ce are nevoie într-un formular simplu | Clientul |
+| **2. Triaj** | Echipa BiziX evaluează cererea și identifică dezvoltatorul potrivit | BiziX |
+| **3. Ofertă** | Clientul primește o propunere clară: preț, termen, specificații | BiziX + Dezvoltator |
+| **4. Execuție** | Dezvoltatorul lucrează, clientul primește update-uri | Dezvoltator |
+| **5. Livrare** | Clientul confirmă, plata se finalizează | Sistem automat |
+
+**Ce face Blockchain-ul în spate (invizibil pentru client):**
+
+- **Escrow automat** — fondurile clientului sunt blocate în smart contract de la început. Dezvoltatorul știe că banii există; clientul știe că nu pleacă până la livrare.
+- **Milestone tracking** — pentru proiecte mai mari, plățile se eliberează etapizat, la confirmarea fiecărui pas.
+- **Acord imuabil** — specificațiile și termenii sunt ancorate on-chain. În caz de dispută, există o sursă unică de adevăr.
+
+**De ce "Concierge" și nu self-service:**
+
+Am ales deliberat să intermediem acest proces. Antreprenorul care folosește BiziX pentru simplitate nu vrea să devină manager de proiect IT. El vrea să spună *"Am nevoie de X"* și să primească X. Noi ne ocupăm de restul: găsim dezvoltatorul, negociem termenii, supervizăm calitatea, gestionăm plata.
+
+Clientul are aceeași experiență simplă ca în restul platformei. Blockchain-ul lucrează în umbră, garantând corectitudinea — fără ca utilizatorul să știe sau să-i pese de mecanismele tehnice.
+
+> **Notă:** Serviciul Concierge Personalizări va fi disponibil din 2026, după maturizarea ecosistemului de dezvoltatori și stabilirea standardelor de calitate.
+
+### 4. Libertate Radicală: Developer Mode și Acces SSH
 
 Spre deosebire de platformele SaaS tradiționale care îți blochează accesul la propriile date, BiziX oferă **proprietate reală**. Nu suntem gardieni ai datelor tale — suntem furnizori de infrastructură.
 
@@ -658,7 +688,7 @@ Ce înseamnă asta:
 
 Această abordare elimină frica de **"Vendor Lock-in"** — nu ești captiv în ecosistemul nostru. Alegerea de a rămâne pe BiziX trebuie să fie bazată pe valoare, nu pe imposibilitatea de a pleca.
 
-### 4. Opțiuni de Deployment
+### 5. Opțiuni de Deployment
 
 #### Model A: Fully Managed (Recomandat)
 
@@ -706,7 +736,7 @@ Această abordare elimină frica de **"Vendor Lock-in"** — nu ești captiv în
 ![Opțiuni de Deployment](imagini/media/diagram-deployment-options.png)
 *Diagrama 8: Fully Managed vs. Self-Hosted — alege ce ți se potrivește*
 
-### 5. Interoperabilitate și Evitarea Vendor Lock-in
+### 6. Interoperabilitate și Evitarea Vendor Lock-in
 
 #### Principiul Portabilității
 
@@ -742,7 +772,7 @@ BiziX Chain poate interacționa cu alte rețele prin:
 | IBC Protocol | Interoperabilitate Cosmos | Evaluat |
 | Cross-chain proofs | Verificare pe alte chain-uri | Planificat 2026 |
 
-### 6. Programul de Ambasadori: Creștere prin Relații Autentice
+### 7. Programul de Ambasadori: Creștere prin Relații Autentice
 
 Pentru a accelera adopția la nivel global, am creat Programul de
 Ambasadori. Acesta nu este un program de vânzări, ci un model care
@@ -762,7 +792,7 @@ antreprenori.
   au câștigat, din ce tranzacții, și când au fost plătiți. Nu promisiuni
   — dovezi matematice.
 
-### 7. Guvernanță și Stimulente: Alinierea Intereselor Comunității
+### 8. Guvernanță și Stimulente: Alinierea Intereselor Comunității
 
 Un ecosistem prosperă atunci când toți participanții au un cuvânt de
 spus și sunt recompensați pentru contribuțiile lor. BiziX integrează
@@ -780,7 +810,7 @@ pentru a asigura acest aliniament.
   aplicații valoroase, raportarea de vulnerabilități (prin programul Bug
   Bounty) sau contribuția la baza de cunoștințe.
 
-### 8. BYOS (Bring-Your-Own-Server): Construirea unei Infrastructuri Comunitare
+### 9. BYOS (Bring-Your-Own-Server): Construirea unei Infrastructuri Comunitare
 
 Mergând dincolo de software, extindem filosofia deschisă chiar la
 nivelul infrastructurii. Prin programul inovator
@@ -813,7 +843,7 @@ Acest program este expresia supremă a parteneriatului: comunitatea nu
 doar folosește și dezvoltă platforma, ci devine însăși fundația sa
 hardware.
 
-### 9. Programul de Validatori
+### 10. Programul de Validatori
 
 #### Rol în Ecosistem
 
@@ -1230,6 +1260,7 @@ maturitate, având obiective clare care ne propulsează spre scopul final.
 **T3-T4 2026**
 - [ ] 5.000 utilizatori activi
 - [ ] Marketplace cu 50+ aplicații
+- [ ] Lansare Concierge Personalizări (beta)
 - [ ] Integrări bancare directe
 - [ ] AI avansat pentru predicții business
 
@@ -2128,3 +2159,7 @@ multiple straturi:
   de jetoane BIZ ca o garanție. Comportamentul neadecvat sau uptime-ul
   redus pot duce la penalizări (slashing) din acest depozit, aliniind
   interesele financiare cu performanța.
+
+**8. Pot cere o funcționalitate personalizată care nu există în marketplace?**
+
+Da. Prin serviciul **Concierge Personalizări** (disponibil din 2026), poți descrie ce ai nevoie, iar echipa BiziX te va conecta cu un dezvoltator verificat din ecosistem. Nu trebuie să gestionezi tu proiectul — noi intermediem tot procesul, de la specificații la livrare. Plățile sunt securizate prin smart contracts: banii tăi sunt blocați până când ești mulțumit de rezultat.
