@@ -15,6 +15,7 @@
 - [Capitolul 11: Programul de Ambasadori BiziX](#capitolul-11)
 - [Capitolul 12: Riscuri și Avertismente](#capitolul-12)
 - [Capitolul 13: Concluzia](#capitolul-13)
+- [Glosar de Termeni](#glosar)
 - [Întrebări Frecvente (FAQ)](#faq)
 
 <a id="capitolul-1"></a>
@@ -43,6 +44,20 @@ Totul funcționează pe o fundație de încredere verificabilă — fiecare tran
 - **Mecanism anti-speculație** cu burn pe utilizare și utilitate reală obligatorie
 - **Conformitate MiCA** prin design — token utilitar în sensul Regulamentului UE 2023/1114
 - **Open-source** pentru transparență și audit independent
+
+---
+
+### 🛡️ Protecție Anti-Speculație (Rezumat)
+
+BiziX implementează 5 mecanisme pentru a descuraja speculația și a încuraja utilizarea reală:
+
+1. **20% burn** pe fiecare plată în BIZ — reducere permanentă a supply-ului
+2. **Staking lock-up** cu recompense crescătoare pentru angajament pe termen lung
+3. **Vesting 4+ ani** pentru echipă și insideri — fără dump-uri la lansare
+4. **Buyback trimestrial** din profitul operațional — cerere organică legată de succes
+5. **Funcții premium** disponibile exclusiv cu BIZ — utilitate reală obligatorie
+
+*Detalii complete în [Capitolul 10: Tokenomics](#capitolul-10).*
 
 ---
 
@@ -230,7 +245,8 @@ Următorul capitol va explora în detaliu mecanismele prin care stratul
 blockchain devine fundamentul încrederii și eficienței în ecosistemul
 BiziX.
 
-## Capitolul 3: Arhitectura Încrederii – Blockchain-ul ca Notar Invizibil {#capitolul-3}
+<a id="capitolul-3"></a>
+## Capitolul 3: Arhitectura Încrederii – Blockchain-ul ca Notar Invizibil
 
 Strategia noastră este să facem tehnologia blockchain **invizibilă pentru utilizator, dar indispensabilă pentru siguranța afacerii**.
 
@@ -1153,7 +1169,7 @@ maturitate, având obiective clare care ne propulsează spre scopul final.
 ### 2025 — Fundația
 
 **T1 2025**
-- [x] Whitepaper v2.0
+- [x] Whitepaper v2.1
 - [ ] Lansare testnet BiziX Chain
 - [ ] Audit de securitate smart contracts
 - [ ] Platformă MVP (beta închisă)
@@ -1513,6 +1529,9 @@ BIZ este token-ul utilitar nativ al ecosistemului BiziX.
 
 ### 6. Distribuție și Vesting
 
+![Distribuție Token BIZ](imagini/media/image7.png)
+*Grafic: Distribuția celor 100M token-uri BIZ*
+
 | Alocare | Procent | Cantitate | Vesting |
 |---------|---------|-----------|---------|
 | Ecosistem & Recompense | 40% | 40.000.000 | Eliberat pe 10 ani, liniar |
@@ -1522,9 +1541,10 @@ BIZ este token-ul utilitar nativ al ecosistemului BiziX.
 | Lichiditate | 5% | 5.000.000 | Blocat permanent în pool-uri |
 
 **Detalii Vesting Echipă:**
-- Luni 1-12: 0% deblocat
+- Luni 1-12: 0% deblocat (cliff complet)
 - Luna 13: 20% deblocat
-- Lunile 14-60: 1.67% deblocat lunar
+- Lunile 14-60: 1.70% deblocat lunar (47 luni × 1.70% = 80%)
+- **Total: 20% + 80% = 100%**
 - Vesting accelerat NU este posibil
 
 ### 7. Utilitatea Token-ului — Sistemul de Tier-uri
@@ -1566,6 +1586,8 @@ Din fiecare plată efectuată în BIZ pe platformă:
 
 Exemplu: Plată abonament 100 BIZ → 80 BIZ către BiziX, 20 BIZ arși
 
+> **Clarificare tehnică:** BIZ-ul ars este trimis la o adresă de burn verificabilă on-chain (`0x000...000dead`), din care nu poate fi recuperat niciodată. Oricine poate verifica totalul ars pe explorer.bizix.ro/burn.
+
 **B. Staking Lock-up**
 
 | Perioadă Staking | Multiplicator Recompense | Perioadă Unstaking |
@@ -1583,6 +1605,8 @@ Staking-ul pe termen lung este recompensat, descurajând trading-ul frecvent.
 - BIZ-ul cumpărat merge în fondul de recompense ecosistem
 - NU este ars (pentru a nu crea presiune artificială)
 - Creează cerere organică legată de succesul platformei
+
+> **Clarificare:** În trimestrele fără profit net pozitiv, buyback-ul este suspendat. Nu se folosesc rezerve sau împrumuturi pentru buyback artificial. Transparență totală: rapoartele trimestriale sunt publicate pe bizix.io/reports.
 
 **D. Vesting Lung pentru Insiders**
 
@@ -1810,7 +1834,30 @@ Dacă ai relații cu antreprenori — ca contabil, consultant, mentor, sau pur �
 - Mitigare: Design token conform MiCA, consultanță juridică prealabilă
 - Probabilitate: Scăzută | Impact: Ridicat
 
-### 4. Disclaimer General
+### 4. Proceduri de Urgență (Crisis Playbook)
+
+BiziX are proceduri predefinite pentru situații de criză:
+
+**Dacă un validator major dispare:**
+- Rețeaua continuă cu validatorii rămași (minim 67% necesari pentru consens)
+- Validatorul absent este penalizat automat (slashing)
+- După 24h de downtime, este exclus din setul activ
+- Stake-ul delegat poate fi redirecționat către alți validatori
+
+**Dacă lichiditatea scade dramatic:**
+- Trezoreria poate activa pool-uri de lichiditate de urgență
+- Buyback-ul trimestrial este suspendat pentru conservarea capitalului
+- Comunitatea este notificată transparent prin toate canalele
+
+**Emergency Governance:**
+- Propunerile critice pot fi votate în 48h (în loc de 7 zile)
+- Necesită quorum de 67% și majoritate de 75%
+- Echipa BiziX poate propune, dar NU poate executa fără votul comunității
+- Toate acțiunile de urgență sunt documentate public pe blockchain
+
+---
+
+### 5. Disclaimer General
 
 **ACEST WHITEPAPER NU CONSTITUIE:**
 - O ofertă de investiție sau de valori mobiliare
@@ -1894,6 +1941,30 @@ BiziX este mai mult decât un produs; este o declarație. Credem într-un viitor
 
 **Începe acum pe [www.bizix.ro](http://www.bizix.ro) — primele 30 de zile sunt gratuite.**
 
+## Glosar de Termeni {#glosar}
+
+Pentru cititorii non-tehnici, iată explicațiile termenilor specializați folosiți în acest document:
+
+| Termen | Explicație |
+|--------|------------|
+| **Blockchain** | O bază de date distribuită în care înregistrările sunt grupate în "blocuri" legate între ele. Odată scrise, nu pot fi modificate. |
+| **Smart Contract** | Un program care rulează automat pe blockchain când anumite condiții sunt îndeplinite. Elimină nevoia de intermediari. |
+| **Token** | O unitate digitală care reprezintă valoare sau drepturi într-un ecosistem. BIZ este token-ul ecosistemului BiziX. |
+| **Staking** | Blocarea temporară a token-urilor pentru a susține rețeaua, în schimbul unor recompense. |
+| **Slashing** | Penalizarea automată a validatorilor care se comportă incorect (ex: downtime, fraudă). |
+| **DPoS (Delegated Proof of Stake)** | Mecanism de consens în care deținătorii de token-uri votează validatorii care să producă blocuri. |
+| **Merkle Proof** | Dovadă criptografică că o anumită înregistrare face parte dintr-un set mai mare, fără a dezvălui tot setul. |
+| **Hash** | "Amprentă digitală" unică a unor date. Orice modificare a datelor schimbă complet hash-ul. |
+| **Burn** | Distrugerea permanentă a token-urilor prin trimiterea lor la o adresă de la care nu pot fi recuperate. |
+| **Vesting** | Deblocarea graduală a token-urilor în timp, pentru a preveni vânzările masive imediate. |
+| **Quorum** | Numărul minim de participanți sau voturi necesare pentru ca o decizie să fie validă. |
+| **Escrow** | Mecanism în care fondurile sunt ținute de o terță parte (sau smart contract) până la îndeplinirea condițiilor. |
+| **DAO** | Organizație Autonomă Descentralizată — entitate guvernată prin vot pe blockchain, fără management central. |
+| **API** | Interfață de Programare — permite aplicațiilor să comunice între ele automat. |
+| **SDK** | Kit de Dezvoltare Software — unelte și librării pentru dezvoltatori. |
+
+---
+
 ## Întrebări Frecvente (FAQ) {#faq}
 
 **1. Cum pot publica o aplicație în BiziX Marketplace?**
@@ -1969,6 +2040,7 @@ Nu. BIZ este un **token utilitar**, nu un activ de investiție sau un stablecoin
 - **Cererea organică**: Funcții disponibile doar cu BIZ
 - **Mecanismul deflaționist**: 20% burn pe fiecare tranzacție
 - **Staking rewards**: Recompense pentru participare pe termen lung
+- **Mecanisme anti-speculație**: Burn, staking lock-up, vesting lung pentru insideri
 
 Valoarea BIZ poate fluctua. Achiziționați BIZ doar pentru utilitatea sa în ecosistemul BiziX, nu ca investiție speculativă.
 
