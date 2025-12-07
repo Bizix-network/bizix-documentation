@@ -1,0 +1,53 @@
+﻿Lansare;;Category;proxmoxId;vmPort;Name;Source;Priority;License/Type;Tech;API;SSO;Lang(RO);Notes;;Status;
+0;http://10.2.3.231:8069/odoo;Facturare & eâ€‘Factura;;;Akaunting;OpenSource;P0;GPL;PHP;Yes;OIDC Proxy;ParÈ›ial;"Facturare/contabilitate; verificÄƒ plugâ€‘in eâ€‘Factura RO";;PoC;
+1;http://10.2.3.234:3000/;Helpdesk & Suport;504;3000;Chatwoot;OpenSource;P0;MIT;Ruby/Node;Yes;Proxy;ParÈ›ial;"Omnichannel (WhatsApp; FB; email); excelent pt. IMM";;PoC;
+1;http://10.2.3.235/index.php;RezervÄƒri (Booking);505;80;Easy!Appointments;OpenSource;P0;Open Source;PHP;Limited;Proxy;ParÈ›ial;"ProgramÄƒri simplu (saloane/clinici); uÈ™or de tradus";;PoC;
+1;http://erpnext.localhost:8000/a;ERP & Inventar;506;8000;ERPNext;OpenSource;P0;GPL;Python/Frappe;Yes;OIDC via SAML plug-in;Da;"ERP complet (stoc, HR, producÅ£ie); comunitate RO activÄƒ";;PoC;
+1;http://10.2.3.239/#;CRM & VÃ¢nzÄƒri;509;80;EspoCRM;OpenSource;P0;OSL 3.0;PHP;Yes;OIDC plugin/Proxy;ParÈ›ial;"CRM modern; pipeline; email; extensibil";;PoC;
+1;http://10.2.3.242/index.php;AnaliticÄƒ GDPR;512;80;Matomo;OpenSource;P0;GPL;PHP;Yes;Proxy;Da;"GDPRâ€‘friendly; Ã®nlocuitor Google Analytics";;PoC;
+uz intern;http://10.2.3.243:3000/;Knowledge Base;;3000;Outline;OpenSource;P0;BSL/OSS;Node;Yes;OIDC Native;ParÈ›ial;"Wiki intern excelent; SSO OIDC outâ€‘ofâ€‘theâ€‘box";;PoC;
+0;;AnaliticÄƒ GDPR;;;Plausible;OpenSource;P0;AGPL;Go;Yes;Proxy;Da;"AlternativÄƒ lightweight Matomo; >10k site-uri RO";;PoC;"CodCanyon; code-quality discutabil; upgrade-uri manuale."
+1;http://10.2.3.240:3000/home;Comunicare InternÄƒ;510;3000;Rocket.Chat;OpenSource;P0;MIT;Node;Yes;OIDC Native;Da;"Slack-like; integrare cu Chatwoot, Nextcloud";;PoC;
+1;OK;Site & Marketing;;80;WordPress;OpenSource;P0;GPL;PHP;Yes;OIDC via plugin/Proxy;Yes;"Site rapid; ecosistem uriaÈ™; 1â€‘click deploy; suport teme RO";;PoC;"CodCanyon; util pentru agenţii, dar menţine-l după EspoCRM."
+1;http://10.2.3.237/index.php/apps/dashboard/;FiÈ™iere & Colaborare;507;80;Nextcloud;OpenSource;P0;AGPL;PHP;Yes;OIDC/SSO;Da;"FiÈ™iere; share; Office (OnlyOffice/Collabora); util pentru IMM";;Backlog;
+1;http://10.2.3.238/admin/dashboard;Restaurante & Food-Service;508;80;TastyIgniter;OpenSource;P0;MIT;Laravel;Yes;Proxy/OIDC;"Comenzi online, rezervÄƒri È™i POS; tradus â†¦ RO; plugin QR-Menu";;https://tastyigniter.com;;
+1;http://10.2.3.220/accounts/login/?next=/;ReÈ›ete & NutriÈ›ie;514;80;Tandoor Recipes;OpenSource;P0;MIT;Python/Django;Yes;Proxy;ReÈ›etar cu calc. nutriÈ›ional (FDC) È™i cost ingrediente;;https://tandoor.dev;;
+0;;Proiecte & Taskuri;;;RISE CRM (PM/Timesheet);CodeCanyon;P1;Commercial;CodeIgniter;Yes;Proxy;ParÈ›ial;"Foarte folosit la agenÈ›ii din RO; proiecte+timesheet+facturare";;PoC;
+0;;eCommerce;;;Bagisto (Laravel);OpenSource;P1;MIT;Laravel;Yes;Proxy;ParÈ›ial;"Shop modern; extensibil; potrivit pentru pachete B2C";;Backlog;"Overlap mare cu WP, plugin OIDC slab întreţinut; cere Node 18+."
+1;http://10.2.3.221:3000/auth/login;ProgramÄƒri/Booking;515;3000;Cal.com;OpenSource;P1;AGPL;NextJS;Yes;OIDC Native;ParÅ£ial;"Booking modern; integrare Google/Outlook";;Backlog;
+0;;Monitorizare & Loguri;;;Grafana + Loki;OpenSource;P1;AGPL;Go;Yes;OIDC Native;ParÅ£ial;Dashboard & log aggregation pentru toate VM-urile;;Backlog;
+0;;HR & Salarizare;;;IceHRM;OpenSource;P1;MIT;PHP;Limited;Proxy;ParÅ£ial;Pontaj, concedii, salarizare de bazÄƒ;;Backlog;
+1;http://10.2.3.222/s/login;Marketing Automation;516;80;Mautic;OpenSource;P1;GPL;PHP;Yes;OIDC plugin/Proxy;ParÅ£ial;"AutomatizÄƒri email/SMS; lead scoring GDPR";;Backlog;
+1;http://10.2.3.223:3000/setup;BI & Dashboard;517;3000;Metabase;OpenSource;P1;AGPL;Java;Yes;JWT/SAML;ParÈ›ial;"BI selfâ€‘host; conectare Postgres/MySQL; dashboard mgmt";;Backlog;
+0;;Helpdesk & Suport;;;osTicket;OpenSource;P1;GPL;PHP;Yes;Proxy;ParÅ£ial;"Clasic, foarte stabil; multe plugin-uri comunitare";;Backlog;
+1;http://10.2.3.241:8000/dashboard;Documente & DMS;511;8000;Paperless-ngx;OpenSource;P1;GPL;Python;Yes;Proxy;ParÅ£ial;"DMS + OCR romÃ¢nÄƒ; util pentru facturi PDF";;Backlog;
+1;http://10.2.3.224:3001/setup;Monitorizare & Loguri;518;3001;Uptime Kuma;OpenSource;P1;MIT;Node;Yes;Proxy;Da;"Uptime & alerts; instalare 1-click";;Backlog;
+0;;HR & Salarizare;;;Worksuite HRM (Codester);Commercial (Codester);P1;Commercial;Laravel;Yes;Proxy;ParÅ£ial;"HR + Payroll + recrutare; Ã®nrudit cu Worksuite SaaS";;Backlog;
+1;http://10.2.3.225:3000/#getting_started;Helpdesk & Suport;519;3000;Zammad;OpenSource;P1;AGPL;Ruby;Yes;OIDC Native/Proxy;ParÈ›ial;"Ticketing complet; integrare email; SSO";;Backlog;
+0;;Restaurante & Food-Service;;;Open-Ordering (OOr) ;OpenSource;P1;MIT;Node/NextJS;Yes;OIDC Native;"Frontend modern PWA; backend headless; multiple stores";;https://github.com/open-ordering/oor;;
+0;;Restaurante & Food-Service;;;QR-Menu-Builder (Codester);Commercial;P1;Commercial;PHP;Limited;Proxy;"Menii QR + mod editare; fÄƒrÄƒ e-commerce; licenÈ›Äƒ low-cost";;https://codester.com/items/31730;;
+1;http://10.2.3.226:9000/login;ReÈ›ete & NutriÈ›ie;520;9000;Mealie;OpenSource;P1;MIT;FastAPI/Vue;Yes;Proxy;"Manager reÈ›ete, meal-plan; export nutriÈ›ie; multi-tenant experimental";;https://github.com/mealie-recipe/mealie;;
+0;;CRM & VÃ¢nzÄƒri;;;Perfex CRM;CodeCanyon;P2;Commercial;PHP CI;Yes;Proxy;Comunitar;"Popular Ã®n RO; multe module; atenÈ›ie la hardening";;PoC;
+1;http://10.2.3.227/ghost/#/setup;Site & Marketing;521;80;Ghost;OpenSource;P2;Open Source;Node;Yes;Proxy;ParÈ›ial;"Blog/publishing performant; uÈ™or de Ã®ntreÈ›inut";;Backlog;
+0;;Facturare & eâ€‘Factura;;;Invoice Ninja;OpenSource;P2;selfâ€‘host (AGPL/Commercial);Laravel;Yes;Proxy;ParÈ›ial;"Facturare + plÄƒÈ›i; bun pentru freelanceri/IMM";;Backlog;"Puternic, dar complex de scalat; ia în P2."
+1;http://10.2.3.228:8088/login/;BI & Dashboard;522;8088;Apache Superset;OpenSource;P2;Apache 2.0;Python;Yes;OIDC Native;ParÅ£ial;"BI modern; dashboards; import Metabase";;Backlog;
+0;;Internal Tools (lowâ€‘code);;;Appsmith;OpenSource;P2;Apache 2.0;Node;Yes;OIDC;ParÈ›ial;"ConstrucÈ›ie rapidÄƒ UI interne; util pt. paneluri custom";;Backlog;
+0;;RezervÄƒri (WP);;;Bookly Pro (WP plugin);CodeCanyon;P2;Commercial;WP/PHP;Yes;WP SSO;Da;Ideal pentru saloane/clinici mici deja pe WP;;Backlog;
+uz intern;http://10.2.3.229:4000/setup;Contracte & Semnare;523;4000;Docuseal (selfâ€‘host);OpenSource;P2;AGPL/BSL;Go;Yes;OIDC/Proxy;ParÈ›ial;"Formulare/semnare documente; alternativÄƒ light eâ€‘sign";;Backlog;
+1;http://10.2.3.244/admin/authentication/sa/login;Formulare & Survey;524;80;LimeSurvey;OpenSource;P2;GPL;PHP;Yes;Proxy;Da;"Chestionare complexe; export ANSPSO acceptat";;Backlog;
+1;http://10.2.3.245:8065/landing#/signup_user_complete;Comunicare InternÄƒ;525;8065;Mattermost;OpenSource;P2;MIT;Go;Yes;OIDC Native;Da;"Open-core; boards, playbooks incluse";;Backlog;
+1;http://10.2.3.246/public/install.php;Course/LMS;526;80;Moodle;OpenSource;P2;GPL;PHP;Yes;OIDC plugin;ParÅ£ial;E-learning cerut de ONG & training-uri interne;;Backlog;
+1;http://10.2.3.247:8080/dashboard/#/signup;Internal Tools (noâ€‘code DB);527;8080;NocoDB;OpenSource;P2;AGPL;Node;Yes;Proxy;ParÈ›ial;"Airtableâ€‘like peste Postgres/MySQL; backoffice rapid";;Backlog;
+1;http://10.2.3.231:8069/odoo/crm;ERP & Inventar;501;8069;Odoo Community;OpenSource;P2;LGPL;Python;Yes;OAuth/OIDC via Keycloak bridge;ParÅ£ial;"ERP modular; add-ons e-Factura RO";;Backlog;
+1;http://10.2.3.248/;Proiecte & Taskuri;528;80;Plane.so;OpenSource;P2;Open Source;Next/TS;Yes;SSO (Ã®n curs)/Proxy;ParÈ›ial;"Issue/project modern; verificÄƒ stabilitatea pentru prod";;Backlog;
+1;http://10.2.3.250/install/;eCommerce;530;80;PrestaShop;OpenSource;P2;OSL 3.0;PHP;Yes;Proxy;Comunitar;"Consacrat Ã®n RO; multe module; atenÈ›ie la mentenanÈ›Äƒ";;Backlog;
+1;http://10.2.3.249/setup;Gestionare Active IT;529;80;Snipe-IT;OpenSource;P2;GPL;Laravel;Yes;Proxy;ParÅ£ial;"Inventar echipamente; etichete QR";;Backlog;
+0;;Parole & Secrete;;;Vaultwarden;OpenSource;P2;GPL;Rust;Yes;OIDC;Da;"Bitwarden compat.; stoc local, securizat";;Backlog;
+0;;Restaurante & Food-Service;;;Tabler POS (Envato);Commercial;P2;Commercial;Laravel/Vue;Yes;Proxy;"POS + inventar + chelner tablet; cere licenÈ›Äƒ per client";;https://codecanyon.net/item/tabler-pos-saas/44953339;;
+0;;Restaurante & Food-Service;;;Kitchen-Display System (KDS);OpenSource;P2;MIT;Node/React;Yes;Proxy;Ecran bucÄƒtÄƒrie sincronizat cu comenzi (TastyIgniter plug-in);;https://github.com/evxdev/kds;;
+0;;Formulare & Workflow;;;Form.io (selfâ€‘host);OpenSource/Commercial;P3;Mixed;Node;Yes;OIDC;ParÈ›ial;"Form builder + API; bun pentru fluxuri interne";;Backlog;
+0;;AnaliticÄƒ GDPR;;;Umami;OpenSource;P3;MIT;Node;Yes;Proxy;Da;"Analytics lightweight; simplu de hostat";;Backlog;
+0;;Telefonie/Comunicare;;;FreePBX (Asterisk);OpenSource;P3;GPL;PHP;Yes;Proxy;ParÈ›ial;"Pentru clienÈ›i care cer centralÄƒ telefonicÄƒ; integrÄƒri CRM";;Backlog;
+0;;ReÈ›ete & NutriÈ›ie;;;BiziX NutriCalc *(in-house)*;Custom;P3;Proprietary (GPL+exceptions);Python;REST;OIDC Native;"Micro-serviciu care interogheazÄƒ USDA FoodData Central È™i calculeazÄƒ declaraÈ›ia nutriÈ›ionalÄƒ; expus ca API â†’ folosit de Tandoor/Mealie";;â€“;;
+0;;ReÈ›ete & Costuri;;;BiziX CostCalc *(in-house)*;Custom;P3;Proprietary;Node/TS;REST;OIDC Native;"Calculator cost/porÈ›ie & markup; import CSV preÈ›uri Metro, Selgros; export PDF fiÈ™Äƒ reÈ›etÄƒ";;â€“;;
+0;;Monitorizare OspÄƒtari;;;Barmano Call-Button;OpenSource;P3;Apache-2.0;Go/ESP32;MQTT;Proxy;"Buton wireless > afiÈ™eazÄƒ cereri pe ecran + Telegram; nice-to-have gadget";;https://github.com/barmano/button;;

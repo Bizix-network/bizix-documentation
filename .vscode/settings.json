@@ -1,0 +1,17 @@
+{
+  // Dezactivează validarea Markdown în Cursor
+  "markdownlint.enabled": false,
+  
+  // Dezactivează diagnosticele built-in pentru Markdown
+  "markdown.validate.enabled": false,
+  
+  // Ascunde problemele pentru fișierele .md
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    }
+  }
+}
+
