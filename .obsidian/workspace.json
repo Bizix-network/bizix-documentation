@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d75692598231dc84",
+        "id": "e36a8cfb233e1f2a",
         "type": "tabs",
         "children": [
           {
-            "id": "418703a56a96b41a",
+            "id": "309e38c727c41873",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -184,8 +184,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "418703a56a96b41a",
+  "active": "309e38c727c41873",
   "lastOpenFiles": [
+    "Whitepaper 0.9.pdf",
+    "README.md",
     "lista aplicatii MVP.csv",
     "~$apps+o3(AutoRecovered1).xlsx",
     "apps+o3(AutoRecovered1).xlsx",
@@ -220,7 +222,6 @@
     "imagini/SPECIFICATII-DIAGRAME.md",
     "imagini/media",
     "imagini",
-    "README.md",
     "Welcome.md"
   ]
 }
