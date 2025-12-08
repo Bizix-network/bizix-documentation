@@ -297,9 +297,9 @@ registru universal de verificare — un notar digital care funcționează
 
 **Cum funcționează:**
 
-Procesul este elegant și eficient. Pentru fiecare eveniment critic --
-semnarea unui contract, aprobarea unei facturi, finalizarea unei etape
-în lanțul de aprovizionare -- platforma BiziX generează o "amprentă"
+Procesul este simplu și eficient. Pentru fiecare eveniment critic —
+semnarea unui contract, aprobarea unei facturi, confirmarea unui acord
+între parteneri — platforma BiziX generează o "amprentă"
 criptografică unică (hash) a datelor relevante. Această amprentă, care
 nu conține date sensibile, este înregistrată ca o tranzacție pe
 blockchain.
@@ -340,7 +340,7 @@ Aceasta este garanția supremă de integritate pentru ecosistem — ceea ce numi
 ![Procesul de Notarizare Blockchain](imagini/media/diagram-notarizare.png)
 *Diagrama 4: Cum funcționează notarizarea — de la document la dovadă imutabilă*
 
-### 5. BiziX Chain — Arhitectura Descentralizată
+### 2. BiziX Chain — Arhitectura Descentralizată
 
 #### Filosofia Descentralizării
 
@@ -417,7 +417,7 @@ BiziX Chain este optimizat specific pentru date de business confidențiale, cu a
 ![Descentralizare Progresivă](imagini/media/diagram-descentralizare-faze.png)
 *Diagrama 5: Cele 3 faze ale descentralizării — de la Genesis la autonomie completă*
 
-### 6. Specificații Tehnice BiziX Chain
+### 3. Specificații Tehnice BiziX Chain
 
 #### Parametri de Bază
 
@@ -473,7 +473,7 @@ Penalizări (Slashing):
 | Light Node | Verifică header-e | Minimal | Nu |
 | Archive Node | Stochează istoric complet | Storage mare | Nu |
 
-### 2. Smart Contracts: Logica de Business Devenită Cod Imutabil
+### 4. Smart Contracts: Logica de Business Devenită Cod Imutabil
 
 Dacă registrul imutabil este memoria de neșters a platformei,
 contractele inteligente (smart contracts) sunt voința sa autonomă.
@@ -482,27 +482,13 @@ acțiuni predefinite atunci când anumite condiții sunt îndeplinite.
 Astfel, eliminăm nevoia de intermediari și garantăm execuția corectă a
 proceselor.
 
-**Implementări cheie în BiziX:**
+**Implementări în BiziX:**
 
-- **Plăți Garantate și Instantanee:** Programele noastre de Ambasadori
-  și Marketplace pentru Dezvoltatori sunt guvernate de contracte
-  inteligente. Când un client plătește un abonament, contractul
-  calculează și distribuie automat și instantaneu comisionul corect, în
-  token-uri BIZ, către ambasador sau dezvoltator. Procesul este
-  transparent și elimină complet disputele.
+- **Plăți Garantate și Instantanee:** Programele de Ambasadori și Marketplace pentru Dezvoltatori sunt guvernate de contracte inteligente. Când un client plătește un abonament, contractul calculează și distribuie automat comisionul corect, în token-uri BIZ, către ambasador sau dezvoltator. Procesul este transparent și elimină disputele.
 
-- **Servicii Escrow Automatizate:** Pentru proiecte sau tranzacții
-  complexe, fondurile pot fi blocate într-un contract inteligent.
-  Acestea sunt eliberate automat către furnizor doar după ce etapele de
-  livrare sunt confirmate on-chain de ambele părți, eliminând riscul de
-  neplată.
+- **Escrow pentru Concierge Personalizări** *(disponibil din 2026)*: Pentru proiectele de personalizare, fondurile clientului sunt blocate într-un smart contract. Sunt eliberate către dezvoltator doar când clientul confirmă livrarea, eliminând riscul de neplată pentru ambele părți.
 
-- **Automatizări în Lanțul de Aprovizionare:** Un contract inteligent
-  poate declanșa automat o plată către un furnizor imediat ce sistemul
-  confirmă recepția bunurilor, eficientizând radical fluxurile de
-  achiziții.
-
-### 3. Tokenizarea: Motorul Economic al Ecosistemului
+### 5. Tokenizarea: Motorul Economic al Ecosistemului
 
 Tokenul BIZ este elementul vital care alimentează economia platformei.
 Utilitatea sa este impusă și garantată de logica blockchain, asigurând
@@ -525,7 +511,7 @@ roluri specifice și verificabile:
   timp real deținerea token-urilor pentru a acorda acces, creând un sistem
   de privilegii automatizat și transparent.
 
-### 4. AI Trust Layer: Trasabilitate și Responsabilitate
+### 6. AI Trust Layer: Trasabilitate și Responsabilitate
 
 Una dintre provocările adoptării AI în business este lipsa trasabilității: "Pe ce date s-a bazat AI-ul? Ce model era activ atunci? A fost modificat rezultatul ulterior?"
 
@@ -583,8 +569,8 @@ BiziX reunește patru tipuri de oameni, fiecare cu un rol diferit, dar cu acela�
 
 E un cerc în care fiecare are motive reale să-i ajute pe ceilalți să reușească.
 
-![Ecosistemul BiziX - Cele 4 Triburi](imagini/media/diagram-4-triburi.png)
-*Diagrama 7: Cele 4 triburi și cum generează valoare reciprocă*
+![Ecosistemul BiziX](imagini/media/diagram-4-triburi.png)
+*Diagrama 7: Cei patru participanți și cum generează valoare reciprocă*
 
 ### 1. Un Mediu Deschis pentru Dezvoltatori: Motorul Inovației
 
@@ -629,7 +615,7 @@ utilizatorilor de business.
   populare, direct din ecosistemul său. Prin intermediul
   Marketplace-ului BiziX, companiile pot lansa în câteva minute
   aplicații pre-configurate precum site-uri WordPress (pentru prezență
-  online) sau magazine online PrestaShop/Magento (pentru e-commerce),
+  online) sau magazine online PrestaShop (pentru e-commerce),
   fără efort tehnic suplimentar. Astfel, un startup își poate crea rapid
   un website de prezentare sau un magazin digital complet funcțional,
   *direct din platforma BiziX*, evitând configurări complicate sau
@@ -1245,7 +1231,7 @@ Nu credem în AI care ia decizii în locul tău. Credem în AI care îți pregă
 
 ### Principiul 1: Local AI & Confidențialitate Absolută
 
-Spre deosebire de asistenții AI publici (ChatGPT, Claude), BiziX rulează modele AI (Local LLMs) **direct în infrastructura noastră privată**.
+BiziX utilizează o combinație de modele AI: unele rulează **direct în infrastructura noastră privată**, altele sunt accesate prin API-uri securizate de la furnizori de încredere (Google Cloud, Anthropic, Mistral) — toate cu procesare exclusiv în UE.
 
 Ce înseamnă asta pentru tine:
 - **Datele tale nu părăsesc BiziX** — contractele, facturile, emailurile nu sunt trimise către servere externe
@@ -1801,7 +1787,7 @@ Pentru a menține integritatea programului, avem câteva reguli simple:
 
 ### Începe Acum
 
-Dacă ai relații cu antreprenori — ca contabil, consultant, mentor, sau pur și simplu ca prieten de încredere — poți deveni Ambasador BiziX astăzi.
+Dacă ai relații cu antreprenori — ca și contabil, consultant, mentor, sau pur și simplu ca prieten de încredere — poți deveni Ambasador BiziX astăzi.
 
 **Nu vinzi nimic. Recomanzi soluții la probleme pe care le vezi deja.**
 
@@ -1967,23 +1953,23 @@ BiziX este mai mult decât un produs; este o declarație. Credem într-un viitor
 
 Pentru cititorii non-tehnici, iată explicațiile termenilor specializați folosiți în acest document:
 
-| Termen | Explicație |
-|--------|------------|
-| **Blockchain** | O bază de date distribuită în care înregistrările sunt grupate în "blocuri" legate între ele. Odată scrise, nu pot fi modificate. |
-| **Smart Contract** | Un program care rulează automat pe blockchain când anumite condiții sunt îndeplinite. Elimină nevoia de intermediari. |
-| **Token** | O unitate digitală care reprezintă valoare sau drepturi într-un ecosistem. BIZ este token-ul ecosistemului BiziX. |
-| **Staking** | Blocarea temporară a token-urilor pentru a susține rețeaua, în schimbul unor recompense. |
-| **Slashing** | Penalizarea automată a validatorilor care se comportă incorect (ex: downtime, fraudă). |
-| **DPoS (Delegated Proof of Stake)** | Mecanism de consens în care deținătorii de token-uri votează validatorii care să producă blocuri. |
-| **Merkle Proof** | Dovadă criptografică că o anumită înregistrare face parte dintr-un set mai mare, fără a dezvălui tot setul. |
-| **Hash** | "Amprentă digitală" unică a unor date. Orice modificare a datelor schimbă complet hash-ul. |
-| **Burn** | Distrugerea permanentă a token-urilor prin trimiterea lor la o adresă de la care nu pot fi recuperate. |
-| **Vesting** | Deblocarea graduală a token-urilor în timp, pentru a preveni vânzările masive imediate. |
-| **Quorum** | Numărul minim de participanți sau voturi necesare pentru ca o decizie să fie validă. |
-| **Escrow** | Mecanism în care fondurile sunt ținute de o terță parte (sau smart contract) până la îndeplinirea condițiilor. |
-| **DAO** | Organizație Autonomă Descentralizată — entitate guvernată prin vot pe blockchain, fără management central. |
-| **API** | Interfață de Programare — permite aplicațiilor să comunice între ele automat. |
-| **SDK** | Kit de Dezvoltare Software — unelte și librării pentru dezvoltatori. |
+| Termen                              | Explicație                                                                                                                        |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Blockchain**                      | O bază de date distribuită în care înregistrările sunt grupate în "blocuri" legate între ele. Odată scrise, nu pot fi modificate. |
+| **Smart Contract**                  | Un program care rulează automat pe blockchain când anumite condiții sunt îndeplinite. Elimină nevoia de intermediari.             |
+| **Token**                           | O unitate digitală care reprezintă valoare sau drepturi într-un ecosistem. BIZ este token-ul ecosistemului BiziX.                 |
+| **Staking**                         | Blocarea temporară a token-urilor pentru a susține rețeaua, în schimbul unor recompense.                                          |
+| **Slashing**                        | Penalizarea automată a validatorilor care se comportă incorect (ex: downtime, fraudă).                                            |
+| **DPoS (Delegated Proof of Stake)** | Mecanism de consens în care deținătorii de token-uri votează validatorii care să producă blocuri.                                 |
+| **Merkle Proof**                    | Dovadă criptografică că o anumită înregistrare face parte dintr-un set mai mare, fără a dezvălui tot setul.                       |
+| **Hash**                            | "Amprentă digitală" unică a unor date. Orice modificare a datelor schimbă complet hash-ul.                                        |
+| **Burn**                            | Distrugerea permanentă a token-urilor prin trimiterea lor la o adresă de la care nu pot fi recuperate.                            |
+| **Vesting**                         | Deblocarea graduală a token-urilor în timp, pentru a preveni vânzările masive imediate.                                           |
+| **Quorum**                          | Numărul minim de participanți sau voturi necesare pentru ca o decizie să fie validă.                                              |
+| **Escrow**                          | Mecanism în care fondurile sunt ținute de o terță parte (sau smart contract) până la îndeplinirea condițiilor.                    |
+| **DAO**                             | Organizație Autonomă Descentralizată — entitate guvernată prin vot pe blockchain, fără management central.                        |
+| **API**                             | Interfață de Programare — permite aplicațiilor să comunice între ele automat.                                                     |
+| **SDK**                             | Kit de Dezvoltare Software — unelte și librării pentru dezvoltatori.                                                              |
 
 ---
 
