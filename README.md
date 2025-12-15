@@ -23,31 +23,32 @@
 
 ### BiziX în 60 de secunde
 
-Imaginează-ți că ești antreprenor. Ai o frizerie, o cafenea, un atelier de reparații. Știi că ai nevoie de un site, de un sistem de programări, poate de un CRM — dar nu știi de unde să începi, nu ai timp să compari zeci de soluții și nu-ți permiți să angajezi un consultant IT.
+Imaginează-ți că ești antreprenor. Ai o afacere de condus, nu un departament IT. Știi că ai nevoie de un site, de un sistem de programări, de facturare și CRM — dar ești blocat între soluții fragmentate, abonamente scumpe și temerea că datele tale sunt vândute la terți.
 
-BiziX rezolvă exact asta.
+**BiziX este sistemul tău de operare pentru business.**
 
-**Pentru antreprenori:** O singură platformă unde găsești toate uneltele digitale de care ai nevoie — site, programări, facturare, CRM — pregătite să funcționeze în câteva minute, nu săptămâni.
+Nu suntem doar o altă aplicație. Suntem infrastructura completă care îți dă puterea unei corporații, la preț de abonament de telefonie.
 
-**Pentru cei care îi cunosc pe antreprenori:** Contabilii, consultanții, mentorii care deja au relații de încredere cu acești oameni pot deveni Ambasadori BiziX. Le recomandă soluții, îi ghidează, și sunt recompensați pentru valoarea pe care o aduc — cu comisioane recurente, plătite automat și transparent.
+- **Pentru Antreprenori:** Primești propriul tău **Cloud Privat** securizat, unde rulează toate aplicațiile de care ai nevoie (ERP, CRM, Site) — pre-instalate, integrate și gata de lucru în câteva minute. Datele sunt doar ale tale, pe serverul tău dedicat.
 
-**Pentru dezvoltatori:** O piață deschisă unde pot crea aplicații și le pot monetiza, ajungând direct la antreprenorii care au nevoie de ele.
+- **Pentru Ambasadori (Contabili, Consultanți):** Transformi sfaturile în soluții concrete. Recomanzi clienților tăi o infrastructură solidă și ești recompensat automat, transparent și recurent prin blockchain pentru fiecare afacere pe care o ajuți să se digitalizeze.
 
-Totul funcționează pe o fundație de încredere verificabilă — fiecare tranzacție, fiecare comision, fiecare acord poate fi verificat matematic, nu doar promis.
+- **Pentru Dezvoltatori:** O piață deschisă unde poți construi aplicații direct pe o infrastructură reală, ajungând instant la clienți plătitori, fără bariere de marketing.
 
----
-
-### Puncte Cheie
-
-- **Blockchain descentralizat** cu validatori independenți și ancorare publică pentru verificabilitate externă
-- **Token utilitar BIZ** pentru acces la servicii și participare în governance (nu stablecoin)
-- **Mecanism anti-speculație** cu burn pe utilizare și utilitate reală obligatorie
-- **Conformitate MiCA** prin design — token utilitar în sensul Regulamentului UE 2023/1114
-- **Open-source** pentru transparență și audit independent
+**Totul funcționează pe o arhitectură unică în 4 piloni:** Cloud Privat (Viteză) + Aplicații Open-Source (Libertate) + AI Local (Eficiență) + Blockchain (Încredere).
 
 ---
 
-### 🛡️ Protecție Anti-Speculație (Rezumat)
+### De ce BiziX este diferit?
+
+- **Cloud Privat Dedicat:** Nu ești "înghesuit" cu alți clienți. Ai propria mașină virtuală izolată, performantă și securizată cu resurse dedicate.
+- **Blockchain Invizibil:** Folosim tehnologia doar unde contează — pentru a garanta contracte, comisioane și integritatea documentelor. Fără jargon, doar dovezi criptografice.
+- **Token Utilitar BIZ:** Un instrument real pentru acces la servicii premium și guvernanță, cu mecanisme clare anti-speculație și conformitate MiCA.
+- **Open-Source:** Transparență totală. Poți oricând să îți iei datele și să pleci (dar pariem că nu vei dori).
+
+---
+
+### 🛡️ Protecție Anti-Speculație
 
 BiziX implementează 5 mecanisme pentru a descuraja speculația și a încuraja utilizarea reală:
 
@@ -76,7 +77,7 @@ Aceasta nu este doar o declarație de marketing. Este principiul după care am c
 
 ---
 
-### Contextul: De ce e nevoie de BiziX
+### Contextul: De ce e nevoie de BiziX?
 
 Lumea modernă a afacerilor operează la o viteză fără precedent, însă uneltele digitale au rămas în urmă. Astăzi, antreprenorii se luptă cu un peisaj fragmentat: date izolate în aplicații incompatibile, muncă manuală repetitivă și o lipsă acută de încredere în parteneriatele digitale.
 
@@ -110,7 +111,7 @@ Viziunea noastră este pragmatică: credem în **Automatizarea Asistată**. Acea
 - **Sistemul așteaptă:** acțiunile sunt salvate ca "Ciornă".
 - **Tu decizi:** revizuiești și dai "Bun de tipar".
 
-Această abordare îți oferă viteza automatizării (de 10x mai rapid), dar păstrează discernământul și responsabilitatea umană. **Tu decizi, el execută.**
+Această abordare îți oferă viteza automatizării (reducând semnificativ timpul de execuție), dar păstrează discernământul și responsabilitatea umană. **Tu decizi, el execută.**
 
 ### Obiective de Lansare
 
@@ -163,6 +164,9 @@ de a gestiona multiple abonamente și integrări complexe.
 
 > **Toate pachetele includ 30 de zile gratuite pentru testare, fără obligații.**
 
+**Flexibilitate Totală: Tu alegi ce folosești**
+Nu ești obligat să alegi un meniu fix. BiziX este complet modular. Pachetele de mai sus sunt doar puncte de pornire recomandate. Poți începe doar cu un CRM și să adaugi modulul de Facturare peste 6 luni. Sau poți combina un magazin online PrestaShop cu un sistem de suport Chatwoot. Tu alegi exact "ingredientele" digitale de care are nevoie afacerea ta acum, și adaugi altele pe măsură ce crești. Fără "bloatware", fără funcții inutile pe care le plătești degeaba.
+
 Această abordare integrată creează o **singură sursă de adevăr (Single
 Source of Truth)** pentru întreaga afacere, asigurând coerența datelor
 și eficiența decizională.
@@ -171,7 +175,7 @@ Source of Truth)** pentru întreaga afacere, asigurând coerența datelor
 
 Aplicațiile de bază (ERP, CRM etc.) rulează pe o infrastructură de cloud privat, securizată și ultra-performantă, bazată pe **Proxmox VE**. Această alegere strategică asigură:
 
-- **Viteza în timp real** — operațiunile zilnice nu au lag
+- **Viteza în timp real** — operațiunile zilnice au latență minimă perceptibilă
 - **Disponibilitate ridicată** — uptime >99% garantat
 - **Izolarea datelor** — fiecare client are propriul mediu izolat
 - **Backup zilnic automat** — toate datele sunt salvate automat în fiecare noapte, cu retenție de 30 de zile (aceasta nu este o opțiune, ci o garanție inclusă pentru toți clienții)
@@ -348,9 +352,11 @@ Aceasta este garanția supremă de integritate pentru ecosistem — ceea ce numi
 
 ### 2. BiziX Chain — Arhitectura Descentralizată
 
-#### Filosofia Descentralizării
+#### Filosofia Descentralizării: Infrastructura ca Membru al Comunității
 
-BiziX Chain este construit pe principiul descentralizării progresive. Recunoaștem că descentralizarea completă din prima zi nu este practică, dar arhitectura permite și încurajează tranziția către un sistem complet descentralizat.
+BiziX Chain este construit pe principiul descentralizării progresive. O inovație cheie în modelul nostru este modul în care privim propria noastră infrastructură: Cloud-ul Privat BiziX nu este "stăpânul rețelei", ci acționează ca **Nodul Fondator (Genesis Node)**.
+
+Acesta este primul și, inițial, cel mai mare membru al comunității. Se supune acelorași reguli de protocol ca orice alt viitor nod: trebuie să facă staking, să mențină uptime și să servească corect utilizatorii pentru a-și păstra drepturile de guvernanță. Pe măsură ce alți membri adaugă resurse (prin programul BYOS sau noduri validatoare), "greutatea" Nodului Fondator în voturi scade natural, transformându-se dintr-un lider unic într-un partener egal.
 
 #### Modelul de Descentralizare în 3 Faze
 
@@ -607,6 +613,9 @@ utilizatorilor de business.
   soluții noi. Companiile pot descoperi și implementa cu ușurință
   aplicații terțe care le extind capacitățile operaționale, de la
   integrări specifice industriei la unelte de analiză avansate.
+  
+  **Abordarea "Mix & Match":**
+  Sistemul îți permite să combini orice aplicație din Marketplace cu infrastructura ta existentă. Ai nevoie de un sistem specific de pontaj pentru construcții? Îl instalezi din Marketplace și acesta va rula securizat în cloud-ul tău privat, alături de ERP-ul tău. Nu ești limitat la suita "standard" — îți construiești propriul ecosistem, piesă cu piesă.
 
 - **Pentru Dezvoltatori:** Marketplace-ul oferă o cale directă și
   profitabilă către piață. Dezvoltatorii își pot lista creațiile,
@@ -752,7 +761,7 @@ BiziX Chain poate interacționa cu alte rețele prin:
 
 | Metodă | Descriere | Status |
 |--------|-----------|--------|
-| Anchoring | Hash publicat pe Polygon, Ethereum | Activ |
+| Anchoring | Hash publicat pe Polygon PoS | Activ |
 | Bridge ERC-20 | BIZ transferabil pe Ethereum | Planificat T3 2025 |
 | IBC Protocol | Interoperabilitate Cosmos | Evaluat |
 | Cross-chain proofs | Verificare pe alte chain-uri | Planificat 2026 |
@@ -829,7 +838,7 @@ doar folosește și dezvoltă platforma, ci devine însăși fundația sa
 hardware.
 
 **Securitate Zero-Trust:**
-Arhitectura BYOS este construită pe principiul "Zero-Trust". Sistemul nu are niciodată încredere implicită în hardware-ul comunității. Datele sunt criptate end-to-end, iar cheile de decriptare sunt păstrate exclusiv în memoria volatilă (RAM) pe durata execuției, nefiind niciodată scrise pe disk-ul operatorului. Astfel, confidențialitatea datelor este garantată matematic, chiar și în cazul compromiterii fizice a serverului.
+Arhitectura BYOS este construită pe principiul "Zero-Trust". Sistemul nu are niciodată încredere implicită în hardware-ul comunității. Datele sunt criptate end-to-end, iar cheile de decriptare sunt păstrate exclusiv în memoria volatilă (RAM) pe durata execuției, nefiind niciodată scrise pe disk-ul operatorului. Astfel, confidențialitatea datelor este garantată criptografic, chiar și în cazul compromiterii fizice a serverului.
 
 ### 10. Programul de Validatori
 
@@ -864,8 +873,10 @@ Validatorii sunt coloana vertebrală a descentralizării BiziX Chain. Ei asigur�
 | Sursă Venit | Estimare Lunară (rețea matură) |
 |-------------|--------------------------------|
 | Taxe tranzacții (70% din total) | Variabil, ~50-500 BIZ |
-| Recompense bloc | 10 BIZ/bloc produs |
+| Bonus producție bloc* | ~10 BIZ/bloc (din Fondul Ecosistem) |
 | Comision delegatori | 0-20% din recompensele lor |
+
+> *Notă: Recompensele pentru producția de blocuri NU provin din inflație (supply-ul rămâne fix la 100M BIZ), ci sunt distribuite din Fondul Ecosistem & Recompense (40M BIZ, eliberat pe 10 ani). Când fondul se epuizează, validatorii vor fi remunerați exclusiv din taxele de tranzacție.
 
 | Costuri | Estimare Lunară |
 |---------|-----------------|
@@ -1022,7 +1033,7 @@ Valoarea BiziX nu stă în aplicații individuale, ci în **fluxurile de lucru i
 | **4. HITL** | Verifici datele extrase, corectezi dacă e cazul, apeși "Confirmă" | Tu |
 | **5. Rezultat** | Factura e înregistrată în contabilitate. Zero introducere manuală de date. | Done |
 
-**Timp economisit:** 5 minute per factură → 5 secunde per factură
+**Timp economisit (estimat):** de la minute la secunde per factură
 
 ![Flux Contabilitate Asistată](imagini/media/diagram-flux-contabilitate.png)
 *Diagrama 10: Fluxul complet — de la poză cu factura la înregistrare contabilă*
@@ -1039,7 +1050,7 @@ Valoarea BiziX nu stă în aplicații individuale, ci în **fluxurile de lucru i
 | **4. HITL** | Operatorul vede propunerea, poate modifica, apoi apasă "Trimite" | Tu |
 | **5. Confirmare** | Mesajul pleacă către client, rezervarea se creează automat | Done |
 
-**Rezultat:** Operatorul gestionează 10x mai multe conversații, fără a pierde tonul personal.
+**Rezultat:** Operatorul poate gestiona un volum mult mai mare de conversații, fără a pierde tonul personal.
 
 ---
 
@@ -1050,7 +1061,7 @@ Valoarea BiziX nu stă în aplicații individuale, ci în **fluxurile de lucru i
 | **1. Input**      | Avocatul finalizează un contract și îl salvează în Nextcloud                               | Tu              |
 | **2. Blockchain** | Sistemul generează automat un hash criptografic și îl ancorează pe blockchain cu timestamp | BiziX           |
 | **3. Certificat** | Se generează un "Certificat de Integritate" cu QR code verificabil                         | BiziX           |
-| **4. Rezultat**   | Dovadă incontestabilă de anterioritate și integritate a documentului                       | Done            |
+| **4. Rezultat**   | Dovadă imuabilă de anterioritate și integritate a documentului                       | Done            |
 
 **Utilizare:** În caz de dispută, oricine poate scana QR-ul și verifica că documentul nu a fost modificat de la data semnării.
 
@@ -1173,50 +1184,53 @@ maturitate, având obiective clare care ne propulsează spre scopul final.
 
 ### 2025 — Fundația
 
-**T1 2025**
+**T3-T4 2025 (Realizat)**
 - [x] Whitepaper v2.1
-- [ ] Lansare testnet BiziX Chain
-- [ ] Audit de securitate smart contracts
-- [ ] Platformă MVP (beta închisă)
+- [x] Infrastructură cloud privată operațională
+- [x] Aplicații MVP integrate și testate (45+ aplicații în diferite stadii)
+- [x] Portal client funcțional
+- [x] Sistem de autentificare centralizat (Keycloak)
 
-**T2 2025**
+**T1-T2 2026 (În Curs)**
+- [ ] Lansare testnet BiziX Chain
+- [ ] Primii utilizatori beta (target: 50)
+- [ ] Platformă beta publică
+- [ ] Integrări contabilitate (Saga, SmartBill)
+
+**T3 2026 (Planificat)**
 - [ ] Lansare mainnet BiziX Chain (Faza Genesis)
 - [ ] Token Generation Event (TGE) BIZ
-- [ ] Platformă beta publică
+- [ ] Audit de securitate smart contracts
 - [ ] Primii 100 utilizatori activi
-
-**T3 2025**
-- [ ] Marketplace aplicații v1.0
-- [ ] Onboarding primii 5 validatori externi
-- [ ] Integrări contabilitate (Saga, SmartBill)
-- [ ] Programul de ambasadori
-
-**T4 2025**
-- [ ] Descentralizare parțială (< 50% BiziX)
-- [ ] Lansare governance on-chain
-- [ ] 1.000 utilizatori activi
-- [ ] Bridge ERC-20 pentru BIZ
+- [ ] Programul de ambasadori (pilot)
 
 ### 2026 — Scalare
 
-**T1-T2 2026**
+**T4 2026**
+- [ ] Marketplace aplicații v1.0
+- [ ] Onboarding primii 5 validatori externi
+- [ ] 500 utilizatori activi
+- [ ] Bridge ERC-20 pentru BIZ
+
+**T2-T4 2026**
+- [ ] Descentralizare parțială (< 50% BiziX)
+- [ ] Lansare governance on-chain
+- [ ] 1.000 utilizatori activi
+- [ ] Lansare Concierge Personalizări (beta)
+- [ ] Mobile apps (iOS, Android)
+
+### 2027 — Maturitate
+
+**T1-T2 2027**
 - [ ] 21 validatori activi
 - [ ] Descentralizare completă
-- [ ] Mobile apps (iOS, Android)
-- [ ] Expansiune regională (Bulgaria, Moldova)
-
-**T3-T4 2026**
-- [ ] 5.000 utilizatori activi
+- [ ] 3.000 utilizatori activi
 - [ ] Marketplace cu 50+ aplicații
-- [ ] Lansare Concierge Personalizări (beta)
+
+**T3-T4 2027+**
+- [ ] 5.000+ utilizatori activi
+- [ ] Expansiune regională (Bulgaria, Moldova)
 - [ ] Integrări bancare directe
-- [ ] AI avansat pentru predicții business
-
-### 2027+ — Maturitate
-
-- [ ] 15.000+ utilizatori activi
-- [ ] Prezență în 10+ țări
-- [ ] Ecosystem self-sustaining
 - [ ] BiziX DAO complet operațional
 
 ### Viziunea Finală: O Infrastructură Globală de Încredere
@@ -1239,14 +1253,14 @@ Nu credem în AI care ia decizii în locul tău. Credem în AI care îți pregă
 
 > **Filosofia Human-in-the-Loop: Tu decizi, el execută.**
 
-### Principiul 1: Local AI & Confidențialitate Absolută
+### Principiul 1: Confidențialitate prin Design
 
-BiziX utilizează o combinație de modele AI: unele rulează **direct în infrastructura noastră privată**, altele sunt accesate prin API-uri securizate de la furnizori de încredere (Google Cloud, Anthropic, Mistral) — toate cu procesare exclusiv în UE.
+BiziX utilizează o combinație de modele AI: unele rulează **direct în infrastructura noastră privată** (clasificare, analiză predictivă), altele sunt accesate prin API-uri securizate de la furnizori de încredere (Google Cloud, Anthropic, Mistral) — toate cu procesare exclusiv în UE.
 
 Ce înseamnă asta pentru tine:
-- **Datele tale nu părăsesc BiziX** — contractele, facturile, emailurile nu sunt trimise către servere externe
+- **Datele sensibile rămân locale** — documentele tale complete nu sunt trimise către API-uri externe. Când e necesar (ex: OCR, sumarizare), trimitem doar fragmentele relevante, nu baze de date întregi
 - **Nu antrenăm modele cu datele tale** — datele tale sunt ale tale, punct
-- **Conformitate GDPR garantată** — totul rămâne în UE, sub jurisdicție europeană
+- **Conformitate GDPR garantată** — toți furnizorii AI folosiți au endpoint-uri în UE și acorduri de procesare date conforme
 
 ### Principiul 2: Human-in-the-Loop — Tu Decizi, El Execută
 
@@ -1269,7 +1283,7 @@ Modelul Human-in-the-Loop nu este doar o preferință operațională, ci o neces
 
 ### Principiul 3: Învață Exclusiv din Datele Tale
 
-Spre deosebire de AI-urile generice care caută pe internet, BiziX AI este antrenat într-un mediu securizat, exclusiv pe datele afacerii tale. Analizează contractele, facturile, emailurile și rapoartele pentru a înțelege contextul unic al companiei tale.
+Spre deosebire de AI-urile generice care caută pe internet, BiziX AI răspunde în contextul datelor afacerii tale. Folosind tehnica RAG (Retrieval-Augmented Generation), sistemul caută în contractele, facturile, emailurile și rapoartele tale pentru a oferi răspunsuri relevante și personalizate — fără a antrena modele noi pe datele tale.
 
 Folosind un motor de limbaj puternic, AI-ul poate purta conversații în limbaj natural. În spatele scenei, un "AI Gateway" central direcționează fiecare cerere către sistemul potrivit: fie că este vorba de a răspunde la o întrebare, de a genera o previziune a cash-flow-ului sau de a analiza sentimentul dintr-un email de la un client.
 
@@ -1459,7 +1473,9 @@ Pentru fiecare euro plătit de client, iată distribuția exactă:
 | Infrastructură cloud | 20% | 10 EUR | Întotdeauna |
 | Dezvoltare continuă | 20% | 10 EUR | Întotdeauna |
 | Operațiuni BiziX | 40% | 20 EUR | Întotdeauna |
-| Ambasador referral | 20% | 10 EUR | Doar dacă clientul a fost recomandat |
+| Ambasador referral | 20-30%* | 10-15 EUR | Doar dacă clientul a fost recomandat |
+
+> *Comisionul ambasadorilor crește pe baza numărului de clienți activi: 20% (1-10 clienți), 25% (11-50 clienți), 30% (51+ clienți). Vezi [Capitolul 11: Programul de Ambasadori](#capitolul-11) pentru detalii.
 
 **Din Aplicații Marketplace (exemplu: 10 EUR)**
 
@@ -1564,18 +1580,21 @@ BIZ este token-ul utilitar nativ al ecosistemului BiziX.
 - Plată servicii platformă cu discount 15% față de EUR
 - Transfer între utilizatori
 - Acces aplicații din marketplace
+- Putere de vot: 1x per BIZ deținut
 
 **Tier 2 — Staker (minim 1.000 BIZ staked)**
 - Toate beneficiile Tier 1
 - Acces funcții beta înainte de lansarea publică
 - Prioritate suport (răspuns în 24h garantat)
 - Badge "Early Supporter" pe profil
+- Putere de vot: 1.5x per BIZ staked
 
 **Tier 3 — Delegator (minim 5.000 BIZ delegat)**
 - Toate beneficiile Tier 2
 - Drept de vot în governance (propuneri minore și standard)
 - Revenue share: 0.5% din taxele de rețea
 - Acces la rapoarte și analize exclusive
+- Putere de vot: 1x per BIZ delegat
 
 **Tier 4 — Validator (minim 10.000 BIZ staked ca validator)**
 - Toate beneficiile Tier 3
@@ -1583,6 +1602,7 @@ BIZ este token-ul utilitar nativ al ecosistemului BiziX.
 - Revenue share: 2-5% din taxele de rețea
 - Vot în toate tipurile de propuneri governance
 - Acces la canale private de comunicare cu echipa
+- Putere de vot: 2x per BIZ staked + bonus uptime
 
 ### 8. Mecanism Anti-Speculație
 
@@ -1599,7 +1619,7 @@ Exemplu: Plată abonament 100 BIZ → 80 BIZ către BiziX, 20 BIZ arși
 
 > **Notă privind plățile Fiat:** Pentru abonamentele plătite în monedă fiat (RON/EUR), protocolul direcționează procentul echivalent către mecanismul de Buyback-and-Burn sau către Trezoreria DAO (pentru buyback periodic), asigurând că fiecare client plătitor contribuie la reducerea ofertei de BIZ, indiferent de metoda de plată aleasă.
 
-> **Clarificare tehnică:** BIZ-ul ars este trimis la o adresă de burn verificabilă on-chain (`0x000...000dead`), din care nu poate fi recuperat niciodată. Oricine poate verifica totalul ars pe explorer.bizix.ro/burn.
+> **Clarificare tehnică:** BIZ-ul ars este trimis la o adresă de burn dedicată, verificabilă on-chain, din care nu poate fi recuperat niciodată. Oricine poate verifica totalul ars pe explorer.bizix.ro/burn.
 
 **B. Staking Lock-up**
 
@@ -1657,7 +1677,7 @@ Fiecare acțiune pe platformă generează un micro-flux economic:
 
 1. **Cumpărare directă**
    - Exchange-uri centralizate (listă pe bizix.io/exchanges)
-   - DEX-uri (Uniswap, BiziX DEX)
+   - DEX-uri (Uniswap, pe baza BIZ wrapped ERC-20)
    - Direct de pe platformă (rampa fiat → BIZ)
 
 2. **Câștigare prin activitate**
@@ -1736,7 +1756,7 @@ Un expert contabil gestionează un portofoliu de 40 de IMM-uri (servicii, comer�
 
 - **Înregistrare Instant, Fără Aprobare:** Te înscrii în 2 minute pe ambasador.bizix.ro. Nu există interviuri, nu există "aprobare". Dacă vrei să recomanzi BiziX, poți începe imediat.
 
-- **Comision Recurent pe Viață:** Câștigi un procent din abonamentul fiecărui client pe care îl recomanzi, în fiecare lună, atât timp cât rămâne activ.
+- **Comision Recurent:** Câștigi un procent din abonamentul fiecărui client pe care îl recomanzi, în fiecare lună, pe toată durata contractuală activă a clientului.
 
 - **Pagină Personalizabilă:** Primești propria ta pagină de prezentare (de ex: ambasador.bizix.ro/andrei-contabil) pe care o poți trimite clienților.
 
@@ -1883,16 +1903,15 @@ BiziX are proceduri predefinite pentru situații de criză:
 - O garanție de profit sau randament
 - Un contract sau angajament legal
 
-**PRIN ACHIZIȚIONAREA BIZ, RECUNOAȘTEȚI CĂ:**
-- Ați citit și înțeles acest whitepaper în întregime
-- Înțelegeți că puteți pierde întreaga sumă investită
-- Nu vă bazați pe promisiuni de apreciere în valoare
-- Achiziționați BIZ pentru utilitatea sa, nu ca investiție
-- Ați consultat un consilier financiar independent dacă este necesar
+**PRIN ACHIZIȚIONAREA BIZ, RECUNOȘTI CĂ:**
+- Ai citit și înțeles acest whitepaper în întregime
+- Nu te bazezi pe promisiuni de apreciere în valoare
+- Achiziționezi BIZ pentru utilitatea sa, nu ca investiție
+- Ai consultat un consilier financiar independent dacă este necesar
 
 > **PERFORMANȚELE TRECUTE NU GARANTEAZĂ REZULTATE VIITOARE.**
 > **CRIPTO-ACTIVELE SUNT VOLATILE ȘI RISCANTE.**
-> **NU INVESTIȚI MAI MULT DECÂT VĂ PERMITEȚI SĂ PIERDEȚI.**
+> **NU INVESTI MAI MULT DECÂT ÎȚI PERMIȚI SĂ PIERZI.**
 
 <a id="capitolul-13"></a>
 ## Capitolul 13: Concluzia
@@ -1911,7 +1930,7 @@ Am construit BiziX pe o arhitectură în care fiecare element îl amplifică pe 
 
 2. **Stratul de Orchestrare (Integration Engine)** — conectează aplicațiile între ele, automatizând fluxurile de lucru.
 
-3. **AI-ul Local (Human-in-the-Loop)** — pregătește munca, tu doar validezi. Viteza automatizării, cu discernământul tău.
+3. **AI-ul Asistent (Human-in-the-Loop)** — pregătește munca, tu doar validezi. Viteza automatizării, cu discernământul tău.
 
 4. **Stratul Blockchain (Notar Invizibil)** — garantează încrederea, transformând fiecare acord într-o dovadă matematică imutabilă.
 
@@ -1921,24 +1940,15 @@ Această sinergie creează mai mult decât o platformă. Creează un mediu de bu
 
 ### Invitația Noastră: Alăturați-vă Arhitecților Viitorului
 
-Viitorul nu este un eveniment pe care îl așteptăm, ci o realitate pe
-care o construim împreună. Indiferent de rolul dumneavoastră, există un
-loc pentru dumneavoastră în ecosistemul BiziX.
+Viitorul nu este un eveniment pe care îl așteptăm, ci o realitate pe care o construim împreună. Indiferent de rolul tău, există un loc pentru tine în ecosistemul BiziX.
 
 **Pentru Liderii de Afaceri și Antreprenori:**
-A sosit momentul să treceți de la a reacționa la a conduce. Opriți-vă
-din a jongla cu zeci de aplicații care nu comunică între ele și adoptați
-un sistem de operare unic, care vă oferă claritate, control și
-încredere. Vă invităm să construiți viitorul afacerii dumneavoastră pe o
-fundație solidă și inteligentă.
+A sosit momentul să treci de la a reacționa la a conduce. Oprește-te din a jongla cu zeci de aplicații care nu comunică între ele și adoptă un sistem de operare unic, care îți oferă claritate, control și încredere. Te invităm să construiești viitorul afacerii tale pe o fundație solidă și inteligentă.
 
 **» Descoperiți soluțiile și începeți călătoria pe [www.bizix.ro](http://www.bizix.ro).**
 
 **Pentru Inovatori și Dezvoltatori:**
-O platformă este la fel de puternică precum creativitatea comunității sale. Vă oferim uneltele, un mediu deschis și un model economic corect
-pentru a crea următoarea generație de soluții de business. Nu vă oferim
-doar un API; vă oferim șansa de a lăsa o amprentă asupra viitorului
-tehnologiei de business.
+O platformă este la fel de puternică precum creativitatea comunității sale. Îți oferim uneltele, un mediu deschis și un model economic corect pentru a crea următoarea generație de soluții de business. Nu îți oferim doar un API; îți oferim șansa de a lăsa o amprentă asupra viitorului tehnologiei de business.
 
 **» Explorați documentația și alăturați-vă comunității pe [www.bizix.network](http://www.bizix.network).**
 
@@ -1980,6 +1990,7 @@ Pentru cititorii non-tehnici, iată explicațiile termenilor specializați folos
 | **DAO**                             | Organizație Autonomă Descentralizată — entitate guvernată prin vot pe blockchain, fără management central.                        |
 | **API**                             | Interfață de Programare — permite aplicațiilor să comunice între ele automat.                                                     |
 | **SDK**                             | Kit de Dezvoltare Software — unelte și librării pentru dezvoltatori.                                                              |
+| **RAG**                             | Retrieval-Augmented Generation — tehnică AI care caută informații relevante în documente înainte de a genera un răspuns.          |
 
 ---
 
@@ -1987,20 +1998,17 @@ Pentru cititorii non-tehnici, iată explicațiile termenilor specializați folos
 
 **1. Cum pot publica o aplicație în BiziX Marketplace?**
 
-Procesul nostru este conceput pentru a fi un parteneriat transparent,
-care vă ajută să ajungeți la piață eficient. Pașii sunt următorii:
+Procesul nostru este conceput pentru a fi un parteneriat transparent, care te ajută să ajungi la piață eficient. Pașii sunt următorii:
 
-1. **Înregistrare:** Creați-vă un cont de dezvoltator pe platforma noastră.
+1. **Înregistrare:** Creează-ți un cont de dezvoltator pe platforma noastră.
 
-2. **Dezvoltare și Testare:** Utilizați API-urile și SDK-urile noastre complete pentru a construi și testa aplicația, asigurându-vă că se integrează perfect și respectă standardele noastre de calitate.
+2. **Dezvoltare și Testare:** Utilizează API-urile și SDK-urile noastre complete pentru a construi și testa aplicația, asigurându-te că se integrează perfect și respectă standardele noastre de calitate.
 
-3. **Publicare și Monetizare:** După un proces de revizuire, vă puteți crea o prezentare de impact în marketplace. Dumneavoastră stabiliți modelul de preț (abonament, achiziție unică etc.), iar noi gestionăm procesarea sigură a plăților, astfel încât să vă puteți concentra pe inovație.
+3. **Publicare și Monetizare:** După un proces de revizuire, îți poți crea o prezentare de impact în marketplace. Tu stabilești modelul de preț (abonament, achiziție unică etc.), iar noi gestionăm procesarea sigură a plăților, astfel încât să te poți concentra pe inovație.
 
-**2. Concret, cum pot câștiga token-uri BIZ ca dezvoltator sau membru al
-comunității?**
+**2. Concret, cum pot câștiga token-uri BIZ ca dezvoltator sau membru al comunității?**
 
-Credem în recompensarea contribuțiilor de valoare. Puteți câștiga
-token-uri BIZ în principal prin două căi:
+Credem în recompensarea contribuțiilor de valoare. Poți câștiga token-uri BIZ în principal prin două căi:
 
 - **Prin Creație și Inovație:** Dezvoltând aplicații și servicii
   valoroase pentru marketplace, sau creând conținut educațional de
@@ -2032,16 +2040,9 @@ de structurare, acesta se va baza pe principii clare:
 Am proiectat o arhitectură hibridă inteligentă pentru a oferi simultan
 viteză și încredere:
 
-- **Stratul de Viteză:** Aplicațiile cu care interacționați zilnic (CRM,
-  ERP) rulează pe o infrastructură Private Cloud de înaltă performanță
-  (bazată pe Proxmox VE). Acest lucru asigură o experiență de utilizare
-  rapidă și fluidă, similară oricărui SaaS de top.
+- **Stratul de Viteză:** Aplicațiile cu care interacționezi zilnic (CRM, ERP) rulează pe o infrastructură Private Cloud de înaltă performanță (bazată pe Proxmox VE). Acest lucru asigură o experiență de utilizare rapidă și fluidă, similară oricărui SaaS de top.
 
-- **Stratul de Încredere:** Pentru a garanta securitatea și
-  auditabilitatea, folosim blockchain-ul. Aici înregistrăm "amprente"
-  criptografice (hash-uri) ale evenimentelor critice, creând un registru
-  imutabil, fără a expune datele sensibile pe lanț. Astfel, beneficiați
-  de ce este mai bun din ambele lumi.
+- **Stratul de Încredere:** Pentru a garanta securitatea și auditabilitatea, folosim blockchain-ul. Aici înregistrăm "amprente" criptografice (hash-uri) ale evenimentelor critice, creând un registru imutabil, fără a expune datele sensibile pe lanț. Astfel, beneficiezi de ce este mai bun din ambele lumi.
 
 **5. Este tokenul BIZ o investiție? Ce îi determină valoarea?**
 
@@ -2056,11 +2057,11 @@ Nu. BIZ este un **token utilitar**, nu un activ de investiție sau un stablecoin
 **Ce determină valoarea BIZ:**
 - **Utilitatea reală**: Accesul la servicii, discount-uri, funcții premium
 - **Cererea organică**: Funcții disponibile doar cu BIZ
-- **Mecanismul deflaționist**: 20% burn pe fiecare tranzacție
+- **Mecanismul deflaționist**: 20% burn pe fiecare plată în BIZ
 - **Staking rewards**: Recompense pentru participare pe termen lung
 - **Mecanisme anti-speculație**: Burn, staking lock-up, vesting lung pentru insideri
 
-Valoarea BIZ poate fluctua. Achiziționați BIZ doar pentru utilitatea sa în ecosistemul BiziX, nu ca investiție speculativă.
+Valoarea BIZ poate fluctua. Achiziționează BIZ doar pentru utilitatea sa în ecosistemul BiziX, nu ca investiție speculativă.
 
 **6. Cum pot deveni Ambasador BiziX?**
 
