@@ -48,9 +48,10 @@ Nu suntem doar o altă aplicație. Suntem infrastructura completă care îți d�
 
 ---
 
-### 🛡️ Protecție Anti-Speculație
+### 🛡️ Aliniere către Utilizare (nu speculație)
 
-BiziX implementează 5 mecanisme pentru a descuraja speculația și a încuraja utilizarea reală:
+BiziX implementează mecanisme pentru a descuraja speculația și a încuraja utilizarea reală.
+Pentru IMM-uri, experiența rămâne **fiat-first** (RON/EUR) — token-ul BIZ este un strat de utilitate pentru funcții premium, guvernanță și economia ecosistemului.
 
 1. **20% burn** pe fiecare plată în BIZ — reducere permanentă a supply-ului
 2. **Staking lock-up** cu recompense crescătoare pentru angajament pe termen lung
@@ -156,11 +157,11 @@ de a gestiona multiple abonamente și integrări complexe.
 
 | Pachet | Aplicații incluse | Probleme rezolvate |
 |--------|-------------------|-------------------|
-| Start (prezență) | WordPress, Matomo, Contact Form | Site rapid, analytics GDPR |
-| Vinde Online | WordPress + WooCommerce, Netopia/PayU, Mautic | E-commerce la cheie, campanii automate |
-| Servicii & Programări | EasyAppointments, Chatwoot, Matomo | Programări online + suport omnichannel |
-| B2B Simplu | EspoCRM, osTicket, Mautic | Pipeline vânzări, suport clienți, nurturing |
-| Birou Digital | Nextcloud, Outline, Matomo | Colaborare, know-how, back-up centralizat |
+| Start (prezență) | WordPress, Matomo *(sau Plausible)*, Contact Form *(plugin WP)* | Site rapid, analytics GDPR |
+| Vinde Online | WordPress + WooCommerce *(plugin WP)*, Mautic, Matomo, Netopia/PayU *(integrare plăți)* | E-commerce la cheie, campanii automate |
+| Servicii & Programări | Easy!Appointments, Chatwoot, Matomo | Programări online + suport omnichannel |
+| B2B Simplu | EspoCRM, Chatwoot *(suport)*, Mautic | Pipeline vânzări, suport clienți, nurturing |
+| Birou Digital | Nextcloud, Outline, Rocket.Chat, Matomo | Colaborare, know-how, comunicare internă, back-up |
 
 > **Toate pachetele includ 30 de zile gratuite pentru testare, fără obligații.**
 
@@ -170,6 +171,44 @@ Nu ești obligat să alegi un meniu fix. BiziX este complet modular. Pachetele d
 Această abordare integrată creează o **singură sursă de adevăr (Single
 Source of Truth)** pentru întreaga afacere, asigurând coerența datelor
 și eficiența decizională.
+
+> **Notă (MVP):** Aplicațiile din bundle-urile de mai sus sunt aliniate cu lista noastră curentă de aplicații MVP (`lista aplicatii MVP.csv`). Unele “aplicații” sunt, în practică, *integrări sau plugin-uri* (ex. WooCommerce, Contact Form, Netopia/PayU).
+
+### Aplicații MVP (P0) folosite la lansare (selectate)
+
+Mai jos sunt aplicațiile de bază (P0) pe care le folosim în bundle-urile inițiale:
+
+| Zonă | Aplicații MVP (P0) |
+|------|---------------------|
+| Site & marketing | WordPress |
+| Analitică GDPR | Matomo *(opțional: Plausible)* |
+| Suport & helpdesk | Chatwoot |
+| Programări | Easy!Appointments |
+| CRM | EspoCRM |
+| ERP | ERPNext |
+| Knowledge base | Outline |
+| Comunicare internă | Rocket.Chat |
+| Facturare | Akaunting *(MVP; integrări RO în curs)* |
+
+### Model de livrare: Cloud Privat (Private VM) vs Servicii Comune (Shared SaaS)
+
+Ca să păstrăm **standardizarea**, **simplitatea** și **costul predictibil** pentru IMM-uri (fără să sacrificăm controlul), BiziX livrează platforma în două moduri complementare:
+
+| Strat | Cum livrăm | Exemple | De ce așa |
+|------|------------|---------|-----------|
+| **Private VM (per client)** | Instanță izolată, administrată de noi | ERP/CRM, fișiere, helpdesk, booking, site | Datele operaționale ale fiecărui client rămân izolate; performanță predictibilă; “serverul tău” |
+| **Shared SaaS (multi-tenant, operat central)** | Servicii comune pentru toți clienții | Identitate (SSO), billing, notificări, **Trust Pack** (semnare + certificate), “notary/certificates”, marketplace metadata | Standardizare maximă, update-uri rapide, costuri operaționale mai mici, UX unificat |
+
+**Important:** Pentru clientul IMM, blockchain-ul rămâne *invizibil* în utilizarea de zi cu zi. Când este necesar, el apare doar sub formă de **artefacte ușor de înțeles** (ex: “Certificat de integritate”, “Dovadă de semnare”, “Istoric auditabil”).
+
+### Trust Pack (serviciu comun): Semnătură electronică + Certificate + Registru de dovezi
+
+Pentru documentele critice (contracte, facturi finale, acorduri), oferim un pachet opțional de încredere, livrat ca **serviciu Shared SaaS**:
+
+- **Semnătură electronică integrată** (ex. Docuseal self-host) conectată direct cu fluxurile din platformă
+- **Certificate verificabile** (integritate / timestamp / versiuni) – “dovada” pe care o poți trimite mai departe unui partener sau auditor
+- **Registru de evenimente critice** (cine a aprobat, când, ce versiune) – audit trail ușor de exportat
+- **Notarizare (hash + timestamp) în fundal**, fără a expune conținutul documentelor
 
 ### Pilonul 2: Stratul de Performanță (Cloud Privat)
 
@@ -267,7 +306,7 @@ Fiecare participant în ecosistemul BiziX are propria "casă" — un spațiu ded
 | **ambasador.bizix.ro** | Ambasadori | Centru de comandă — clienți recomandați, comisioane, pagină personalizabilă de prezentare |
 | **devs.bizix.ro** | Dezvoltatori | Portal tehnic — documentație API, SDK-uri, statistici aplicații, revenue |
 | **explorer.bizix.ro** | Oricine | Transparență blockchain — verifică orice tranzacție, comision sau acord |
-| **wallet.bizix.ro** | Utilizatori BIZ | Portofel — sold, istoric tranzacții, conversie RON ↔ BIZ |
+| **wallet.bizix.ro** | Participanți ecosistem (opțional) | Portofel — sold, istoric tranzacții, conversie RON ↔ BIZ (pentru cei care folosesc BIZ) |
 
 Această separare nu este doar organizatorică — fiecare interfață este construită specific pentru contextul utilizatorului. Un ambasador nu trebuie să navigheze prin setări tehnice; un dezvoltator nu trebuie să vadă informații despre comisioane de recomandare.
 
@@ -419,8 +458,8 @@ Indiferent de faza de descentralizare, oferim:
 | Criteriu | Ethereum L2 | BiziX Chain |
 |----------|-------------|-------------|
 | Cost per tranzacție | $0.01-0.10 | < $0.001 |
-| Confidențialitate | Date publice | Date criptate, doar hash-uri publice |
-| Throughput | ~100-1000 TPS | 10.000+ TPS |
+| Confidențialitate | Date publice | Hash-uri publice + metadate minime; datele sensibile rămân off-chain *(și/sau criptate unde e necesar)* |
+| Throughput | ~100-1000 TPS | Țintă: 10.000+ TPS *(de validat prin benchmark-uri publice pe testnet)* |
 | Conformitate GDPR | Problematică | Nativă prin design |
 | Control upgrade-uri | Dependent de L1 | Guvernat de comunitate |
 
@@ -438,11 +477,13 @@ BiziX Chain este optimizat specific pentru date de business confidențiale, cu a
 | Timp bloc | 2 secunde |
 | Dimensiune maximă bloc | 5 MB |
 | Tranzacții per bloc | ~2.500 |
-| Throughput maxim | ~10.000 TPS |
-| Finalitate | 2 blocuri (~4 secunde) |
+| Throughput maxim | Țintă: ~10.000 TPS *(testnet benchmark)* |
+| Finalitate | Țintă: ~4 secunde *(în funcție de setul de validatori și rețea)* |
 | Algoritm hash | SHA-256 (date) + Keccak-256 (adrese) |
-| Criptare date | AES-256-GCM |
+| Criptare payload (opțional) | AES-256-GCM |
 | Semnături | Ed25519 |
+
+> **Notă:** Valorile de throughput și finalitate sunt **ținte de proiectare** și vor fi susținute prin benchmark-uri publice (testnet) înainte de mainnet.
 
 #### Mecanismul de Consens: Delegated Proof of Stake (DPoS)
 
@@ -603,6 +644,19 @@ integra și monetiza soluții pe platforma BiziX.
   unor provocări de nișă și adăugând valoare specifică pentru diverse
   industrii.
 
+### Standardizare și Calitate: BiziX App Standard (cerințe minime)
+
+Pentru ca “one-click deploy” să rămână simplu și sigur (și să nu devină haos operațional), fiecare aplicație listată în Marketplace trebuie să respecte un set de standarde:
+
+- **Manifest de aplicație**: versiune, dependențe, porturi, healthchecks, politici de backup
+- **SSO & Identity**: integrare prin OIDC/SAML sau proxy standardizat
+- **Permisiuni și izolare**: acces minim necesar, fără “root by default”
+- **Observabilitate**: loguri, metrici, alerte (minim pentru uptime și erori)
+- **Politici de update**: canale (stable/beta), ferestre de mentenanță, rollback
+- **Securitate**: scanare de vulnerabilități + checklist de hardening
+
+> **Notă:** În faza inițială (validare), toate aplicațiile Marketplace sunt administrate intern. Standardele devin obligatorii pentru listarea aplicațiilor terțe, împreună cu un proces de review.
+
 ### 2. BiziX Marketplace: Puntea dintre Ofertă și Necesitate
 
 BiziX Marketplace este centrul nevralgic al ecosistemului nostru, un hub
@@ -640,7 +694,7 @@ utilizatorilor de business.
 > instanțe independente -- găzduite și administrate în mod securizat de
 > infrastructura cloud privată BiziX, cu actualizări automate și
 > backup-uri gestionate central. Totul este unificat sub același cont și
-> aceleași mecanisme de plată (în token-ul BIZ), simplificând
+> aceleași mecanisme de plată (fiat sau BIZ, în funcție de plan și funcționalitate), simplificând
 > administrarea pentru utilizator. Această abordare *„one-click deploy"*
 > transformă BiziX într-o platformă completă unde atât back-office-ul
 > (operațiunile interne), cât și front-office-ul (prezența online a
@@ -977,6 +1031,15 @@ deveni realitate.
 4. **Faza de Implementare** (dacă trece)
    - Propuneri tehnice: implementare automată on-chain
    - Propuneri operaționale: echipa BiziX implementează în 30 zile
+
+#### Guardrails: execuție sigură și predictibilă
+
+Pentru a evita schimbări bruște și a proteja utilizatorii (mai ales în fazele inițiale), guvernanța include măsuri de siguranță:
+
+- **Timelock pentru schimbări critice:** Propunerile *Standard/Major/Critic* care schimbă parametri de protocol, taxe sau tokenomics au o perioadă de așteptare înainte de execuție (ex: 48–168h), timp în care comunitatea poate semnala probleme.
+- **Perioadă de contestare:** Orice propunere trecută poate fi contestată public în fereastra de timelock; dacă apar vulnerabilități demonstrate, se poate activa un vot de urgență.
+- **Separarea clară între „propunere” și „execuție”:** Echipa poate implementa schimbări operaționale, dar **nu poate executa** schimbări de protocol fără votul comunității și fără timelock.
+- **Emergency Governance limitat:** În caz de incident (ex. vulnerabilitate critică), se pot accelera timpii de vot, dar cu **quorum și praguri mai ridicate** și cu obligativitatea documentării publice.
 
 #### Drept de Vot
 
@@ -1577,7 +1640,7 @@ BIZ este token-ul utilitar nativ al ecosistemului BiziX.
 ### 7. Utilitatea Token-ului — Sistemul de Tier-uri
 
 **Tier 1 — Holder (orice cantitate)**
-- Plată servicii platformă cu discount 15% față de EUR
+- Plată servicii platformă cu discount 15% față de EUR *(opțional; alternativ fiat)*
 - Transfer între utilizatori
 - Acces aplicații din marketplace
 - Putere de vot: 1x per BIZ deținut
@@ -1592,14 +1655,14 @@ BIZ este token-ul utilitar nativ al ecosistemului BiziX.
 **Tier 3 — Delegator (minim 5.000 BIZ delegat)**
 - Toate beneficiile Tier 2
 - Drept de vot în governance (propuneri minore și standard)
-- Revenue share: 0.5% din taxele de rețea
+- Distribuție taxe de rețea: 0.5% *(pentru participanții eligibili)*
 - Acces la rapoarte și analize exclusive
 - Putere de vot: 1x per BIZ delegat
 
 **Tier 4 — Validator (minim 10.000 BIZ staked ca validator)**
 - Toate beneficiile Tier 3
 - Drept de a opera nod validator
-- Revenue share: 2-5% din taxele de rețea
+- Distribuție taxe de rețea: 2-5% *(în funcție de rol și performanță)*
 - Vot în toate tipurile de propuneri governance
 - Acces la canale private de comunicare cu echipa
 - Putere de vot: 2x per BIZ staked + bonus uptime
@@ -1639,7 +1702,7 @@ Staking-ul pe termen lung este recompensat, descurajând trading-ul frecvent.
 - NU este ars (pentru a nu crea presiune artificială)
 - Creează cerere organică legată de succesul platformei
 
-> **Clarificare:** În trimestrele fără profit net pozitiv, buyback-ul este suspendat. Nu se folosesc rezerve sau împrumuturi pentru buyback artificial. Transparență totală: rapoartele trimestriale sunt publicate pe bizix.io/reports.
+> **Clarificare:** În trimestrele fără profit net pozitiv, buyback-ul este suspendat. Nu se folosesc rezerve sau împrumuturi pentru buyback artificial. Transparență totală: rapoartele trimestriale sunt publicate pe www.bizix.ro/reports.
 
 **D. Vesting Lung pentru Insiders**
 
@@ -1676,7 +1739,7 @@ Fiecare acțiune pe platformă generează un micro-flux economic:
 ### 10. Modalități de Obținere BIZ
 
 1. **Cumpărare directă**
-   - Exchange-uri centralizate (listă pe bizix.io/exchanges)
+   - Exchange-uri centralizate (listă pe www.bizix.ro/exchanges)
    - DEX-uri (Uniswap, pe baza BIZ wrapped ERC-20)
    - Direct de pe platformă (rampa fiat → BIZ)
 
@@ -1950,7 +2013,7 @@ A sosit momentul să treci de la a reacționa la a conduce. Oprește-te din a jo
 **Pentru Inovatori și Dezvoltatori:**
 O platformă este la fel de puternică precum creativitatea comunității sale. Îți oferim uneltele, un mediu deschis și un model economic corect pentru a crea următoarea generație de soluții de business. Nu îți oferim doar un API; îți oferim șansa de a lăsa o amprentă asupra viitorului tehnologiei de business.
 
-**» Explorați documentația și alăturați-vă comunității pe [www.bizix.network](http://www.bizix.network).**
+**» Explorați documentația și alăturați-vă comunității pe [devs.bizix.ro](http://devs.bizix.ro).**
 
 ### Declarația Noastră Finală
 
