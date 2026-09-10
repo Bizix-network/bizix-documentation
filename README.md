@@ -155,13 +155,13 @@ de a gestiona multiple abonamente și integrări complexe.
 > Pentru a reduce timpul de adoptare, oferim 5 bundle-uri
 > preconfigurate:
 
-| Pachet | Aplicații incluse | Probleme rezolvate |
-|--------|-------------------|-------------------|
-| Start (prezență) | WordPress, Matomo *(sau Plausible)*, Contact Form *(plugin WP)* | Site rapid, analytics GDPR |
-| Vinde Online | WordPress + WooCommerce *(plugin WP)*, Mautic, Matomo, Netopia/PayU *(integrare plăți)* | E-commerce la cheie, campanii automate |
-| Servicii & Programări | Easy!Appointments, Chatwoot, Matomo | Programări online + suport omnichannel |
-| B2B Simplu | EspoCRM, Chatwoot *(suport)*, Mautic | Pipeline vânzări, suport clienți, nurturing |
-| Birou Digital | Nextcloud, Outline, Rocket.Chat, Matomo | Colaborare, know-how, comunicare internă, back-up |
+| Pachet                | Aplicații incluse                                                                       | Probleme rezolvate                                |
+| --------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| Start (prezență)      | WordPress, Matomo *(sau Plausible)*, Contact Form *(plugin WP)*                         | Site rapid, analytics GDPR                        |
+| Vinde Online          | WordPress + WooCommerce *(plugin WP)*, Mautic, Matomo, Netopia/PayU *(integrare plăți)* | E-commerce la cheie, campanii automate            |
+| Servicii & Programări | Easy!Appointments, Chatwoot, Matomo                                                     | Programări online + suport omnichannel            |
+| B2B Simplu            | EspoCRM, Chatwoot *(suport)*, Mautic                                                    | Pipeline vânzări, suport clienți, nurturing       |
+| Birou Digital         | Nextcloud, Outline, Rocket.Chat, Matomo                                                 | Colaborare, know-how, comunicare internă, back-up |
 
 > **Toate pachetele includ 30 de zile gratuite pentru testare, fără obligații.**
 
@@ -194,10 +194,10 @@ Mai jos sunt aplicațiile de bază (P0) pe care le folosim în bundle-urile ini�
 
 Ca să păstrăm **standardizarea**, **simplitatea** și **costul predictibil** pentru IMM-uri (fără să sacrificăm controlul), BiziX livrează platforma în două moduri complementare:
 
-| Strat | Cum livrăm | Exemple | De ce așa |
-|------|------------|---------|-----------|
-| **Private VM (per client)** | Instanță izolată, administrată de noi | ERP/CRM, fișiere, helpdesk, booking, site | Datele operaționale ale fiecărui client rămân izolate; performanță predictibilă; “serverul tău” |
-| **Shared SaaS (multi-tenant, operat central)** | Servicii comune pentru toți clienții | Identitate (SSO), billing, notificări, **Trust Pack** (semnare + certificate), “notary/certificates”, marketplace metadata | Standardizare maximă, update-uri rapide, costuri operaționale mai mici, UX unificat |
+| Strat                                          | Cum livrăm                            | Exemple                                                                                                                    | De ce așa                                                                                       |
+| ---------------------------------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Private VM (per client)**                    | Instanță izolată, administrată de noi | ERP/CRM, fișiere, helpdesk, booking, site                                                                                  | Datele operaționale ale fiecărui client rămân izolate; performanță predictibilă; “serverul tău” |
+| **Shared SaaS (multi-tenant, operat central)** | Servicii comune pentru toți clienții  | Identitate (SSO), billing, notificări, **Trust Pack** (semnare + certificate), “notary/certificates”, marketplace metadata | Standardizare maximă, update-uri rapide, costuri operaționale mai mici, UX unificat             |
 
 **Important:** Pentru clientul IMM, blockchain-ul rămâne *invizibil* în utilizarea de zi cu zi. Când este necesar, el apare doar sub formă de **artefacte ușor de înțeles** (ex: “Certificat de integritate”, “Dovadă de semnare”, “Istoric auditabil”).
 
@@ -299,14 +299,14 @@ soluție superioară platformelor tradiționale.
 
 Fiecare participant în ecosistemul BiziX are propria "casă" — un spațiu dedicat, optimizat pentru nevoile sale specifice:
 
-| Adresă | Pentru cine | Ce găsești acolo |
-|--------|-------------|------------------|
-| **www.bizix.ro** | Toată lumea | Poarta de intrare — marketplace-ul public cu toate aplicațiile disponibile |
-| **client.bizix.ro** | Antreprenori | Dashboard-ul afacerii — aplicațiile active, facturi, setări, suport |
-| **ambasador.bizix.ro** | Ambasadori | Centru de comandă — clienți recomandați, comisioane, pagină personalizabilă de prezentare |
-| **devs.bizix.ro** | Dezvoltatori | Portal tehnic — documentație API, SDK-uri, statistici aplicații, revenue |
-| **explorer.bizix.ro** | Oricine | Transparență blockchain — verifică orice tranzacție, comision sau acord |
-| **wallet.bizix.ro** | Participanți ecosistem (opțional) | Portofel — sold, istoric tranzacții, conversie RON ↔ BIZ (pentru cei care folosesc BIZ) |
+| Adresă                 | Pentru cine                       | Ce găsești acolo                                                                          |
+| ---------------------- | --------------------------------- | ----------------------------------------------------------------------------------------- |
+| **www.bizix.ro**       | Toată lumea                       | Poarta de intrare — marketplace-ul public cu toate aplicațiile disponibile                |
+| **client.bizix.ro**    | Antreprenori                      | Dashboard-ul afacerii — aplicațiile active, facturi, setări, suport                       |
+| **ambasador.bizix.ro** | Ambasadori                        | Centru de comandă — clienți recomandați, comisioane, pagină personalizabilă de prezentare |
+| **devs.bizix.ro**      | Dezvoltatori                      | Portal tehnic — documentație API, SDK-uri, statistici aplicații, revenue                  |
+| **explorer.bizix.ro**  | Oricine                           | Transparență blockchain — verifică orice tranzacție, comision sau acord                   |
+| **wallet.bizix.ro**    | Participanți ecosistem (opțional) | Portofel — sold, istoric tranzacții, conversie RON ↔ BIZ (pentru cei care folosesc BIZ)   |
 
 Această separare nu este doar organizatorică — fiecare interfață este construită specific pentru contextul utilizatorului. Un ambasador nu trebuie să navigheze prin setări tehnice; un dezvoltator nu trebuie să vadă informații despre comisioane de recomandare.
 
