@@ -26,17 +26,19 @@ Planul este complet la nivel de domenii, responsabilități, dependențe și ver
 
 ## 2. Cum organizăm această zonă
 
-Fișierele acestei etape sunt:
+Fișierele curente sunt:
 
 ```text
 docs/reconstructie/
 ├── README.md
-└── TEMPLATE_PLAN_SECTIUNE.md
+├── TEMPLATE_PLAN_SECTIUNE.md
+└── sectiuni/
+    └── 01_PRODUS_ECONOMIE_PILOT.md
 ```
 
 Acest README este planul general și punctul de intrare. [Template-ul de secțiune](./TEMPLATE_PLAN_SECTIUNE.md) definește formatul comun pentru aprofundare.
 
-Planurile detaliate vor fi create gradual în subdirectorul `sectiuni/`, când abordăm fiecare domeniu. Numele lor sunt rezervate în catalogul de mai jos, dar fișierele și subdirectorul nu sunt create în această etapă. Nu generăm documente goale prezentate drept planuri finalizate.
+[Mini-brief-ul S01](./sectiuni/01_PRODUS_ECONOMIE_PILOT.md) este redactat ca document de lucru, cu repere confirmate și ipoteze separate. Nu reprezintă încă planul detaliat complet sau aprobarea pentru implementare. Planurile S02–S16 vor fi create gradual în `sectiuni/`; numele lor sunt rezervate în catalog, fără documente goale prezentate drept planuri finalizate.
 
 ### Reguli de lucru
 
@@ -113,11 +115,11 @@ Acestea sunt granițe logice, nu o cerință de a crea câte un microserviciu, r
 
 ## 5. Catalogul planurilor detaliate
 
-**Status inițial:** toate cele 16 planuri de mai jos sunt de elaborat. Starea implementărilor vechi este de verificat. Numerotarea reprezintă domenii de lucru, nu o ordine rigidă de implementare integrală.
+**Status la 2026-09-13:** S01 are un mini-brief de lucru redactat; profilul clientului, firma pilot și oferta rămân de validat. Planurile S02–S16 sunt de elaborat. Starea implementărilor vechi este de verificat. Numerotarea reprezintă domenii de lucru, nu o ordine rigidă de implementare integrală.
 
-| ID | Fișier planificat în `sectiuni/` | Responsabilitate și livrabil principal |
+| ID | Fișier existent sau planificat în `sectiuni/` | Responsabilitate și livrabil principal |
 |---|---|---|
-| S01 | `01_PRODUS_ECONOMIE_PILOT.md` | Segmentul de client, problema, procesul pilot, oferta, costurile, criteriile de valoare și excluderile |
+| S01 | [01_PRODUS_ECONOMIE_PILOT.md](./sectiuni/01_PRODUS_ECONOMIE_PILOT.md) | Mini-brief redactat: vânzare până la facturare și asistent comercial; ipoteză de client, economie, limite și criterii de valoare |
 | S02 | `02_ARHITECTURA_CONTRACTE_DATE.md` | Granițe de module, model minim de date, proprietatea datelor, contracte de capabilități/evenimente și reguli de evoluție |
 | S03 | `03_IDENTITATE_ACCES_IZOLARE.md` | Companii, utilizatori, identități AI, delegare, autorizare, izolare, politici de date și model de amenințări |
 | S04 | `04_INFRASTRUCTURA_LIVRARE_OPERARE.md` | Medii, CI/CD, artefacte, secrete, deployment, observabilitate, backup, recuperare și cost operațional |
@@ -156,7 +158,8 @@ Acestea sunt granițe logice, nu o cerință de a crea câte un microserviciu, r
 | S02 | Rezultatele S01 și inventarul componentelor existente |
 | S03, S04 | Contractele și granițele inițiale S02; S04 preia controalele de securitate din S03 |
 | S05 | Contractele S02, identitatea/politicile S03 și mediul minim S04 |
-| S06, S07, S08 | S01 și contractele minime S02/S03/S05; se dezvoltă împreună pentru primul proces |
+| S06 | Mini-brief-ul S01 pentru harta UX și wireframe-uri; implementarea UI se aliniază ulterior contractelor S02/S03/S05 |
+| S07, S08 | S01 și contractele minime S02/S03/S05; se dezvoltă împreună cu implementarea S06 pentru primul proces |
 | S09, S10 | Contractele comune și procesele S08; infrastructura și securitatea aferente |
 | S11 | Capabilități funcționale S07/S08 și S09/S10 acolo unde mandatul agentului le folosește |
 | S12 | Baza stabilă a modulelor, izolarea, artefactele și pipeline-ul S02–S05/S07 |
@@ -167,16 +170,19 @@ Acestea sunt granițe logice, nu o cerință de a crea câte un microserviciu, r
 
 Dependențele cer contractele și funcțiile necesare livrabilului curent, nu finalizarea întregii secțiuni. Altfel am bloca primul proces până la construirea întregii platforme.
 
-Ordinea recomandată pentru discuțiile detaliate este:
+Ordinea recomandată pentru aprofundare este:
 
-1. S01 — ce problemă și ce client validăm.
-2. S02 — granițe, date, acțiuni și interfețe de integrare.
-3. S03 + baza S04/S16 — acces, izolare, livrare și probe de siguranță.
-4. S05/S06/S07/S08 — un proces complet utilizabil manual.
-5. S09/S10 — integrare externă și servicii efective.
-6. S11 și aplicarea S14 — operare AI și dovezi pentru cazul ales.
-7. S12/S13 — personalizare, reutilizare și actualizare comună.
-8. Extinderea S15/S16 — oferta operabilă, migrarea și lansarea; elementele lor minime sunt pregătite anterior.
+1. Mini-brief S01 — repere confirmate, ipoteza de client, procesul și limitele inițiale.
+2. Explorare S06 — hartă globală a experienței și prototip schematic al fluxului pilot; feedback în S01.
+3. S02 — granițe, date, acțiuni și interfețe de integrare, rafinate împreună cu S01/S06.
+4. S03 + baza S04/S16 — acces, izolare, livrare și probe de siguranță.
+5. S05/S06/S07/S08 — implementarea unui proces complet utilizabil manual.
+6. S09/S10 — integrare externă și servicii efective.
+7. S11 și aplicarea S14 — operare AI și dovezi pentru cazul ales.
+8. S12/S13 — personalizare, reutilizare și actualizare comună.
+9. Extinderea S15/S16 — oferta operabilă, migrarea și lansarea; elementele lor minime sunt pregătite anterior.
+
+Explorarea UX începe fără a aștepta închiderea exhaustivă a S01 sau implementarea core-ului. Harta acoperă viziunea globală, iar prototipul aprofundează primul flux. Schițele folosesc ipoteze și date fictive; nu constituie validare comercială sau dovadă a funcționării tehnice.
 
 ## 7. Etape de livrare și condiții de trecere
 
@@ -184,11 +190,13 @@ Etapele sunt propuneri bazate pe rezultate, nu termene calendaristice. Fiecare p
 
 ### M0 — Produsul pilot și adevărul tehnic
 
-**Secțiuni principale:** S01, S02, baza S03/S04/S14/S16.
+**Secțiuni principale:** S01, S02, explorarea S06 și baza S03/S04/S14/S16.
 
 Livrabile:
 
-- alegerea unei categorii de firme și a unui proces cu valoare verificabilă;
+- mini-brief cu procesul ales, ipoteza de client și limitele inițiale;
+- hartă globală UX și prototip schematic al fluxului ales, cu feedback în brief;
+- identificarea unui interlocutor reprezentativ și verificarea problemei și valorii urmărite;
 - inventarul codului, deployment-urilor, clienților și obligațiilor existente;
 - clasificarea componentelor: reutilizare, adaptare, înlocuire sau retragere controlată;
 - arhitectură de referință, surse autoritative și contracte inițiale;
@@ -205,7 +213,7 @@ Livrabile:
 Livrabile:
 
 - acces la spațiul firmei și verificarea izolării în cel puțin două contexte de tenant;
-- primul flux de business, de exemplu contact → programare sau oportunitate → ofertă;
+- primul segment nativ al fluxului ales: contact → oportunitate → ofertă; legătura cu facturarea externă se validează în M2;
 - aceleași reguli implementate în capabilități, nu numai în UI;
 - sarcini, evenimente și audit persistente;
 - build/deploy repetabil, observabilitate și restaurare de bază verificată;
@@ -362,7 +370,8 @@ O decizie transversală primește un ID `RC-nnn`; o decizie locală unei secțiu
 | Aplicații native, ecosistem deschis, personalizări reutilizabile și angajați AI cu mandat | Principii asumate în discuția de direcție |
 | Cele 16 secțiuni, etapele M0–M5 și recomandările de simplificare | Propunere a acestui plan general, pentru validare |
 | Framework, schemă fizică de date, motoare și furnizori | De evaluat în secțiunile responsabile |
-| Primul proces pilot și prima ofertă | De decis în S01 |
+| Procesul vânzare până la facturare și primul AI asistent comercial | Alegeri confirmate de inițiator la 2026-09-13, documentate în S01 |
+| Profilul clientului, firma pilot și oferta comercială | De validat în S01; nu sunt deduse din alegerea procesului |
 
 Înainte de schimbarea unei decizii verificăm impactul asupra contractelor, datelor, clienților, costurilor și secțiunilor dependente. O modificare a unui prompt nu poate schimba implicit politica de acces sau oferta comercială.
 
@@ -385,17 +394,23 @@ Nu folosim un procent global de tip „platforma este 85% gata”. Progresul se 
 
 Planul reduce riscul de blocaj prin probe timpurii și decizii reversibile; nu garantează absența blocajelor. Riscurile nerezolvate se păstrează vizibile, cu responsabil și condiție de rezolvare.
 
-## 13. Următorul pas: S01, apoi S02
+## 13. Stadiu curent: mini-brief S01 și pregătirea hărții UX
 
-Primul plan detaliat recomandat este **S01 — Produs, economie și pilot**. Înainte de a decide multe componente tehnice, trebuie să clarificăm:
+[Mini-brief-ul S01](./sectiuni/01_PRODUS_ECONOMIE_PILOT.md) consemnează răspunsurile inițiatorului din 2026-09-13:
 
-1. Există clienți activi și date de producție care trebuie păstrate?
-2. Ce categorie de firme putem implica direct în validare?
-3. Ce proces zilnic merită rezolvat primul și cum funcționează astăzi?
-4. Ce aplicații externe trebuie păstrate, inclusiv rolul concret al FGO?
-5. Ce acțiuni ar trebui să execute primul angajat AI și ce rămâne la om?
-6. Ce personalizare probabilă ar putea fi reutilizată de un al doilea client?
-7. Cine construiește, verifică, operează și oferă suport?
-8. Ce costuri, constrângeri de date și niveluri de serviciu putem susține?
+- Bizix este în dezvoltare internă, fără clienți externi în producție.
+- Nu există încă o firmă pilot identificată.
+- Primul proces ales este vânzare până la facturare.
+- Primul rol AI ales este asistent comercial.
 
-Rezultatul S01 va fi un pilot delimitat, criterii de succes și excluderi explicite. S02 îl transformă apoi în contracte și granițe arhitecturale. Planurile detaliate nu sunt create sau considerate aprobate prin publicarea acestui plan general.
+Profilul unei firme mici de servicii B2B este o ipoteză propusă, nu o alegere confirmată. FGO rămâne candidat de integrare, iar oferta, prețurile și bugetele sunt de validat. Datele și configurațiile interne rămân de inventariat înainte de schimbări tehnice.
+
+Pașii următori:
+
+1. Confirmăm sau schimbăm ipoteza de client și căutăm un interlocutor reprezentativ.
+2. Pregătim harta globală UX și prototipul schematic al fluxului vânzare → ofertă → facturare.
+3. Verificăm rolurile, aprobările, stările de eroare și ce informații trebuie să vadă utilizatorul.
+4. Clarificăm instrumentele reale ale firmei, volumele, costurile, responsabilitățile și disponibilitatea de plată.
+5. Rafinăm S01 și contractele S02 pe baza observațiilor; detaliem celelalte secțiuni când dependențele lor sunt clare.
+
+Absența unui pilot nu blochează schițele, dar nu permite declararea produsului sau a UX-ului ca validate de piață. S01 rămâne un mini-brief de lucru, nu un plan complet aprobat pentru implementare. Harta și prototipul nu sunt încă create.
