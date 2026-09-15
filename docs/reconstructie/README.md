@@ -1,7 +1,7 @@
 # BiziX — Plan general de reconstrucție a platformei
 
-> **Versiune:** 0.2 — plan de lucru, mini-brief S01 inițiat
-> **Data:** 2026-09-13
+> **Versiune:** 0.10 — desemnare automatizată, transfer și recuperarea responsabilului de acces în S03
+> **Data:** 2026-09-15
 > **Nivel:** Plan general al programului; planurile detaliate se elaborează separat, pe secțiuni.
 > **Stadiu:** Documentare și decizii. Nu reprezintă implementare, audit tehnic sau angajament de calendar.
 
@@ -13,7 +13,9 @@ Reconstrucția pornește de la valoarea pentru client, nu de la obligația de a 
 
 Ținta este un spațiu operațional unic pentru firme mici și medii, cu aplicații native, servicii comune, angajați AI și integrare cu platformele externe pe care clientul dorește să le păstreze.
 
-**„Totul într-un singur loc” este o experiență unificată, nu o obligație de a folosi exclusiv software Bizix.** CRM-ul poate fi Bizix, facturarea poate rămâne FGO, iar utilizatorul trebuie să înțeleagă ce este conectat, ce date sunt actuale și ce acțiuni poate executa.
+**Facturarea nativă Bizix este soluția principală și implicită a produsului țintă.** FGO și alte platforme sunt integrări complet opționale pentru clienții care au nevoie să păstreze un program existent. Obiectivul este adoptarea în timp a facturării Bizix prin valoarea oferită, nu dependența de FGO.
+
+„Totul într-un singur loc” rămâne o experiență unificată, nu o obligație de migrare imediată. Facturarea Bizix trebuie să funcționeze fără cont FGO. Schimbarea sistemului se face controlat pentru documentele noi, după reconcilierea operațiunilor în curs; facturile istorice își păstrează proveniența.
 
 Planul este complet la nivel de domenii, responsabilități, dependențe și verificări. Nu încearcă să definească anticipat toate funcțiile tuturor industriilor. Detaliile și alegerile tehnologice se fixează după verificarea ipotezelor relevante.
 
@@ -33,12 +35,15 @@ docs/reconstructie/
 ├── README.md
 ├── TEMPLATE_PLAN_SECTIUNE.md
 └── sectiuni/
-    └── 01_PRODUS_ECONOMIE_PILOT.md
+    ├── 01_PRODUS_ECONOMIE_PILOT.md
+    ├── 02_ARHITECTURA_CONTRACTE_DATE.md
+    ├── 03_IDENTITATE_ACCES_IZOLARE.md
+    └── 06_SPATIU_DE_LUCRU_UX.md
 ```
 
 Acest README este planul general și punctul de intrare. [Template-ul de secțiune](./TEMPLATE_PLAN_SECTIUNE.md) definește formatul comun pentru aprofundare.
 
-[Mini-brief-ul S01](./sectiuni/01_PRODUS_ECONOMIE_PILOT.md) este redactat ca document de lucru, cu repere confirmate și ipoteze separate. Nu reprezintă încă planul detaliat complet sau aprobarea pentru implementare. Planurile S02–S16 vor fi create gradual în `sectiuni/`; numele lor sunt rezervate în catalog, fără documente goale prezentate drept planuri finalizate.
+[Mini-brief-ul S01](./sectiuni/01_PRODUS_ECONOMIE_PILOT.md) este redactat ca document de lucru, cu repere confirmate și ipoteze separate. [S02](./sectiuni/02_ARHITECTURA_CONTRACTE_DATE.md) este în revizuire după discutarea capitolelor 6 și 9 și detalierea contractelor din capitolul 7: direcțiile și cerințele confirmate sunt separate de propunerile de model, contracte și mecanisme care încă necesită probe. [S03](./sectiuni/03_IDENTITATE_ACCES_IZOLARE.md) delimitează drepturile minime ale fluxului comercial, cu opt decizii confirmate despre operare, autoritate, niveluri de acces, desemnare automatizată, transfer și recuperare, plus propuneri pentru aplicarea lor; nu acoperă încă întregul domeniu al identității și izolării. [S06](./sectiuni/06_SPATIU_DE_LUCRU_UX.md) conține prima hartă UX creată în FigJam, sursele diagramelor și intrările pentru wireframe-uri. S01 și S06 nu sunt încă planuri detaliate complete; S02 și livrabilul delimitat S03 necesită revizuire și probe din implementări. Niciunul dintre aceste livrabile nu reprezintă aprobarea pentru implementare. Celelalte planuri vor fi create gradual în `sectiuni/`, fără documente goale prezentate drept planuri finalizate.
 
 ### Reguli de lucru
 
@@ -115,19 +120,19 @@ Acestea sunt granițe logice, nu o cerință de a crea câte un microserviciu, r
 
 ## 5. Catalogul planurilor detaliate
 
-**Status la 2026-09-13:** S01 are un mini-brief de lucru redactat; profilul clientului, firma pilot și oferta rămân de validat. Planurile S02–S16 sunt de elaborat. Starea implementărilor vechi este de verificat. Numerotarea reprezintă domenii de lucru, nu o ordine rigidă de implementare integrală.
+**Status la 2026-09-15:** S01 are un mini-brief actualizat, S02 este în revizuire după confirmarea direcțiilor și cerințelor din capitolul 9, S03 are un prim livrabil documentar pentru drepturile minime, iar S06 păstrează prima hartă UX în FigJam și sursele în repository. S03 confirmă drepturile minime, autoritatea responsabilului firmei și cele două niveluri de acces, plus prima desemnare prin verificare automatizată, transferul reciproc și recuperarea prin factori proprii/asistență. Matricea, mecanismul automat de verificare și procedurile de aplicare rămân de validat. Un tenant reprezintă o singură entitate juridică, iar facturarea directă este inclusă în prima versiune, fără a fi încă desenată în hartă. S02 nu este aprobat integral; schemele și mecanismele detaliate rămân propuse, iar implementarea este neverificată. Firma mică de servicii B2B este ipoteza aleasă pentru explorare, nu un profil validat comercial; firma pilot și oferta rămân de stabilit. Celelalte planuri sunt de elaborat, iar wireframe-urile și prototipul interactiv sunt încă necreate. Starea implementărilor vechi este de verificat. Numerotarea reprezintă domenii de lucru, nu o ordine rigidă de implementare integrală.
 
 | ID | Fișier existent sau planificat în `sectiuni/` | Responsabilitate și livrabil principal |
 |---|---|---|
 | S01 | [01_PRODUS_ECONOMIE_PILOT.md](./sectiuni/01_PRODUS_ECONOMIE_PILOT.md) | Mini-brief redactat: vânzare până la facturare și asistent comercial; ipoteză de client, economie, limite și criterii de valoare |
-| S02 | `02_ARHITECTURA_CONTRACTE_DATE.md` | Granițe de module, model minim de date, proprietatea datelor, contracte de capabilități/evenimente și reguli de evoluție |
-| S03 | `03_IDENTITATE_ACCES_IZOLARE.md` | Companii, utilizatori, identități AI, delegare, autorizare, izolare, politici de date și model de amenințări |
+| S02 | [02_ARHITECTURA_CONTRACTE_DATE.md](./sectiuni/02_ARHITECTURA_CONTRACTE_DATE.md) | În revizuire: direcții și cerințe confirmate; model și contracte propuse pentru fluxul din ofertă și facturare directă, evoluție și criterii de acceptare |
+| S03 | [03_IDENTITATE_ACCES_IZOLARE.md](./sectiuni/03_IDENTITATE_ACCES_IZOLARE.md) | În revizuire: drepturi minime, niveluri de acces, desemnare automatizată, transfer și recuperare; dovezile, mecanismele, izolarea și politicile complete rămân de validat |
 | S04 | `04_INFRASTRUCTURA_LIVRARE_OPERARE.md` | Medii, CI/CD, artefacte, secrete, deployment, observabilitate, backup, recuperare și cost operațional |
 | S05 | `05_CORE_PLATFORM_RUNTIME.md` | Registrul modulelor/capabilităților, instalări, configurări, versiuni, rutare, audit comun și ciclul de viață al aplicațiilor |
-| S06 | `06_SPATIU_DE_LUCRU_UX.md` | Portal comun, design system, navigare, căutare autorizată, inbox, Action Center, administrare și transparența AI |
-| S07 | `07_MODULE_BUSINESS_NATIVE.md` | Aplicațiile native ale pilotului, regulile de domeniu și funcționarea manuală completă; familiile ulterioare de module |
+| S06 | [06_SPATIU_DE_LUCRU_UX.md](./sectiuni/06_SPATIU_DE_LUCRU_UX.md) | Prima hartă logică UX creată; navigare, Action Center și transparența AI. Wireframe-urile, prototipul și design system-ul urmează |
+| S07 | `07_MODULE_BUSINESS_NATIVE.md` | Aplicații native, inclusiv facturarea Bizix: minim funcțional, cerințe fiscale, reguli de domeniu și validare înainte de producție |
 | S08 | `08_WORKFLOW_SARCINI_EVENIMENTE.md` | Procese durabile, sarcini pentru oameni/AI, aprobări, outbox, deduplicare, retry, compensare și reconciliere |
-| S09 | `09_INTEGRARI_API_CONECTORI.md` | API-uri expuse și consumate, conexiuni per companie, adaptoare, mapări, capabilități externe și pilotul FGO |
+| S09 | `09_INTEGRARI_API_CONECTORI.md` | API-uri expuse și consumate, conexiuni per companie și conectori opționali; FGO este un exemplu de integrare, nu o condiție pentru facturarea Bizix |
 | S10 | `10_SERVICII_COMUNE.md` | Notification Hub, email, SMS, fișiere, documente și semnare; limitele dintre serviciul Bizix și transport/furnizor |
 | S11 | `11_ANGAJATI_AI.md` | AI Gateway operațional, competențe, mandate, instrumente, cunoaștere, memorie, bugete, evaluări și escaladare |
 | S12 | `12_APP_STUDIO_PERSONALIZARE.md` | AI Constructor, App Spec, SDK, configurări, extensii, preview, migrări și publicare controlată |
@@ -213,7 +218,7 @@ Livrabile:
 Livrabile:
 
 - acces la spațiul firmei și verificarea izolării în cel puțin două contexte de tenant;
-- primul segment nativ al fluxului ales: contact → oportunitate → ofertă; legătura cu facturarea externă se validează în M2;
+- primul segment nativ al fluxului ales: contact → oportunitate → ofertă; facturarea Bizix este ținta principală, cu minimul și etapa de livrare stabilite în S07;
 - aceleași reguli implementate în capabilități, nu numai în UI;
 - sarcini, evenimente și audit persistente;
 - build/deploy repetabil, observabilitate și restaurare de bază verificată;
@@ -221,20 +226,20 @@ Livrabile:
 
 **Poarta de acceptare:** procesul este utilizabil cap-coadă și controalele de acces, consistența și recuperarea funcționează în scenariile definite. Nu este suficient un set de ecrane cu date demonstrative.
 
-### M2 — Ecosistem deschis și servicii reale
+### M2 — Facturare și servicii comune, cu integrări opționale
 
-**Secțiuni principale:** S09, S10, extinderea S06/S08/S15 și probe S16.
+**Secțiuni principale:** S07, S10, extinderea S06/S08/S15 și probe S16; S09 pentru integrările efectiv incluse.
 
 Livrabile:
 
-- conectare autorizată per companie la platforma externă aleasă;
-- cazul CRM Bizix + FGO ca referință, validat inițial într-un mediu de test autorizat;
-- proprietatea datelor, mapări, actualitate și conflicte vizibile;
-- notificări prin serviciile comune și evidența consumului;
-- limite, revocare, timeout, rezultat necunoscut și reconciliere;
-- acces la funcțiile externe disponibile din spațiul Bizix, fără promisiunea acoperirii întregului produs extern.
+- validarea facturării native Bizix din ofertă și directe, fără oportunitate/ofertă obligatorie pentru traseul direct și fără dependență de conturi sau apeluri FGO;
+- stabilirea în S07 a minimului funcțional, cerințelor fiscale aplicabile și repartizării livrării între etape, înainte de emiterea reală;
+- notificări prin serviciile comune, audit, statusuri și evidența consumului;
+- dacă un client alege o integrare externă: conectare autorizată, mapări, proveniență, limite și reconciliere;
+- FGO poate fi verificat ca exemplu opțional într-un mediu de test autorizat, fără a condiționa utilizarea facturării native;
+- reguli de tranziție către Bizix pentru documente noi, cu păstrarea istoricului și evitarea dublării.
 
-**Poarta de acceptare:** erorile și retry-urile nu produc efecte suplimentare necontrolate. Indisponibilitatea FGO nu declanșează emiterea aceleiași facturi în alt sistem. Funcțiile neacoperite de API sunt declarate, nu simulate ca succes.
+**Poarta de acceptare:** facturarea nativă și orice integrare oferită au probele necesare pentru funcțiile declarate. Erorile nu mută automat emiterea între Bizix și un furnizor extern. O capabilitate încă neimplementată sau neverificată fiscal nu este prezentată drept disponibilă în producție. FGO nu este o condiție obligatorie de lansare.
 
 ### M3 — Primul angajat AI și încredere demonstrabilă
 
@@ -287,6 +292,8 @@ Livrabile:
 După M5, extinderea pe industrii, competențe AI, conectori și marketplace este ghidată de utilizare și economie. Nu revenim automat la lista integrală de funcționalități din whitepaper.
 
 ## 8. Decizii de arhitectură: ce fixăm și ce testăm
+
+[S02 v0.6](./sectiuni/02_ARHITECTURA_CONTRACTE_DATE.md) detaliază aceste teme pentru fluxul comercial și facturarea directă. S02-D01–D12 au confirmări delimitate în registrul RC-001–RC-012: direcție arhitecturală, prioritate de evaluare, cerințe sau scope de produs. PostgreSQL este candidatul principal de evaluat, nu o tehnologie deja validată. Confirmările nu aprobă schemele detaliate, nu închid alegerile tehnice de mai jos și nu confirmă reutilizarea codului existent.
 
 ### De fixat înainte de implementările care depind de ele
 
@@ -371,7 +378,43 @@ O decizie transversală primește un ID `RC-nnn`; o decizie locală unei secțiu
 | Cele 16 secțiuni, etapele M0–M5 și recomandările de simplificare | Propunere a acestui plan general, pentru validare |
 | Framework, schemă fizică de date, motoare și furnizori | De evaluat în secțiunile responsabile |
 | Procesul vânzare până la facturare și primul AI asistent comercial | Alegeri confirmate de inițiator la 2026-09-13, documentate în S01 |
-| Profilul clientului, firma pilot și oferta comercială | De validat în S01; nu sunt deduse din alegerea procesului |
+| Firmă mică de servicii B2B pentru prima hartă UX | Ipoteză de lucru aleasă de inițiator, până la validarea cu un interlocutor real |
+| Facturare Bizix principală și implicită; FGO complet opțional | Direcție confirmată de inițiator; minimul funcțional și disponibilitatea în producție se stabilesc în S07 |
+| Validarea profilului, firma pilot și oferta comercială | Necesită cercetare și probe în S01; nu rezultă automat din alegerea ipotezei UX |
+
+### Confirmări din revizuirea S02 la 2026-09-14
+
+Inițiatorul a confirmat explicit deciziile de mai jos pentru prima versiune și proiectarea ei. Alternativele, motivele, probele și condițiile de reevaluare sunt detaliate în capitolul 9 din S02 v0.3. Confirmarea direcției sau a cerinței nu reprezintă aprobarea integrală a S02, validarea unei implementări ori autorizarea operațiunilor de producție.
+
+| ID general | Decizie și limită | Referință locală și impact |
+|---|---|---|
+| RC-001 | Un tenant = o singură entitate juridică; utilizatorul poate avea apartenențe separate în mai multe firme | S02-D08; S01/S03/S05/S06/S07; grupurile juridice într-un singur tenant nu intră în prima versiune |
+| RC-002 | Prima versiune include facturare din ofertă și directă, fără oportunitate/ofertă fictivă; aceleași validări și aprobări | S02-D09; S01/S06/S07/S08; UX-ul direct este de proiectat, avansurile și facturarea parțială se delimitează în S07 |
+| RC-003 | Nucleu modular pentru funcțiile noi; separări fizice justificate prin securitate și probe | S02-D01; S04/S05/S07/S08; fără rescriere automată a microserviciilor existente |
+| RC-004 | PostgreSQL este candidatul principal de evaluat pentru datele noi, nu alegerea definitivă | S02-D02; S03/S04; probe de izolare, concurență, migrare și restaurare; fără migrare automată a core-ului MongoDB |
+| RC-005 | Aceleași contracte și reguli de business pentru UI, AI și API, cu autorizare per actor | S02-D03; S03/S05/S06/S07/S09/S11; OpenAPI, limbajul și bibliotecile rămân de verificat |
+| RC-006 | Aprobarea privește conținutul și efectul concret; schimbările relevante cer reaprobare | S02-D04; S03/S06/S07/S08/S11; reprezentarea și mecanismul amprentei nu sunt încă validate |
+| RC-007 | Datele curente nu rescriu documentele istorice; snapshot-urile și proveniența se păstrează | S02-D05; S03/S07/S09/S10/S16; corecțiile și retenția se detaliază separat |
+| RC-008 | Upgrade-urile nu schimbă tacit contractele sau operațiunile în curs | S02-D06; S04/S05/S08/S12/S16; compatibilitatea și migrarea se demonstrează prin probe |
+| RC-009 | Repetarea aceleiași facturări nu autorizează efecte suplimentare; rezultatul necunoscut cere reconciliere, fără fallback automat | S02-D07; S07/S08/S09; aplicabil ambelor origini, fără promisiune de deduplicare semantică universală |
+| RC-010 | Facturarea directă permite client existent sau cumpărător punctual; crearea/actualizarea CRM este explicită și autorizată | S02-D10; S01/S03/S06/S07; datele documentului și profilul reutilizabil au cicluri de viață distincte |
+| RC-011 | Omul autorizat poate folosi catalog și linii punctuale; AI-ul rămâne limitat la surse/prețuri autorizate | S02-D11; S01/S03/S06/S07/S11; structura catalogului și limitele negocierii rămân de verificat |
+| RC-012 | Ciornele incomplete se pot salva; pregătirea pentru aprobare cere date complete și valide | S02-D12; S01/S06/S07/S08; salvarea nu aprobă, nu emite și nu permite date structurale invalide sau scrieri neautorizate |
+
+### Confirmări din elaborarea S03 la 2026-09-15
+
+Inițiatorul a ales explicit cele opt reguli de mai jos pentru prima versiune: RC-013–RC-015 în S03 v0.1, RC-016/RC-017 în v0.2 și RC-018–RC-020 în v0.3. [S03 v0.3](./sectiuni/03_IDENTITATE_ACCES_IZOLARE.md), capitolul 9, păstrează alternativele, limitele și probele necesare. Confirmările nu aprobă integral matricea de aplicare, nu desemnează persoane reale și nu autorizează modificarea drepturilor într-un sistem activ.
+
+| ID general | Decizie și limită | Referință locală și impact |
+|---|---|---|
+| RC-013 | Numai aprobatorul poate introduce sau modifica prețuri manuale; editarea ciornei nu reprezintă aprobare și nu modifică implicit catalogul | S03-D01; S02/S06/S07/S11; domeniul, resursele și verificarea provenienței se concretizează în matricea S03 și contractele S07 |
+| RC-014 | Aceeași persoană poate pregăti și aproba propria intenție dacă are explicit ambele drepturi; aprobarea rămâne un pas distinct | S03-D02; S02/S06/S08; nu impunem universal două persoane și nu pretindem control independent când identitățile coincid |
+| RC-015 | Solicitarea execuției aparține unui om desemnat, prin drept separat acordabil operatorului sau aprobatorului; AI-ul nu solicită execuția în prima versiune | S03-D03; S02/S05/S06/S08/S11; numai după aprobarea validă, cu worker tehnic distinct și reverificare; automatizarea ulterioară cere altă decizie |
+| RC-016 | Numai responsabilul firmei desemnat explicit acordă/retrage rolurile de aprobator și solicitant; își poate atribui explicit roluri operaționale, cu audit, fără moștenire automată; administrarea delegată se amână | S03-D07; S02/S05/S06/S16; autoritate în produs, nu calitate juridică presupusă; RC-018–RC-020 detaliază direcțiile pentru desemnare, transfer și recuperare, fără validarea mecanismelor |
+| RC-017 | Două niveluri de acces: documente atribuite implicit sau întregul domeniu acordat explicit de responsabil; vizibilitatea și acțiunile se verifică separat | S03-D08; S02/S05/S06/S07/S08/S11; fără transfer de drepturi între acțiuni, domenii sau firme; repartizarea și propagarea pe obiectele procesului necesită contracte și probe |
+| RC-018 | Prima desemnare înainte de activarea reală folosește verificare automatizată de identitate și reprezentare; emailul/CUI-ul singure nu acordă autoritate | S03-D09; S02/S04/S05/S09/S16; furnizorul/sursele, dovezile și excepțiile sunt de evaluat; fără rezultat verificabil, activarea este blocată, nu aprobată manual implicit |
+| RC-019 | Transfer voluntar cu confirmare reciprocă: titularul inițiază după reautentificare, destinatarul acceptă din contul propriu verificat cu MFA; mutare numai la finalizare sigură | S03-D10; S02/S04/S05/S06/S08; fără eliminarea titularului prin invitație neacceptată, fără copierea rolurilor/aprobărilor comerciale; concurența și revocarea autorității vechi cer probe |
+| RC-020 | Recuperare prin factori alternativi/coduri pregătite anterior, cu asistență verificată când lipsesc; înlocuirea titularului indisponibil este distinctă de recuperarea contului | S03-D11; S02/S04/S05/S06/S08/S16; dovezi, notificări, audit și procedură de contestare; nu autorizează impersonare, onboarding manual implicit sau acces comercial permanent pentru suport |
 
 Înainte de schimbarea unei decizii verificăm impactul asupra contractelor, datelor, clienților, costurilor și secțiunilor dependente. O modificare a unui prompt nu poate schimba implicit politica de acces sau oferta comercială.
 
@@ -394,7 +437,7 @@ Nu folosim un procent global de tip „platforma este 85% gata”. Progresul se 
 
 Planul reduce riscul de blocaj prin probe timpurii și decizii reversibile; nu garantează absența blocajelor. Riscurile nerezolvate se păstrează vizibile, cu responsabil și condiție de rezolvare.
 
-## 13. Stadiu curent: mini-brief S01 și pregătirea hărții UX
+## 13. Stadiu curent: mini-brief S01, contracte S02, drepturi minime S03 și harta UX
 
 [Mini-brief-ul S01](./sectiuni/01_PRODUS_ECONOMIE_PILOT.md) consemnează răspunsurile inițiatorului din 2026-09-13:
 
@@ -402,15 +445,25 @@ Planul reduce riscul de blocaj prin probe timpurii și decizii reversibile; nu g
 - Nu există încă o firmă pilot identificată.
 - Primul proces ales este vânzare până la facturare.
 - Primul rol AI ales este asistent comercial.
+- Firma mică de servicii B2B este ipoteza de lucru aleasă pentru explorarea UX, nevalidată cu un interlocutor real.
 
-Profilul unei firme mici de servicii B2B este o ipoteză propusă, nu o alegere confirmată. FGO rămâne candidat de integrare, iar oferta, prețurile și bugetele sunt de validat. Datele și configurațiile interne rămân de inventariat înainte de schimbări tehnice.
+[Prima hartă UX este creată în FigJam](https://www.figma.com/board/8eaisIfYFnggwsgt0ME29P). [S06](./sectiuni/06_SPATIU_DE_LUCRU_UX.md) păstrează vederea globală, detaliul fluxului pilot, sursele Mermaid, regulile și zonele candidate pentru wireframe-uri.
+
+Facturarea nativă Bizix este direcția principală. FGO rămâne o integrare complet opțională pentru retenție și adoptare graduală, nu traseul implicit sau ținta finală a produsului. Minimul nativ, oferta, prețurile și bugetele sunt de validat; datele și configurațiile interne rămân de inventariat înainte de schimbări tehnice.
+
+La 2026-09-14, inițiatorul a confirmat un tenant per entitate juridică și includerea facturării directe, alături de traseul din ofertă. [S01 v0.5](./sectiuni/01_PRODUS_ECONOMIE_PILOT.md) consemnează aceste completări. [S06 v0.4](./sectiuni/06_SPATIU_DE_LUCRU_UX.md) precizează diferența dintre scope-ul nou și diagramele v0.2, nemodificate: traseul direct nu este încă desenat.
+
+[S02 v0.6](./sectiuni/02_ARHITECTURA_CONTRACTE_DATE.md) separă direcțiile și cerințele confirmate în RC-001–RC-012 de propunerile de contracte și mecanisme. Capitolul 7 detaliază datele ciornei, pregătirea intenției, aprobarea și execuția, cu exemple JSON, erori și reguli de concurență. La această detaliere au fost confirmate cumpărătorul existent sau punctual, catalogul plus liniile punctuale autorizate și salvarea ciornelor incomplete. Documentul include criterii de acceptare propuse, nu rezultate de teste; schemele executabile și câmpurile fiscale rămân de validat. Codul și deployment-urile nu au fost inspectate în această revizuire.
+
+[S03 v0.3](./sectiuni/03_IDENTITATE_ACCES_IZOLARE.md) consemnează deciziile RC-013–RC-020 din 2026-09-15 și propune aplicarea lor pentru oameni, AI și worker. Pe lângă drepturile și nivelurile de acces, sunt confirmate prima desemnare automatizată, transferul reciproc și recuperarea prin factori proprii/asistență verificată. Livrabilul nu închide întregul S03: dovezile de identitate/reprezentare, mecanismul automat, repartizarea documentelor și procedurile administrative necesită validare. S02 v0.6 actualizează legătura cu politica, fără schimbarea schemelor comerciale propuse în v0.3. Harta S06 nu a fost modificată în această etapă.
 
 Pașii următori:
 
-1. Confirmăm sau schimbăm ipoteza de client și căutăm un interlocutor reprezentativ.
-2. Pregătim harta globală UX și prototipul schematic al fluxului vânzare → ofertă → facturare.
-3. Verificăm rolurile, aprobările, stările de eroare și ce informații trebuie să vadă utilizatorul.
-4. Clarificăm instrumentele reale ale firmei, volumele, costurile, responsabilitățile și disponibilitatea de plată.
-5. Rafinăm S01 și contractele S02 pe baza observațiilor; detaliem celelalte secțiuni când dependențele lor sunt clare.
+1. Revizuim harta: rolurile, aprobările, așteptările, erorile și următoarea acțiune a utilizatorului.
+2. Stabilim în S03 dovezile de identitate/reprezentare acceptate și evaluăm mecanismul automat pentru RC-018; concretizăm procedurile de transfer/recuperare și repartizarea documentelor. Aliniem contractele comerciale din capitolul 7 din S02 cu politica S03 și regulile fiscale S07 și definim contractele administrative necesare; fixăm schemele executabile și probele S08. Inventariem implementările și evaluăm prioritar PostgreSQL înainte de alegerea tehnică definitivă.
+3. Identificăm un interlocutor real pentru verificarea ipotezei și a procesului său actual.
+4. Proiectăm intrarea prin facturare directă și pregătim wireframe-uri pentru ea și fluxul vânzare → ofertă → facturare, apoi interacțiunile prototipului.
+5. Clarificăm instrumentele firmei, volumele, costurile, responsabilitățile și disponibilitatea de plată.
+6. Rafinăm S01 și contractele S02 pe baza observațiilor; detaliem celelalte secțiuni când dependențele lor sunt clare.
 
-Absența unui pilot nu blochează schițele, dar nu permite declararea produsului sau a UX-ului ca validate de piață. S01 rămâne un mini-brief de lucru, nu un plan complet aprobat pentru implementare. Harta și prototipul nu sunt încă create.
+Absența unui pilot nu blochează schițele și contractele de explorare, dar nu permite declararea produsului sau a UX-ului ca validate de piață. S01, S02, S03 și S06 sunt documente de lucru, neaprobate pentru implementare; schemele executabile, detaliile politicilor și probele tehnice rămân de elaborat în etapa corespunzătoare. Harta logică este creată; wireframe-urile, prototipul interactiv și designul final nu sunt încă create.

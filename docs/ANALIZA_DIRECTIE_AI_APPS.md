@@ -1,6 +1,7 @@
 # BiziX — Direcție strategică: aplicații native, angajați AI și ecosistem deschis
 
 > **Data consolidării:** 2026-09-12
+> **Clarificare de produs:** 2026-09-13 — facturare Bizix principală; integrări externe complet opționale
 > **Status:** Principii de produs asumate în discuție; arhitectură de referință propusă; validare tehnică și comercială în așteptare.
 > **Scop:** Documentarea direcției, a limitelor și a criteriilor de validare. Nu reprezintă implementare, audit de securitate sau angajament de livrare.
 
@@ -10,7 +11,9 @@
 
 Bizix devine un spațiu operațional unic al firmei, în care oamenii, angajații AI și automatizările folosesc aceleași capabilități de business, sub reguli comune. Aplicațiile native sunt construite pentru această fundație; personalizările pot deveni componente reutilizabile, iar platformele externe rămân conectabile prin API.
 
-**„Totul într-un singur loc” înseamnă experiență unificată, nu ecosistem închis.** Un client poate folosi CRM și programări în Bizix, dar facturare în FGO, fără să fie obligat să migreze toate serviciile sale.
+**Facturarea nativă Bizix este soluția principală și implicită a produsului țintă.** Scopul este ca firma să folosească în timp sistemul Bizix prin valoarea oferită. FGO și alte platforme sunt integrări complet opționale, pentru a permite adoptarea graduală și a păstra clienții care au nevoie de programul existent.
+
+„Totul într-un singur loc” înseamnă experiență unificată, nu ecosistem închis sau migrare forțată. Facturarea Bizix trebuie să funcționeze fără cont, credențiale ori apeluri FGO. Trecerea către Bizix se aprobă pentru documente noi, după reconcilierea operațiunilor în curs; documentele istorice își păstrează sursa și identificatorii.
 
 ## Cuprins
 
@@ -82,6 +85,7 @@ AI poate reduce efortul de dezvoltare, dar nu elimină verificarea, migrarea dat
 9. **Independență prin înlocuibilitate:** Bizix controlează serviciile și contractele proprii, fără promisiunea nerealistă de a elimina orice dependență externă.
 10. **Încredere verificabilă:** blockchain-ul susține dovezi și relații între participanți, nu înlocuiește securitatea aplicațiilor sau verificarea rezultatelor AI.
 11. **Portabilitate reală:** clientul rămâne prin valoarea oferită, nu prin imposibilitatea de a recupera datele și soluția sa.
+12. **Facturare proprie:** Bizix este varianta principală; integrarea facturării externe se activează numai la alegerea firmei și nu este o precondiție pentru capabilitatea nativă.
 
 Acoperirea completă a activității unei categorii de firme are prioritate față de construirea simultană a multor module incomplete. „Totul într-un singur loc” nu promite acces prin API la orice funcție a oricărui furnizor și nici eliminarea tuturor etapelor de autorizare sau conformitate externă.
 
@@ -225,7 +229,7 @@ Configurările simple pot fi interpretate de runtime. Generarea de cod este reze
 
 O versiune publicabilă păstrează împreună specificația, versiunile modulelor și generatorului, codul extensiilor, dependențele fixate, migrările, rezultatele verificărilor, aprobările și artefactul construit. Un prompt sau numele modelului AI nu înlocuiesc aceste elemente.
 
-Exemplul următor este ilustrativ: schema, denumirile și versiunile nu reprezintă produse implementate. `connection_ref` indică o conexiune configurată separat; nu conține credențiale. Drepturile efective și mandatul AI necesită aprobare în sistemul de identitate și politici.
+Exemplul următor este ilustrativ: schema, denumirile și versiunile nu reprezintă produse implementate. Facturarea folosește implicit modulul Bizix, iar `profile_ref` indică o configurație de facturare a firmei, nu un cont extern. Numai pentru o integrare externă aleasă explicit ar fi necesară o referință de conexiune, fără credențiale în manifest. Drepturile efective și mandatul AI necesită aprobare în sistemul de identitate și politici.
 
 ```yaml
 # exemplu conceptual: salon de înfrumusețare
@@ -239,10 +243,12 @@ modules:
     version: "1.0.0"
   - id: booking
     version: "1.0.0"
+  - id: invoicing
+    version: "1.0.0"
 capability_bindings:
   invoicing:
-    provider: fgo
-    connection_ref: facturare-principala
+    provider: bizix
+    profile_ref: facturare-principala
 extensions:
   - id: service-packages
     version: "1.0.0"
@@ -421,7 +427,9 @@ Nu promitem integrare automată cu orice platformă. Contractarea, autorizarea, 
 
 ### 9.1 Scenariu și delimitare
 
-Clientul păstrează facturarea în FGO și utilizează CRM, programări, sarcini și angajați AI în Bizix. Acesta este un caz de arhitectură și un candidat de validare, nu un conector implementat sau un parteneriat comercial confirmat.
+**Acest capitol tratează exclusiv o integrare opțională, nu fluxul implicit de facturare al platformei.** Dacă un client alege să păstreze FGO, poate utiliza CRM, programări, sarcini și angajați AI în Bizix. Opțiunea evită pierderea clientului din cauza unei migrări premature; ținta produsului rămâne facturarea nativă Bizix.
+
+Acesta este un caz de arhitectură și un candidat de validare, nu un conector implementat sau un parteneriat comercial confirmat. FGO nu este necesar pentru configurarea ori folosirea facturării Bizix. Minimul funcțional și cerințele fiscale ale modulului nativ se stabilesc înainte de utilizarea sa în producție, separat de implementarea conectorului.
 
 | Informație sau proces | Sursă autoritativă propusă |
 |---|---|
@@ -644,6 +652,8 @@ Primul produs nu este un ERP complet, o platformă universală de generare și u
 | Scenariu | Rezultat așteptat |
 |---|---|
 | UI și AI execută aceeași acțiune | Aceleași reguli, drepturi și validări de business |
+| Facturare nativă fără integrare externă | Fluxul Bizix funcționează fără cont, credențiale ori apeluri FGO, după validarea funcțională și fiscală a modulului |
+| Integrare de facturare aleasă opțional | Activare explicită; fiecare document păstrează sursa, inclusiv după tranziția către Bizix |
 | Două companii și conexiuni distincte | Nicio traversare neautorizată a datelor, memoriei AI, fișierelor ori credențialelor |
 | Permisiune revocată în timpul unei sarcini | Operațiunea ulterioară este blocată sau reevaluată |
 | Payload modificat după aprobare | Aprobarea veche nu autorizează noul efect |
@@ -689,7 +699,7 @@ Schimbări propuse de prioritizare:
 - AI Gateway deservește atât construcția, cât și operarea, cu privilegii separate; nu abandonăm accesul operațional la date în favoarea generatorului.
 - Integration Layer este o componentă de prim rang. n8n sau alt instrument poate contribui, dar nu înlocuiește contractele și guvernanța datelor.
 - Developer Portal și catalogul evoluează către module, conectori, pachete verticale și competențe AI, nu doar fișiere de specificație.
-- Notificările și FGO se validează ca parte a unui flux real, nu ca infrastructură izolată fără utilizator.
+- Notificările și facturarea nativă se validează ca parte a unui flux real. Conectorii externi, inclusiv FGO, se validează când sunt necesari și nu condiționează folosirea facturării Bizix.
 - Marketplace-ul public, mecanismele economice complexe și extinderea pe multe industrii urmează validării produsului și operării.
 
 Whitepaper-ul, pitch-urile, roadmap-ul istoric și contractele comerciale trebuie aliniate separat după aprobarea schimbărilor aplicabile. Acest document nu le modifică automat și nu transformă promisiunile lor în funcții implementate.
@@ -709,10 +719,11 @@ Whitepaper-ul, pitch-urile, roadmap-ul istoric și contractele comerciale trebui
 | D05 | Personalizările pot deveni produse reutilizabile, prin generalizare și drepturi explicite |
 | D06 | Separăm pipeline-ul de personalizare de pipeline-ul de transformare în produs reutilizabil |
 | D07 | Angajații AI sunt operatori cu mandat și identitate, separați de AI Constructor |
-| D08 | Integrările API sunt parte structurală a platformei; CRM Bizix + FGO este un caz de referință |
+| D08 | Integrările API sunt parte structurală a platformei; CRM Bizix + FGO este un caz opțional de referință |
 | D09 | Deținem orchestrarea serviciilor comune și urmărim furnizori înlocuibili, nu absența tuturor dependențelor |
 | D10 | Blockchain-ul susține dovezi și relații verificabile, fără a substitui regulile și securitatea aplicațiilor |
 | D11 | Compatibilitatea, recuperarea și costul întreținerii sunt criterii de succes, alături de generare |
+| D12 | Facturarea nativă Bizix este principală și implicită; FGO și alte sisteme sunt integrări complet opționale, fără migrare forțată |
 
 Asumarea unei direcții nu înseamnă validare comercială, implementare sau audit tehnic finalizat.
 
